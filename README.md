@@ -1,476 +1,1539 @@
-# 【热门推荐】5000+ 优质 Telegram 群组、频道和机器人，精心筛选，助您迅速找到最佳选择！
+<p align="center">
+    <img src="https://github.com/jackhawks/rectg/raw/main/.assets/logo.svg" alt="logo" style="height: 150px; width:150px;"/>
+</p>
 
-> **Note**
-> 声明：本项目的所有内容均来源于网络，仅供学习和技术研究使用。
-
-> **Warning**
-> 如果大家有发现存在敏感内容的群组、频道和机器人欢迎在 issues 中提交，会在第一时间处理。
-
-> GitHub 项目地址直达
-> [https://github.com/jackhawks/rectg](https://github.com/jackhawks/rectg)
-
-| 名称 | 简介 | 人数 | 类型 |
-| :--: | :-- | :--: | :--: |
-| [Google Voice讨论组](https://t.me/swatpc1) | 本讨论组旨在为指引新人了解 北美电话卡、Google Voice的入门，探讨使用中遇到的一般问题和其他需注意的事项。 | 3222 | 群组 |
-| [Apps推荐&抽奖&活动](https://t.me/AppsSweepstakesNews) | 推送不限于Apps抽奖活动相关资讯，欢迎转发！ | 8769 | 频道 |
-| [ALL About RSS](https://t.me/aboutrss) | 关于 #RSS 技术的 #应用 #周边 #介绍 #方法 #教程 #指南 #讨论 #观点 #技巧 | 9018 | 频道 |
-| [撸猫社](https://t.me/lumaoshe) | 🐱🐱🐱 爱猫人士云吸猫特供 | 5053 | 频道 |
-| [iBeta 尝鲜派  官方群](https://t.me/ibetame) | iBeta 尝鲜派（BetaHub.cn）的官方群组。欢迎大家关注  | 18399 | 群组 |
-| [V2EX后花园 v2.0](https://t.me/goV2EX) | 纯净版V2群：谢绝政治话题讨论，专注技术和侃大山。 常年踢不活跃用户，误封申诉  | 640 | 群组 |
-| [Python潮流周刊🐍](https://t.me/pythontrendingweekly) | 由豌豆花下猫主理，精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 2080 | 频道 |
-| [科技圈的日常](https://t.me/misakatech) | 科技圈内的大事小事 | 14270 | 频道 |
-| [theBlock](https://t.me/theBlockClub) | 分享一些以 Notion 为主的信息/技巧/用法 🧱 the-block.club | 2376 | 频道 |
-| [沉浸式翻译讨论](https://t.me/+rq848Z09nehlOTgx) | 进群请先回答验证问题～感谢🙏 本群邀请链接：https://t.me/+rq848Z09nehlOTgx | 6538 | 群组 |
-| [tesla特斯拉/科技NEWS](https://t.me/Tesla_share) | tesla特斯拉 /电动车体验，最新动态，使用技巧，最新活动等等; | 1373 | 频道 |
-| [妹子美图集](https://t.me/ixsk0) | 🌸你是拥有山川河海的神明/ | 13896 | 频道 |
-| [飞享一刻｜频道](https://t.me/w37fhy) | 【加入讨论群：https://t.me/fhyw37】同时欢迎访问官网：https://w37fhy.cn，获得更多资源分享及最新福利资讯！ | 15721 | 频道 |
-| [大虾的编程资源交流群](https://t.me/programmingsrchubgroup) | 大虾的编程资源库/码农/程序员资源 高质量交流群 | 2295 | 群组 |
-| [NC-Raws  Channel](https://t.me/Read_Hub) | None | 618 | 频道 |
-| [Telegram 权限管理机器人](https://t.me/autopm_bot) | Telegram Auto Permission Manage | None | 机器人 |
-| [📊 Polls Channel](https://t.me/polls_channel) | 一个供大家放置各种类型投票或者问卷的 Channel | 863 | 频道 |
-| [大虾的编程资源库/码农/程序员资源](https://t.me/programmingsrchub) | 简介：大虾本职工作为程序员，本频道持续分享大虾的编程资源库/码农/程序员资源。 | 7122 | 频道 |
-| [[日富人] 摄影](https://t.me/cnphotog) | 这里是  | 1491 | 群组 |
-| [每天趣事](https://t.me/Meitian) | 本频道内容： | 34682 | 频道 |
-| [C 语言中文交流](https://t.me/Clanguagezh) | C 是一种通用的程式語言，广泛用于系统软件与应用软件的开发。 | 5549 | 群组 |
-| [书屋 电子书 📚 𝑻𝑮𝒆𝑩𝒐𝒐𝒌](https://t.me/TGeBook) | 电子书 杂志 小说  期刊 读物 不定时更新 | 30867 | 频道 |
-| [腾讯云☆阿里云🅥](https://t.me/TencentAliyun) | 欢迎加入阿里云☆腾讯云tg群 | 4099 | 群组 |
-| [Windows软件资源汇总频道](https://t.me/huizong0917) | 收集TG与互联网的Windows软件资源 | 792 | 频道 |
-| [你不知道的内幕消息](https://t.me/inside1024) | 一些你不知道的内幕消息 | 63206 | 频道 |
-| [python 自学交流](https://t.me/P_Y_T_H_O_N) | 学习、分享、成长 | 3457 | 群组 |
-| [小米玩机交流群](https://t.me/xiaomi6666) | 频道：  | 3944 | 群组 |
-| [全能搜索 电子书屋交流群](https://t.me/ziyuanfengxiang59) | 总群：https://t.me/ziyuanfeng59 | 17755 | 群组 |
-| [飞鱼资源分享冲浪指南软件破解](https://t.me/feiyu123) | 分享一些工具，软件，网站,歌曲，互联网相关资讯，开源项目，碎碎念的想法 等等。 | 13674 | 频道 |
-| [☁️云上报刊亭📰 [精选] 🅥 -- 新闻，报纸，杂志，电子书，资料 PDF🗞](https://t.me/magazinesclub) | 英文报刊杂志，电子书，报纸，外文杂志精选🅥 Newspaper, magazines and e-book collections  | 9008 | 频道 |
-| [层叠 - The Cascading](https://t.me/outvivid) | 主要话题大概是开源业界新闻。 | 5801 | 频道 |
-| [Λ-Reading ♡](https://t.me/GoReading) | 本频道主要内容为： | 15767 | 频道 |
-| [ Apple 用户社群](https://t.me/appleusergroup_tg) | 探讨 Apple 硬件、软件产品，包括新闻、谣言、意见和分析及相关问题解答。 | 1395 | 群组 |
-| [微博热搜](https://t.me/weiboresou) | 微博热搜 curated by its third-party RSS Feed | 1096 | 频道 |
-| [加密货币与区块链讨论群](https://t.me/onBlockchain) | 加密货币与区块链频道： | 2136 | 群组 |
-| [Find Blog👁发现博客](https://t.me/FindBlog) | 👀发现优秀的博客与创作者 | 11736 | 频道 |
-| [Price Tag Friends](https://t.me/pricetagapp) | 这是一个买买买群 | 3813 | 群组 |
-| [APP喵-阿喵软件资源共享](https://t.me/appmew) | 分享好用软件，优质资源，网站，极客，教程，网络黑科技 | 123078 | 频道 |
-| [赚客吧 有奖一起赚](https://t.me/zuanke8) | 全网电商平台，优惠促销打折海淘BUG价活动线报，各大支付APP支付活动折扣及时推送，京东、苏宁、淘宝、天猫、国美，你能想到的这里都有，火速入伙！ | 18394 | 频道 |
-| [心理学笔记分享](https://t.me/xlxbj) | 心理学一些相关的笔记分享， | 3185 | 频道 |
-| [Time经济观察](https://t.me/TimeHorizonX) | 宏观经济/公共政策/金融市场 | 13415 | 频道 |
-| [Flippy_Openwrt](https://t.me/openwrt_flippy) | Flippy的Openwrt/Armbian固件 | 14212 | 频道 |
-| [✨神魔聊天群✨](https://t.me/tos_unofficial) | 🌟神魔之塔非官方聊天群🌟 | 456 | 群组 |
-| [目录频道](https://t.me/jumpto22222) | 系列频道 | 10010 | 频道 |
-| [Android Weekly Update ⚡️](https://t.me/update4weekly) | 一份 Android 行业动态分析专栏计划 / 周报。 | 4781 | 频道 |
-| [CentOS 中文](https://t.me/centoszh) | Linux 发行版之一： CentOS | 1774 | 群组 |
-| [Kindle 特价书](https://t.me/KindleBookDeals) | Kindle 特价书推送 Channel。正在不断完善中。目前会自动发布当日的特价书，偶尔会有人工推荐其他特价图书。 | 1446 | 频道 |
-| [RSSHub - Everything is RSSible](https://t.me/rsshub) | Channel:  | 13005 | 群组 |
-| [各种奇奇怪怪的优惠买买买](https://t.me/shoppingwdiscount) | 本群会不定时的发一些奇怪的优惠，不限地区。任何人能都可以发。 | 876 | 群组 |
-| [Rachel 碎碎念](https://t.me/RachelBlahblah) | 欢迎你订阅 Rachel 的个人碎碎念频道！ | 1285 | 频道 |
-| [高分壁纸推荐Anime gallery](https://t.me/acgzhenghe) | 高分动漫壁纸，品质是推荐的唯一标准； | 9761 | 频道 |
-| [美女收集器👗](https://t.me/meinvshouji) | 男人爱看的频道 | 1715 | 频道 |
-| [CSGO](https://t.me/csgocn) | CS:GO 中文群组 | 966 | 群组 |
-| [🎬 阿里云盘盘🎬 🆙 🚦](https://t.me/yunpanpan) | • 频道默认支持阿里云盘官方用户规范 | 142044 | 频道 |
-| [三星手机交流](https://t.me/samsung_cn) | 三星手机搞机群.欢迎来搞机. | 681 | 群组 |
-| [GPT4Plus公益账号不定期发布](https://t.me/gpt4share) | 不定期分享公益账号，关于OpenAI，ChatGPT的一手资讯。 | 1180 | 频道 |
-| [日语学习](https://t.me/jp_study) | 关键词: 日语 日剧 学习 日文 日本 语言 资源 | 5133 | 频道 |
-| [Web3汇总-币价/NFT/空投](https://t.me/newsforbitcoin) | Web3 讨论群————https://t.me/smartmoney0x369Dao | 1450 | 频道 |
-| [Foolish TraceWind](https://t.me/FoolishTraceWind) | 本频道创立于2018年8月12日~ | 13966 | 频道 |
-| [新闻派](https://t.me/nnpai) | Apple, Android, Windows, Mac, Linux, 5G, VR, 科技, 手机, 电脑, 数码, 智能, 汽车, 网络, 前沿, 游戏, 电竞, 科普    | 2335 | 频道 |
-| [好书分享频道](https://t.me/Bookworm_Bibliophile) | None | 15 | 频道 |
-| [8度群组](https://t.me/abc999222) | 商务合作：  | 20777 | 群组 |
-| [妮妮羊毛分享🅥](https://t.me/NiNiShare) | 妮妮羊毛，低频手工分享优质羊毛~ | 3192 | 频道 |
-| [一起偷偷观察 DIYgod](https://t.me/awesomeDIYgod) | 频道由 RSSHub 强力驱动，频道目录： | 3738 | 频道 |
-| [每日 AWESOME 观察](https://t.me/awesomeopensource) | 💥每日更新分享最炫酷的开源项目 | 3844 | 频道 |
-| [Readhub](https://t.me/readhub_cn) | 每天三分钟的科技新闻聚合阅读，内容主要包括商业动态、科技资讯，每天早 9 点推送当日早报。 | 6430 | 频道 |
-| [Bing词典](https://t.me/bingdict_bot) | ❤️自动中英文互译。⚡️该机器人正逐步转移至  | None | 机器人 |
-| [Telo News 简体中文 - 加密货币｜DeFi ｜Web3](https://t.me/telonews_cn) | 最新的加密货币新闻，观点和数据分析，洞见市场发展。 | 141956 | 频道 |
-| [美剧←→blahblah (& etc.)](https://t.me/mytvseries) | 美剧←→blahblah | 1362 | 频道 |
-| [少数派sspai](https://t.me/sspai) | 少数派 (sspai.com) 官方频道。Weibo: @少数派sspai，公众号：sspaime | 31786 | 频道 |
-| [纪录片爱好者](https://t.me/jlpahz) | 《纪录片爱好者》是一个专注分享高清纪录片的频道,我们将为您提供BBC、国家地理频道、Discovery、NHK、探索频道等大量高清纪录片的在线观看或下载。并且让你大大降低观看、下载的成本。本频道还将为您提供最新的纪录片，并努力使她成为纪录片爱好者的乐园。本频道发布的视频均来自网络，版权归原作者所有。如有侵权，请及时知会本频道主。欢迎关注！ | 15306 | 频道 |
-| [软件新闻投稿频道📮在花](https://t.me/TestFlightCN) | • 频道日常推送科技新闻和热点消息 | 113748 | 频道 |
-| [智能手机讨论组📱](https://t.me/M_Phone) | 智能手机讨论组，主要讨论各种手机，禁止买卖手机。加群有加减法问题验证，防止广告机器人，请正确回答才能加入。如第一次忘记回答了，可退群再加，回答问题即可。 | 2551 | 群组 |
-| [[Pixiv]wallpaper 高质量插画壁纸](https://t.me/pixivshare) | 一个致力于分享各种pixiv作品的频道~ | 7958 | 频道 |
-| [PC游戏搬运工](https://t.me/youxibanyunenen) | 搬运各种PC游戏，有时也会搬运其他平台上的游戏 | 1759 | 频道 |
-| [moke 的 日常分享、吐槽和动态](https://t.me/mokeyjay_channel) | 超能小紫（ mok.moe ）  | 2235 | 频道 |
-| [吴说区块链 新闻与深度](https://t.me/wublock) | 吴说：接近真相，更可信赖 | 12766 | 频道 |
-| [Manjaro Linux CN](https://t.me/manjarolinux_cn) | Manjaro Linux中文交（劝）流（退）群 | 1364 | 群组 |
-| [🎵在线搜索好听歌🎧《音乐频道》🎶](https://t.me/dnyxqn) | 🔺本群提供***在线云音乐***服务，听歌请直接在群内发出歌曲名或歌手即可!                                                                   ⚠️ 拒绝发恶心 暴力 色情 美食 低俗的GIF 广告信息 其他群链接~ | 1027 | 群组 |
-| [币圈快讯](https://t.me/btcnewsdaily) | 币圈快讯，掌握币圈动态 | 1396 | 频道 |
-| [Scala User Group [zh]](https://t.me/scala_zh) | scala 中文群组 | 658 | 群组 |
-| [简悦 - SimpRead](https://t.me/simpreadgroup) | 嗨，谢谢使用简悦，欢迎加入简悦「大家庭」👏  | 2772 | 群组 |
-| [Leeco-雪花社 ❄️](https://t.me/xuehuashe) | 让雪花多些吧~ 分享实用快捷指令、部分脚本 | 16072 | 频道 |
-| [共享资源站点频道](https://t.me/gxzyzd) | 共享资源站点官方频道 | 1409 | 频道 |
-| [油油资源分享软件破解VPN节点](https://t.me/youyousharechannel) | 专注于Windows、Mac OS、Linux、Android、iPhone、iPad、TV、影视、福利、磁力、软件、插件、脚本、破解、教程、音乐等资源分享 | 38280 | 频道 |
-| [Java 编程语言](https://t.me/Javaer) | Java 一种物件导向程式设计编程语言 ，不是 JAV 群（SFW） | 11910 | 群组 |
-| [胖虎の收藏夹](https://t.me/gitbig) | 佛系更新，资源长期维护，每日更新节点。 | 40930 | 频道 |
-| [奇点](https://t.me/jidian) | 欢迎来到奇点用户群！ | 1961 | 群组 |
-| [Vim 正體中文社群](https://t.me/vim_tw) | 探討各種 Vim 小技巧的正體中文小圈圈。 | 547 | 群组 |
-| [DecoHack-独立产品周刊](https://t.me/decohack) | 每周推荐好玩有趣的产品，APP，网站等。为独立创造者提供灵感。 | 1824 | 频道 |
-| [单机恐怖游戏总群](https://t.me/danjikongbu) | 全宇宙最优秀的单机恐怖游戏交流分享 | 602 | 群组 |
-| [主机情报  优惠  补货  测评](https://t.me/hostcab) | 推送主机/服务器优惠、测评和补货信息 | 788 | 频道 |
-| [电报摄影部](https://t.me/shashinbu) | 与光做游戏，便是摄影的真谛。 | 587 | 群组 |
-| [程序员之家](https://t.me/useless_project_ideas) | 关键词：程序员 coding programing  项目 project github | 6766 | 频道 |
-| [CTG 中文社区](https://t.me/CTGgroup) | 新一代以区块链技术为基础的公链应用平台。CTG将区块链技术带入到日常的真实应用当中。CTG同时满足了企业和用户的高TPS需求。 | 717 | 群组 |
-| [Linux软件收录](https://t.me/linuxsoft_zh_CN) | Linux 日常软件收录 日常应用 github软件 小众软件 游戏 软件更新 Steam | 770 | 频道 |
-| [動漫遊戲Cosplay群組](https://t.me/cosplaysharegroup) | 頻道：https://t.me/cosplayshare | 7275 | 群组 |
-| [网盘资源收藏(夸克)](https://t.me/yunpanshare) | 夸克网盘 软件工具 教程 游戏 影视 音乐 杂志 电子书 有声资源 素材模板...高质量资源分享 | 42714 | 频道 |
-| [🖼ANIME壁纸](https://t.me/acgwallpaper) | 壁纸 Wallpaper | 2498 | 频道 |
-| [啰哩啰嗦分享频道](https://t.me/notonlyshare) | 一个克制的、理性的关注互联网科技和人文的频道，也谈谈美食和电影，发现和分享一切有趣有价值的内容，啰哩啰嗦周刊主持人。 | 2532 | 频道 |
-| [V2EX 交流群](https://t.me/V2EXPro) | 程序员、分享创造、问与答 | 17276 | 群组 |
-| [图图广播](https://t.me/tualatrix_says) | 分享图拉鼎的所见、所闻、所想。 | 944 | 频道 |
-| [Apple TV](https://t.me/AppleTVPlus) | Apple TV 用户交流群 | 8613 | 群组 |
-| [CoolApk World  酷安](https://t.me/Riocoolapk) | 非酷安官方群组 | 4466 | 群组 |
-| [91yun优惠快讯](https://t.me/express91yun) | 91yun 就要上云 - 精选各类云产品及周边优惠，不定时提供羊毛。 | 4333 | 频道 |
-| [擅长搜索的高木同学](https://t.me/gaomutongxue) | 擅长搜索的高木同学 | 28837 | 频道 |
-| [ Apple Spyder 果蛛 🕷️](https://t.me/AppleSpyder) | 由  | 1521 | 频道 |
-| [ChatGPT / AI新闻聚合](https://t.me/AI_News_CN) | OpenAI状态页通知  汇集全网ChatGPT/AI新闻 | 3757 | 频道 |
-| [LIHAI Channel](https://t.me/lihaiba) | 一个分享频道，进频道先看置顶，不定时不定量更新，希望推送内容对你能有帮助 | 21025 | 频道 |
-| [每日沙雕墙](https://t.me/woshadiao) | 恕我直言，在座的各位都是沙雕 | 72453 | 频道 |
-| [NoAdBot](https://t.me/keyworddel_bot) | 本机器人基于人工智能、机器学习、深度学习，自动删除群组"推广/广告/菠菜"等等消息 | None | 机器人 |
-| [蛋挞报](https://t.me/pincongessence) | 分享阅读体验 | 7207 | 频道 |
-| [那些好看的Tg主题](https://t.me/beautifultgtheme) | 分享一些好看的Telegram主题 | 7317 | 频道 |
-| [经济信息联播](https://t.me/eco_cn) | 独立，个性的财经、金融资讯早报，汇总美股、A股收市信息，以及提供具有重大影响力的研报。 | 5208 | 频道 |
-| [音乐世界](https://t.me/lumingguandj) | 🎶 私享 丝响  思与想  📻  | 4417 | 频道 |
-| [科技&趣闻&杂记](https://t.me/kejiqu) | 分享有价值、有趣的信息！ | 15891 | 频道 |
-| [[CN]Flutter Dev](https://t.me/FlutterCN) | Flutter 中文开发交流群[非官方] | 1518 | 群组 |
-| [國家地理雜誌 中文版](https://t.me/natgeomedia) | Hi 探險家，和國家地理一起探索世界吧！ | 12349 | 频道 |
-| [Google Drive 资源  New @gdurl](https://t.me/gdsharing) | 很高兴你来到新的  | 93753 | 频道 |
-| [Zapro Notice](https://t.me/zaproshare) | 🔥软件  电影  纪录片 | 31057 | 频道 |
-| [硬核小卒](https://t.me/yinghexiaozu) | 小卒可以无名，但不能不硬核。 | 11052 | 频道 |
-| [Google Drive 无限容量](https://t.me/google_drive) | 本群提供无限容量 Google Drive 申请方法、大电影小电影电子书无损音乐等资源。 | 28327 | 群组 |
-| [男士日常消费穿搭 (👔衣&👖裤&👞鞋&🧴护肤&💻数码)](https://t.me/mandailywear) | 空闲时间，发一些男士日常单品推荐，消费穿搭， Men's Daily Wear，包括但可能不限于👔衣&👖裤👞鞋&🧴护肤&💻数码。 | 1614 | 频道 |
-| [AppPie](https://t.me/AppPie) | 本频道主要推送科技相关信息，也发一些其他内容。欢迎订阅！ | 2735 | 频道 |
-| [英语 英語 English 學習](https://t.me/Englishyinyu) | 分享高質量英語 English 英语 杂志 電子書，雜誌。 | 2882 | 频道 |
-| [Rust 众](https://t.me/rust_zh) | 本频道是 Rust（编程语言）中文讨论群的入口 | 859 | 频道 |
-| [Synology/黑群晖用户群](https://t.me/nasfan) | 更多教程请访问论坛 https://www.openos.org | 13024 | 群组 |
-| [小鹿机器人](https://t.me/iiWordCloudBot) | 词云机器人｜AI入群提问｜ 维护状态： | None | 机器人 |
-| [Tesla News 🅥](https://t.me/Teslacn) | ✿Tesla China News Channel | 1351 | 频道 |
-| [经济学人(英文) RSS](https://t.me/economist_rss) | 【关于】 | 2902 | 频道 |
-| [可爱的美少女们](https://t.me/flgirl) | 定期开放   | 3169 | 群组 |
-| [阿里(高品质)影视](https://t.me/alyp_1) | 频道发布一些电影、剧集、动画和纪录片 | 7198 | 频道 |
-| [JavaScript 中文交流](https://t.me/javascriptzh) | JavaScript，通常缩写为 JS，是一种高级的，解释执行的编程语言 | 3913 | 群组 |
-| [R探长](https://t.me/agentONE_R) | 目前发布一些关于各种云服务操作的程序和脚本 | 9441 | 频道 |
-| [iGame 游戏交流群](https://t.me/gamecn) | 天下玩家是一家。这里是游戏爱好者的交流群，讨论游戏限于： | 1434 | 群组 |
-| [报毒-APK-免杀-苹果签](https://t.me/tmioeTG) | None | 121 | 频道 |
-| [⚡️ 7x24投资快讯](https://t.me/golden_wind_news) | 24 小时投资相关的快讯 | 1979 | 频道 |
-| [Anti Revoke Plugin - 防撤回插件](https://t.me/AntiRevoke) | Telegram anti revoke plugin channel. | 2371 | 频道 |
-| [酷漫404粉丝群](https://t.me/CoolComic404_Fans) | 酷漫404发布频道 | 2020 | 群组 |
-| [⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮⁮⁮🔊中文TG科技新闻](https://t.me/Hao12News) | ● 中文TG科技新闻  | 9719 | 频道 |
-| [Kindle 电子书精品降价](https://t.me/kindlePrice) | 本频道专注于分享 kindle 电子书降价信息。 | 1384 | 频道 |
-| [NS Xbox PS PC游戏闲聊](https://t.me/NintendoSwitchCN) | 我们一起来游戏 | 4520 | 群组 |
-| [【华尔街见闻】- 财经时讯](https://t.me/FinanceNewsDaily) | 实时推送【华尔街见闻】国内、国际一手财经资讯（含付费内容） | 17831 | 频道 |
-| [PDF图书联盟电子书ebook📖](https://t.me/PDFtushuguan) | 无规律无方向的持续分享一些书目，以及资源和有趣的内容，请各位秉承友好、善意的心态进行交流。 | 21901 | 频道 |
-| [笔记本：Lin's 文字世界 : 个人见闻/B站视频/网络见闻](https://t.me/LinsBookA) | 用于探索存储句子和其他短资料的方式。合理会长期使用和存句. | 5306 | 频道 |
-| [校长读报](https://t.me/XiaoZhangDuBao) | 多读书 多看报 | 6812 | 频道 |
-| [Nevermind](https://t.me/ButNothingHappened) | Never 的小窝 https://never.pet | 931 | 频道 |
-| [🍭高清壁纸](https://t.me/jingxu6) | 高清壁纸美女模特美图。 | 5993 | 频道 |
-| [Google Voice 交流群](https://t.me/googlevoice) | 讨论 Google Voice 号码使用的方法、技巧，以及提供相关服务资讯、商家介绍等 | 19189 | 群组 |
-| [影巢4K影视官方群](https://t.me/alypzyhzq) | 影巢：  hdhive.org | 13071 | 群组 |
-| [业余无线电爱好者HAM中继查询](https://t.me/ham002) | HAM相关内容讨论，只要不是无理取闹，涉及人身攻击就好。 | 925 | 群组 |
-| [MUG_ZH泛用型音游中文讨论群组说不定内含萌狼](https://t.me/mug_zh) | 什么音游都可以讨论的地方！移动端/街机/主机/掌机/PC/甚至VR都可以！（当然要讲中文） | 752 | 群组 |
-| [上班划水之无聊图](https://t.me/goworkbitch) | 活干完了吗？还在玩手机！ | 24182 | 频道 |
-| [TVBox](https://t.me/TVbox888) | Tvbox  猫影视TV  网络接口 | 12847 | 频道 |
-| [RSSHub News](https://t.me/awesomeRSSHub) | 🍰 Everything is RSSible | 10562 | 频道 |
-| [绝对萌域](https://t.me/moeisland) | （\_(\ | 12470 | 频道 |
-| [RSSchina_bot](https://t.me/RSSchina_bot) | rss订阅机器人。 | None | 机器人 |
-| [白丝即正义](https://t.me/baisi) | 本频道会不定时推送一些绅士老爷们喜闻乐见的福利 | 105585 | 频道 |
-| [🎶点歌台 音乐 听歌 music](https://t.me/tingge8) | 群规： | 796 | 群组 |
-| [《内核恐慌》听众群](https://t.me/pan_icu) | 一档号称硬核却没什么干货的信息技术主题娱乐节目的听众群 | 1770 | 群组 |
-| [简悦 - SimpRead 📢](https://t.me/simpread) | 简悦的发布通道，简悦 - 让你瞬间进入沉浸式阅读的 Chrome 扩展，还原阅读的本质，提升你的阅读体验。地址 http://ksria.com/simpread 讨论群地址 https://t.me/simpreadgroup | 6045 | 频道 |
-| [数字优惠](https://t.me/DigitalSpecialDeals) | 数字世界的各种优惠，包括软件和硬件。供稿可联系：  | 1392 | 频道 |
-| [RSSBot](https://t.me/RustRssBot) | 中文 Telegram RSS 机器人 | None | 机器人 |
-| [Pop Music History Trip](https://t.me/popmusichistory) | 挖掘重要又有趣的流行音乐史，注重系统性也强调个人体验～ | 1267 | 频道 |
-| [Blu-ray Project  蓝光视频工程](https://t.me/beyondHD) | No HDTV,No WEB-DL,No TC,Love Bluray。共享带字幕或者国语的1080p及以上的视频，转载时注重压制以及diy的质量。所有资源不设置门槛。 | 5885 | 频道 |
-| [小岛电波](https://t.me/biubiubiuchat) | 多看些好书好电影到底有多重要？ | 1459 | 频道 |
-| [Duyao｜SpeedTest｜科技生活｜资讯转发](https://t.me/DuyaoSS) | 不定期发布或转发一些资讯 | 73871 | 频道 |
-| [HN 中文社区](https://t.me/hn_china) | 欢迎讨论技术，创业等话题，莫商国是，莫开车及发布盗版资源；） | 1263 | 群组 |
-| [财联社](https://t.me/cailianshe) | 财联社 7*24小时不间断提供全方位的证券信息服务，包含电报、快讯、题材、深度、早报、行情、自选等频道，综合播报各类股市、财经新闻、投资理财、股票行情，覆盖各类诸如新能源汽车、创业板、cpi、供给侧改革等板块； | 2272 | 频道 |
-| [OpenWRT*LEDE/Wireless Routers](https://t.me/OpenWRT_Routers) | 这是关于路由器和无线设备的讨论组………………的重生版 | 3747 | 群组 |
-| [阿里云盘发布频道](https://t.me/Aliyundrive_Share_Channel) | 很高兴你到来这个和谐、友爱的 阿里云盘 分享交流频道。在这里每个人在这里都可以分享自己想分享的资源包括不限于包括电影，电视剧，电子书，书籍，无损音乐，美剧。 | 94391 | 频道 |
-| [(アニメ 伪GIF 真MP4)一个兴趣使然的动漫切段频道](https://t.me/xqsranimegif) | 兴趣使然旗下唯一动漫频道 | 7499 | 频道 |
-| [App TestFlight 资讯聚合](https://t.me/Appcn) | ⭐️App限免以及限时降价推送 | 6299 | 频道 |
-| [维生素E经济学哲学知识分享播客](https://t.me/vitamineEpodcast) | 精神分析漫步学派（The casualistic school of psychoanalysis） | 8130 | 频道 |
-| [最美壁纸 » 每天一张精选壁纸](https://t.me/zuimeibizhi) | 每天一张人工精选壁纸 | 4475 | 频道 |
-| [SaltyLeo的博客讨论组！](https://t.me/SaltyLeo_blog) | 这里是SaltyLeo的博客讨论组，在这里你可以分享技术，讨论技术，学习技术！  | 2754 | 群组 |
-| [🏆资源福利分享 ｜频道](https://t.me/freemorebest) | 『资源福利分享』每天更新各类影视剧集网盘资源、福利活动、实用软件等。   | 18111 | 频道 |
-| [即刻精选](https://t.me/jike_collection) | 精选即刻App热门话题更新。   | 24901 | 频道 |
-| [快乐星球  妹子图  收集器](https://t.me/botmzt) | #美女 #妹子 #精选 #全网 #中文 | 56997 | 频道 |
-| [解除频道消息在群组的置顶](https://t.me/areply_bot) | 简介 | None | 机器人 |
-| [电脑安防等技术资料频道](https://t.me/zhuyianquan) | 本频道整理发布一些电安全防护等技术相关的话题、资料 | 1053 | 频道 |
-| [杂货铺](https://t.me/sunnymoonk) | 乐于分享，自己觉得好的东西分享过来，资源来源于网络，如有侵权，联系删除。 | 2571 | 频道 |
-| [计算机与部分其他种类书籍资源](https://t.me/bookusefor2) | 收集一些与互联网相关或自己觉得有价值的书籍 | 18658 | 频道 |
-| [追尾游戏热点](https://t.me/Vwyxrd) | 能聊与玩游戏真是太好了！ | 2577 | 频道 |
-| [Minecraft 中文群組 (Chinese only)](https://t.me/Minecraft_Chinese) | 歡迎來到中文 Minecraft 交流群組！ | 1261 | 群组 |
-| [UserMetaBot](https://t.me/UserMeta_Bot) | 统计群内每天活跃成员，需要添加机器人为群管理员。 | None | 机器人 |
-| [Go](https://t.me/GolangCN) | 请群成员自觉遵守发言规范 | 7099 | 群组 |
-| [亿万同人唯一指定官方群🍻](https://t.me/ywtrzm) | 官网 | 5241 | 群组 |
-| [V1 Blog 科技｜生活｜主机评测｜Apple](https://t.me/V1_BLOG) | V1 Blog 科技  生活  SSRSpeed  主机评测 Channel | 3535 | 频道 |
-| [表情包👾贴纸](https://t.me/tiezhia) | 电报专业贴纸、表情包分享~ | 39468 | 频道 |
-| [读•书](https://t.me/readingeventhosting) | clubhouse与telegram voice chat读书群组里面朋友的线上阅读活动发布汇总地 | 1049 | 频道 |
-| [Galgame 频道](https://t.me/Galgamer_Channel) | Galgame 资讯和推荐 | 31355 | 频道 |
-| [音乐相声小说💯搜一下](https://t.me/dianbotai) | 想听啥，群里发送关键词试一试，不仅限于音乐。 | 2018 | 群组 |
-| [版本控](https://t.me/nextnb) | 软件、硬件、经验等各种能让自己和小伙伴升级进化的内容。 | 344 | 群组 |
-| [链闻 ChainNews](https://t.me/chainnews) | 链闻 ChainNews - 为中国的 FinTech 金融科技菁英与决策者们提供每日不可或缺的区块链新闻、快讯、深度分析以及评论。 | 11151 | 频道 |
-| [捷径社区](https://t.me/shortcuts_cn) | 捷径社区官方群 | 2167 | 群组 |
-| [数理化生实验室](https://t.me/mpcblab) | 理科学科(数学/物理/化学/生物/天文和其他自然科学)相关话题交流群 | 828 | 群组 |
-| [网易云音乐](https://t.me/yuncun) | 无音乐，不人生。音乐使人心情愉悦，音乐也是治疗伤心的药。 | 1878 | 群组 |
-| [Learn SwiftUI](https://t.me/learnswiftui) | 每日分享 SwiftUI 相关的内容，网站 http://learnswiftui.cn | 1118 | 频道 |
-| [高画质动漫分享 Anime share [悲惨开学版]](https://t.me/YXHMd) | None | 8111 | 频道 |
-| [不求甚解](https://t.me/fakeye) | 👀 在这里分享我日常的所见所思。 by   | 20712 | 频道 |
-| [🔥🔥ZBook,电子书 📚 小说 漫画资源分享交流频道🔥🔥](https://t.me/ziyuanfeng59) | 讨论群链接：https://t.me/ziyuanfengxiang59 | 45434 | 频道 |
-| [Yuan的记事本 📚✍🏻 分享 软件 新闻 Yuan's Notepad](https://t.me/Yuan_En) | 整理搬运一些奇奇怪怪有趣的事～ | 5501 | 频道 |
-| [某科学的一个频道](https://t.me/titan_pain) | 转发互联网上有趣的内容，此频道由多人维护。 | 16443 | 频道 |
-| [Ubuntu 中文](https://t.me/ubuntuzh) | Ubuntu 中文交流群 | 5433 | 群组 |
-| [知乎](https://t.me/Zhihu1) | 永远要有求知欲 | 691 | 群组 |
-| [PDF资料](https://t.me/pdf_001) | 读秀/超星/全国图书馆咨询联盟/百度文库   | 16888 | 频道 |
-| [AIM扩散力场](https://t.me/nekosc) | 本频道会不定时推送一些段子、ACG、科技、时事资讯等内容 | 3300 | 频道 |
-| [MrKevin博客  资讯 分享 测评](https://t.me/hilinuxcn) | 第三方独立测评网站（ mrkevin.net ），给你提供专业详细的服务器测评报告，推送主机圈最新优惠信息，分享互联网有趣内容 | 1620 | 频道 |
-| [影视搜索](https://t.me/VodStore) | 电影、电视剧、综艺、体育、动漫、韩剧、美剧、国产剧 | 20672 | 群组 |
-| [苹果用户交流群→MacOS/iPadOS/iOS](https://t.me/Balancer996) | ~为了让交流更多效率： | 9578 | 群组 |
-| [阿里云盘4K影视](https://t.me/Aliyun_4K_Movies) | 关于我们频道的结构 https://t.me/Aliyun_4K_Movies/16611 | 101122 | 频道 |
-| [精选中文播客🎧](https://t.me/chinapodcast) | 本频道实时推送热门播客节目，推送较频繁请mute。 | 3341 | 频道 |
-| [优质网站汇总频道](https://t.me/ziyuan917) | 频道收集推广优质网站与油猴脚本和浏览器插件 | 7500 | 频道 |
-| [足控天堂](https://t.me/sizukon) | 我们不色情，我们致力于原创美腿丝袜，黑丝、肉丝、蕾丝、足控、高跟鞋、私房、空姐、制服诱惑等高清无码美女写真拍摄，我们不约炮只发福利美图等你关注哦。#肉丝 #美足 #玉足 #绝对领域 #丝足 #足控 #腿控 #灰丝 #美腿 #小姐姐 #裸足 #丝袜 #白丝 #黑丝 #美女 #福利 #老司机 #萝莉 #妹子 #校服 #私拍 #开车 #cosplay #萌妹 #资源 #丽柜 | 47455 | 频道 |
-| [极客分享](https://t.me/geekshare) | 专注分享各种高质量网站、工具、APP、开源项目等一切好玩的东西🚀，以及偶尔开开车🚗 | 46390 | 频道 |
-| [影视资源联盟](https://t.me/yszylm) | 高分剧集资源发布 | 15282 | 频道 |
-| [读舍 - 享受阅读时光](https://t.me/shufm) | 读舍：享受阅读时光，畅谈读书心得 | 9749 | 群组 |
-| [浮光掠影](https://t.me/inbox_all) | - 阅读 📖 思辨💡记录 ✍️ 分享 🍻 - | 1137 | 频道 |
-| [网络安全笔记](https://t.me/tsecrecord) | 从零开始、持续积累、开放共享、共同成长 | 1425 | 频道 |
-| [📖Telegram数字图书馆](https://t.me/TG_book_data) | 电子书/免费/资源/书库/漫画/资料/文献 | 17771 | 频道 |
-| [NewlearnerのIT社群](https://t.me/NewlearnerGroup) | 【注意】加群需经管理同意，完善头像、昵称、简介更容易通过 | 10032 | 群组 |
-| [电报新闻](https://t.me/chinesenewss) | 本频道旨在中文类新闻聚合阅读，由于订阅的新闻来源较多，建议关闭频道的消息通知，闲时看一看频道获取一下资讯即可。 | 1115 | 频道 |
-| [🧸【佳佳】文案素材吧🧸](https://t.me/WenAnBa) | 🌸心心念念是旧人🌸 | 37955 | 频道 |
-| [Kevin自留地](https://t.me/mrkevinh) | 主要内容为主机、技术、羊毛等一切，但不包括NSFW及广告 | 24 | 群组 |
-| [好棒 🌈 羊毛超级搜](https://t.me/dajiajia) | 捡漏线报QQ微信群  https://jinshuju.net/f/tZwNdJ | 10037 | 群组 |
-| [老毛子Padavan固件IOS自助交流群](https://t.me/pdcn3) | 老毛子Padavan固件自助交流群 | 6586 | 群组 |
-| [蛋挞观察室](https://t.me/ijustseesee) | 频道主  | 1717 | 频道 |
-| [LetITFly News](https://t.me/LetITFlyW) |  的频道，主题包括但不限于 Android、Windows、Web、消费电子相关，吹水为主。 | 9421 | 频道 |
-| [读舍 FM](https://t.me/bookcn) | 享受阅读时光 | 3121 | 频道 |
-| [糗事百科](https://t.me/qiushibaike) | 糗事百科是一个原创的糗事笑话分享社区,糗百网友分享的搞笑段子、搞笑图片大全,都是糗友最珍贵的开心经历,爆笑糗事笑话只在糗事百科！ | 2639 | 频道 |
-| [好莱坞影视](https://t.me/HLWYS) | 好莱坞电影分享 | 5512 | 频道 |
-| [AI探索指南](https://t.me/aigc1024) | 关于ChatGPT、Bard等人工智能、思维方式、知识拓展，能力提升等。 | 8230 | 频道 |
-| [竹新社](https://t.me/tnews365) | 7×24不定时编译国内外媒体的即时新闻报道。 | 98004 | 频道 |
-| [Reddit 精选](https://t.me/reddit_one) | 现关注sub: | 5192 | 频道 |
-| [加密货币爱好者](https://t.me/twittercryptofans) | 加入条件：价值投资，长线，不加杠杆不做合约，所在地合规平台交易，只投输得起的钱。新入群请翻看群聊。基础问题去问谷歌。推荐项目请先说出依据。发广告立斩。不要相信群友私信。勿用语音。  | 2526 | 群组 |
-| [ALL Investing](https://t.me/AI_newsletter) | None | 36 | 频道 |
-| [网易云音乐ncm转换器](https://t.me/netease_ncm_bot) | 我可以帮助你把网易云音乐的NCM文件转换为普通的mp3或者flac文件🎵。只要直接发文件给我就可以啦！  | None | 机器人 |
-| [有意思的分享](https://t.me/ziyouzengzhang) | 分享各种东西，优惠、互联网、技术、程序、游戏。 | 2081 | 频道 |
-| [cnBeta.COM中文业界资讯站](https://t.me/cnbeta_com) | cnBeta.COM中文业界资讯站是一个提供IT相关新闻资讯、技术文章和评论的观点的中文网站，报导立场公正中立，网友讨论气氛浓厚，在业界拥有独特的影响力。本频道为非官方频道。 | 18816 | 频道 |
-| [情话箱](https://t.me/qinghua_box) | 我遇见你，我记得你，我们于此相遇，这里是情话箱，乐于分享文字，你天生适合我的灵魂！ | 4686 | 频道 |
-| [OurBits RSS频道](https://t.me/OurBits_RSS) | OurBits 官种发布提醒 | 1677 | 频道 |
-| [完美弧度](https://t.me/wanmeihudu) | 每日更新 精挑细选 只为完美 | 7769 | 频道 |
-| [Hexo 博客交流](https://t.me/hexozh) | Hexo 是一个快速、简洁且高效的博客框架 | 1455 | 频道 |
-| [推特精选](https://t.me/twitter_read) | 如需撤稿，请在评论区联系我们。我们谢绝营利性质或政府性质的合作，还请见谅。 | 10802 | 频道 |
-| [ iPad 用户社群](https://t.me/iPadOS) | 苹果 iPadOS 操作系统用户社群。 | 479 | 群组 |
-| [数学及其应用](https://t.me/mathematics_and_its_applications) | 关于数学的观念、播客、书籍、教材、音乐、软件、游戏、课程等等的分享 | 2703 | 频道 |
-| [内涵段子之狼人杀](https://t.me/werewolfcn) | 游戏群规: | 489 | 群组 |
-| [电影爱好者交流](https://t.me/Moviemarket_group) | 电影爱好者 https://t.me/MovieAnywhere | 3207 | 群组 |
-| [Faangbbs APP北美程序员大群](https://t.me/faangbbs) | 欢迎大家加入telegram北美程序员大群。群规请参考一方论坛(Faangbbs APP)的版规，如下： | 2759 | 群组 |
-| [中外美文語錄](https://t.me/nicequotes123) | 摘錄名人、名著、電影等語錄。好文好片分享。 | 3752 | 频道 |
-| [MacApp分享频道](https://t.me/macapp_channel) | 官网：https://macapp.org.cn 官方交流群： | 4350 | 频道 |
-| [AI News](https://t.me/aigcnote) | 只记录 AI 业界大新闻和最有趣的新产品。Curated by  | 7760 | 频道 |
-| [Widget🏂软件工具精选](https://t.me/WidgetChannel) | 📮投稿/合作/互推  | 17604 | 频道 |
-| [ahhhhfs｜A姐分享](https://t.me/abskoop) | A姐分享订阅频道 | 226851 | 频道 |
-| [爷青回动画分享频道](https://t.me/yeqingjie_GJG666) | 小时候的回忆，永远会存留在脑海里的一小片土地，而我想做的，就是带大家去寻找这块儿熟悉又陌生的福邸 | 11772 | 频道 |
-| [卷毛鼠-影视频道](https://t.me/CurlyMouse) | 影视信息发布 | 17365 | 频道 |
-| [每日无数猫](https://t.me/miaowu) | 投稿请发至投稿机器人  | 16497 | 频道 |
-| [Docker](https://t.me/dockertutorial) | Docker 学习交流分享 | 10189 | 群组 |
-| [每日摄影观察](https://t.me/cnphotog_collect) | 一个不严肃的摄影频道 | 4751 | 频道 |
-| [Linux中国](https://t.me/linuxdotcn) | Linux 中国官方 Telegram 频道 | 1701 | 频道 |
-| [GIF出处查询机器人](https://t.me/TumblrAce_bot) | 本机器人可以帮助您查找GIF动图的出处 | None | 机器人 |
-| [财新网 RSS](https://t.me/caixin_web) | 财新网与财新《财新周刊》、财新《中国改革》、《比较》同属财新传媒。财新网定位于原创财经新媒体，整合资讯、观点、多媒体、互动等信息时代形态丰富的媒体产品，以客观、专业的视角，实时输出高品质原创内容，为中国政界、学界和产业界精英提供每日经济活动必需的财经新闻和资讯评论。 | 4219 | 频道 |
-| [🌿读者 · 争鸣🌿](https://t.me/duzhe) | 优质的读书生活交流群。 | 2423 | 群组 |
-| [今天又发现了哪个漂亮小姐姐](https://t.me/xiaojiejiexixi) | 好看的皮囊，并非千篇一律。 | 4190 | 频道 |
-| [迷影果醬📺](https://t.me/cinephiliajam) | 👀频道无规律推送影视 | 1311 | 频道 |
-| [ChatGPT 精选](https://t.me/AwesomeChatGPT) | ChatGPT 精选资源 | 7747 | 频道 |
-| [写作交流](https://t.me/writing_discuss) | 关键词：阅读 写作 交流 | 2497 | 频道 |
-| [每日一歌](https://t.me/dailymusich) | 无论乐曲也好，旋律也罢，都是人们情感的体现。 | 2072 | 频道 |
-| [Netflix影视🎬𝑵𝑭𝑯𝑫](https://t.me/PornNFHD) | 电影 电视剧 国产 港台剧 美剧 韩剧 日剧 泰剧 | 20235 | 频道 |
-| [朱颜别镜  妹子图  美女图](https://t.me/meizitu3) | 全网美女,妹子图收藏 | 25950 | 频道 |
-| [英文学习桌](https://t.me/english_learning_discuss) | 学习英语，了解世界。分享学习资料，原版书籍，报纸新闻。 | 10037 | 频道 |
-| [全球主机交流中心](https://t.me/VPSchat) | 【禁止發布準則】🈲政治、🈲色情、🈲广告、🈲黑产、🈲推广群链接、🈲各类形式aff、❨还大佬们一份干净的聊天环境❩ | 7841 | 群组 |
-| [程序员资源分享频道](https://t.me/gotoshare) | 程序员资源分享频道 | 20505 | 频道 |
-| [抽奖助手](https://t.me/LotteryHelperBot) | TG Bot 之父专用抽奖机器人 | None | 机器人 |
-| [HiFi音乐资源](https://t.me/HiFiMusicResource) | 无损音乐资源收集整理自网络，只用于爱乐人交流试听。如果喜爱请支持购买正版音乐不可用于商业用途、下载试听后请于24小时内删除！鸣谢 https://t.me/dlkvpn 提供网络支持!!!! 祝开心每一天！ | 2658 | 群组 |
-| [大咕咕咕鸡](https://t.me/dagudu) | 大咕咕咕鸡，微博知名博主，叙事诗人，当代严肃文学特师，月入2300，代表作有《黄浦江有话讲》《一次突如其来的性生活》等，他的文章风格独特，自成一派，值得一看。 | 1843 | 频道 |
-| [FinelyGirlsChannel](https://t.me/finelygirls) | 获取图片机器人 | 5110 | 频道 |
-| [Legado｜开源阅读｜频道](https://t.me/Legado_Channels) | 建于 2020/10/15 | 50254 | 频道 |
-| [杂志新闻](https://t.me/magazinesclubnew) | 有时间就搬运一些 | 4866 | 频道 |
-| [AI星球中文聊天社群-ChatGPT-Midjourney](https://t.me/chatgpt003) | Ai星球🪐中文频道 Ai  人工智能 ChatGPT OpenAI Prompt Midjourney Ai绘画 NewBing 插件  部署 GitHub  Ai课程 教程 免费chatgpt 知识库 GoogleBard Ai应用  Claude  | 1161 | 群组 |
-| [chatGPT中文社区](https://t.me/LptTech) | AI一年，人间十年 | 26165 | 频道 |
-| [iAliyun](https://t.me/iAliyun) | 一个分享精品资源的频道 | 2200 | 频道 |
-| [拾趣](https://t.me/peekfun) | 分享一点有趣的事情、有用的东西 | 15904 | 频道 |
-| [Word Power Made Easy](https://t.me/pieroots) | 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 t.me/lazyfun | 3429 | 频道 |
-| [高清影音数码折腾群](https://t.me/TalkUHD) | 本群是高清数码折腾群，主要交流涉及电视、蓝光机、NAS、电视盒子、PT、软路由、无线路由器、回音壁等众多话题。 | 1112 | 群组 |
-| [新闻实验室](https://t.me/newslab2020) | 新闻实验室的频道 >>>  🎁会员计划：http://newslab.info/join/  >>> ▶️YouTube: https://www.youtube.com/channel/UCFsbHZ_mIFElwDxypEZjKWA/ | 6665 | 频道 |
-| [DLK老群](https://t.me/dlkvpn) | 官网地址： dlk.xyz | 1403 | 群组 |
-| [开源社区](https://t.me/opencfdchannel) | *Android/Linux/Windows/MacOS/iOS | 39971 | 频道 |
-| [精聊话术话术素材精英话术精英素材](https://t.me/GentooWithoutJUJU) | None | 2545 | 频道 |
-| [人人影视字幕文件](https://t.me/yyets_subtitles) | 片源可在在 rarbg.to 搜索下载。推荐使用 qBittorrent作为下载工具。可在 GitHub 搜索 trackers 并添加到软件，可提高下载速度。 | 5647 | 频道 |
-| [🐾 可爱の收藏 cute collection](https://t.me/kawaii_collection) | [SFW]  | 5873 | 频道 |
-| [PIXIV站每日 Top50搬运动漫ACG二次元每日精选图片動漫P站](https://t.me/pixiv_top50) | 搬運PIXIV每天綜合排行榜前50圖片資源，不定時更新。 | 70503 | 频道 |
-| [深度分享](https://t.me/shendu666) | 每一款资源都会测试后再上传，并且有详细的介绍，欢迎关注本频道 | 15155 | 频道 |
-| [频道🏆资源福利分享 Chat](https://t.me/freemorebestchat) | 『资源福利分享』每天更新各类影视剧集网盘资源、福利活动、实用软件等。   | 2418 | 群组 |
-| [Hostloc 新帖图文推送](https://t.me/HostlocPro) | 本频道基本功能：爬取国内外有名的主机论坛Hostloc新帖，为订阅者提供一手图文资讯！ | 2648 | 频道 |
-| [短句文案](https://t.me/yidu520) | 故事很短 满是遗憾  | 7669 | 频道 |
-| [PT资讯频道](https://t.me/privatetrackernews) | PT资讯推送  | 18592 | 频道 |
-| [壁纸  Wallpaper](https://t.me/bizhi123) | 喜欢请多多分享，谢谢！ | 10390 | 频道 |
-| [Telegram 新手帮助](https://t.me/Newbie_Chat) | 「Telegram 新手指南」频道  | 8775 | 群组 |
-| [🎶音乐收藏](https://t.me/flac_file) | 🎶无损音乐收藏频道 | 5106 | 频道 |
-| [NewMobileLife](https://t.me/newmobilelife) | 限時免費情報、Apple 消息、科技新知、實用秘技 | 12222 | 频道 |
-| [動漫遊戲Cosplay分享](https://t.me/cosplayshare) | 我們的群組 | 13159 | 频道 |
-| [科技爱好者周刊](https://t.me/scitech_fans) | 记录每周值得分享的科技内容，周五发布。本频道有ruanyf授权，see weekly/issues/885 | 11556 | 频道 |
-| [Emby影视资源发布](https://t.me/Plus_Movie_Best) | 普拉斯影业资源发布频道 | 28806 | 频道 |
-| [颜值即正义](https://t.me/yzjzy) | 颜值即正义 | 38997 | 频道 |
-| [📖西西书屋(电子书搜索)](https://t.me/xixishuwu) | None | 2503 | 群组 |
-| [AI绘画｜AI视频](https://t.me/AI_Pintura) | AI绘画资源分享，包括但不限于Midjourney、Stable Diffusion。 | 19454 | 频道 |
-| [Python 中文交流](https://t.me/pythonzh) | 分享心得，共同进步 | 30496 | 群组 |
-| [Google Voice 互拨交流群](https://t.me/zh_GV) | 💚 本群讨论 GV 相关话题，以及互拨保号。 | 6411 | 群组 |
-| [Appinn Feed](https://t.me/appinnfeed) | 这里有小众软件和发现频道的内容更新，以及一个绑定的私有群组。 | 19682 | 频道 |
-| [看番吧！Anime！动漫音乐日剧！高速在线播放！](https://t.me/kanfanba) | アニメーション業界の今が、ここにある。 | 5280 | 频道 |
-| [金十数据 闪电资讯](https://t.me/jin10light) | 金十数据, 一手时政&财经&币圈 数据24H极速推送！中文时政财经圈顶级付费文章不定期免费赠！ | 3247 | 频道 |
-| [TG表情包推送总部](https://t.me/StickersXJBG) | 一个分享Telegram上各类表情包的频道 | 1871 | 频道 |
-| [南国微雪一切，都很美丽。](https://t.me/TinySnow4Yi) | The idiot's channel. Updating depends on mood. | 2214 | 频道 |
-| [MATLAB TIPS](https://t.me/MATLAB_tips) | Matlab的一些现成脚本、函数，前人写的技巧、教程、文档。 Just tricks that finally work or what have learnt through search engines.受限于个人领域和Matlab水平，诚邀频道管理者；只要在使用Matlab过程中顺手把用上的网页、帖子发上来就好，十分简单。请联系  | 2140 | 频道 |
-| [电影爱好者](https://t.me/MovieAnywhere) | 影迷交流：https://t.me/Moviemarket_group | 26380 | 频道 |
-| [Pi&N1交流群通知频道](https://t.me/NewPiN1Channel) | Pi&N1交流群官方频道 | 6323 | 频道 |
-| [英语/分播@EnglishSlice](https://t.me/englishslice) | EnglishSlice频道。你可以在这获取英语零食。 | 4870 | 频道 |
-| [华尔街日报 RSS](https://t.me/wsj_rss) | 【关于】 | 18482 | 频道 |
-| [萌图志](https://t.me/moepic) | 本频道会不定时推送一些二次元插画，请注意 #NSFW 内容 | 10005 | 频道 |
-| [呆萌影视](https://t.me/dmysfx) | 更新热门资源，电视剧，电影，韩剧，动漫，广播剧，学习资料 | 1690 | 群组 |
-| [流媒体解锁测试](https://t.me/stairunlock_test_bot) | Project: https://git.io/Jyl5l | None | 机器人 |
-| [Apple Music  Spotify  Youtube Music  and more](https://t.me/amthings) | 👏大家进来可以讨论Apple Music和其他流媒体，不限国内国外，只要你热爱音乐，想交换看法，就进来～ | 1155 | 群组 |
-| [Classical Music](https://t.me/exploreclassical) | 一起来听古典音乐吧～～ | 1340 | 频道 |
-| [利器 👨🏻‍💻👩‍💻 🧤](https://t.me/fun_makers) | 利器社群在 TG 上的分支。 | 2336 | 群组 |
-| [苹果派群组](https://t.me/iOS1314) | 专注于苹果手机平板电脑、iOS、iPadOS、MacOS系统软件、升级降级、刷机解锁、越狱美化、应用推荐、使用教程、资源分享等。 | 648 | 群组 |
-| [高中生反差萝莉白虎](https://t.me/alikuake) | 广告合作/私聊😀 | 66522 | 频道 |
-| [码力全开 Friends](https://t.me/forcecoder) | 大家好，我是独立开发者Larry，最新力作【懒猫存钱】，以下是我的所有产品，欢迎交流讨论。码力全开工作室（https://www.maliquankai.com）不定期分享产品/设计的各种码力全开资源站（https://design.maliquankai.com）产品/设计师/独立开发者的资源码力全开大学堂（https://www.maliquankai.cn）独立开发者的修炼课程App作品：https://www.maliquankai.cn/app/download | 812 | 群组 |
-| [你不知道的冷知识](https://t.me/knowledge1024) | 冷知识分享 | 10190 | 频道 |
-| [看小姐姐](https://t.me/kanxiaojiejie) | 本频道始建于2018年12月10日 | 6776 | 频道 |
-| [Milkice's NG](https://t.me/milkice_portal) |  个人频道 | 1858 | 频道 |
-| [影视推荐&PT资讯频道【豆瓣资源下载大师官方】](https://t.me/doubanchannel) | 豆瓣资源下载大师官方出品的影视推荐&PT资讯分享频道 | 5166 | 频道 |
-| [Popular Design Articles流行设计文章资源](https://t.me/designtaalk) | 频道偶尔会分享一些国外优秀设计文章资源。 | 1731 | 频道 |
-| [Google Play Public](https://t.me/GooglePlayPublic) | 应用分享 | 1850 | 频道 |
-| [Chromebook CN](https://t.me/chromebook_cn) | Chromebook 中文讨论组 (Chinese Group) | 656 | 群组 |
-| [硬核英语/Hardcore English](https://t.me/hardcoreng) | 频道：  | 1378 | 群组 |
-| [即時投資消息推送](https://t.me/touzi8) | 讨论投资股市的群 http://touzi.report/ | 892 | 群组 |
-| [精选音乐收藏馆](https://t.me/qing_03) | 精选音乐收藏馆 | 11489 | 频道 |
-| [计算机类书籍](https://t.me/bookusefor3) | 收集偏计算机专业化的书籍 | 25951 | 频道 |
-| [亚马逊 Amazon 每日热销、降价榜](https://t.me/amazonhotevery) | 推送亚马逊的每日热销榜、降价榜，以及双11、黑五特价信息。 | 5500 | 频道 |
-| [lowendaff](https://t.me/lowendaff_blog) | https://lowendaff.com/ | 3379 | 频道 |
-| [Telegram 中文圈 ❷](https://t.me/tgzhcn) | Telegram 中文/汉化/知识/教程, 科技, 机场, 科学上网...... | 52017 | 群组 |
-| [❗️🎧十万首音乐在线试听/音乐搜索/在线音乐/机器人❗️](https://t.me/muisc99) | 音乐搜索机器人，在线听歌机器人，直接发送关键词搜索音乐 | 7031 | 群组 |
-| [iOS](https://t.me/iOSdevotee) | 1不是不能聊政治，关键这里不是Twitter 结构松散，发的消息别人都被动接受，所以考虑这是一个群，考虑信息过载问题，否则都把人聊跑了This is a China iOS user group for free talking | 4483 | 群组 |
-| [读书分享](https://t.me/dushufenxiang_chat) | 群规： | 5182 | 群组 |
-| [茶馆🎗の在花](https://t.me/ZaihuaChat) | • 禁止推广/黑产/刷屏/色情/NSFW | 42398 | 群组 |
-| [MIR4传奇交流群](https://t.me/mir4chinese) | 《传奇4》是由韩国WEMADE制作，游戏世界观延续经典线上游戏《传奇Online》，结合东方武学与韩系动作游戏美学，演绎全新的武侠世界。 | 991 | 群组 |
-| [互联网从业者充电站](https://t.me/https1024) | 互联网从业者专属 | 12567 | 频道 |
-| [Shu 使用技巧](https://t.me/shuskill) | 全能解压、文件预览、图片转换 | 1343 | 频道 |
-| [Arch Linux Chinese Messages](https://t.me/archlinuxcn) | Arch Linux 中文相关信息 | 7862 | 频道 |
-| [TypeScript 中文交流](https://t.me/typescriptzh) | TypeScript 是一种由微软开发的自由和开源的编程语言。它是 JavaScript 的一个严格超集，并添加了可选的静态类型和基于类的面向对象编程。 | 1728 | 群组 |
-| [开发者日报](https://t.me/cndevdaily) | 一个勤劳的机器人，只爬取热门，优质，阅读性强的内容。懒懒的主人创造了我，欢迎关注我🤖。我的 Twitter 账号是 CNDevDaily。官网：https://joyqi.com/news | 1948 | 频道 |
-| [老毛子Padavan固件发布](https://t.me/pdcn1) | 老毛子Padavan固件自助交流群 | 33520 | 频道 |
-| [MtalkRes 媒说资源](https://t.me/mtalk) | 收录软件、趣味等资讯等 | 1121 | 频道 |
-| [如有乐享](https://t.me/ruyoblog) | 主要更新如有乐享博客内容，以及其他几个朋友的频道干货。偏云服务器，优惠活动，羊毛信息，以及各种BUG。 | 18778 | 频道 |
-| [iTools](https://t.me/toolinbox) | macOS 工具箱：https://toolinbox.net | 949 | 群组 |
-| [大数据杂谈](https://t.me/bigdatazh) | 大数据架构与开发技术交流 | 1837 | 群组 |
-| [亚马跌](https://t.me/amazondrop) | 一个选购参考网站。 | 3634 | 频道 |
-| [壁纸头像](https://t.me/BiZhiSo) | 本频道内容： | 4934 | 频道 |
-| [快讯猎手（重要版）](https://t.me/zhongyaokuaixun) | 欢迎来到「快讯猎手 重要版」 | 2554 | 频道 |
-| [普通休闲书籍资源](https://t.me/bookusefor4) | 书籍的资源堆积，可能有你需要的书 | 13913 | 频道 |
-| [悦读「优质少量RSS聚合」](https://t.me/dailyrss) | 文章、图片、视频、音乐、播客RSS订阅聚合频道    部分支持「🎉Tg即时预览/内嵌播放」 | 1647 | 频道 |
-| [纽约时报双语新闻](https://t.me/nyt_bilingual) | 《纽约时报》（英语：The New York Times，简写为NYT或NY Times），有时也被称为《时报》，是一份总部设在纽约的美国报纸，具有全球影响力和读者群。 | 7098 | 频道 |
-| [Zeroの电影院线 Channel](https://t.me/zerodemovie) | 黑子Sama分享最新电影的地方 | 3638 | 频道 |
-| [Alist资源频道](https://t.me/alistshare) | ⭐️收集推荐网盘资源站点（不局限于alist哦） | 18595 | 频道 |
-| [每日分享频道](https://t.me/woniubuchuiniu) | ✅优质频道推荐：优米格(https://www.yomige.com)官方频道 | 16305 | 频道 |
-| [macOS 交流组](https://t.me/macoser) | Setapp 开车、二手软件交易、使用经验交流 | 1689 | 群组 |
-| [RARTV](https://t.me/rartv) | Infuse 私人影库资源频道 | 5262 | 频道 |
-| [树莓派 Raspberry Pi](https://t.me/raspicn) | Raspberry Pi讨论群 | 1965 | 群组 |
-| [unwire.hk 生活科技頻道](https://t.me/unwire) | 每日接收免費生活科技情報~ | 6587 | 频道 |
-| [外滩读书会-最新报纸、杂志、财经报告及流行电子书分享](https://t.me/readingclubus) | 以英文为主的报纸、杂志、电子书及财经报告分享，比如华尔街日报、金融时报、经济学人、哈佛商业评论、福布斯杂志、彭博商业评论、巴伦周刊等等更多资源分享。 | 23812 | 频道 |
-| [美剧电影吧](https://t.me/meijukingdom) | 最新美剧日剧韩剧泰剧电影交流，115网盘技术交流 | 10050 | 群组 |
-| [翻译机器人讨论](https://t.me/fanyi_group) | 中文翻译机器人讨论群。 | 2480 | 群组 |
-| [C++ 中文交流](https://t.me/cpluspluszh) | 欢迎你来这里交流编程经验！ | 10612 | 群组 |
-| [饭否每日精选](https://t.me/fanfou_daily) | 每天8点5分推送饭否精选 | 741 | 频道 |
-| [Notion 中文社区](https://t.me/Notionso) | 💡 以 Notion 为主，围绕 Notion 效率工具、经验为辅。核心围绕提升个人生活、工作效率来进行讨论。 | 18588 | 群组 |
-| [币圈动态](https://t.me/biquan321) | 持有任何加密币的我们都是刁民！ | 1556 | 频道 |
-| [有声故事 🔊](https://t.me/youshenggushi) | 📣📣📣 | 2359 | 频道 |
-| [[CN] Android Dev](https://t.me/AndroidDevCn) | 仅限 Android 开发话题。请勿闲聊，闲聊请进入下述群。 | 2956 | 群组 |
-| [每日無數汪](https://t.me/wushuwang) | 全是汪星人的世界 | 1746 | 频道 |
-| [Frontend 前端中文技术交流](https://t.me/frontend_talk) | 此Channel主要用作前端方向的开发同学在Telegram上的技术交流平台，不定期分享Vue.js/React/Node.js/Chrome/ECMA-TC39/W3C等相关的最新动态和前端领域相关的优质文章，以技术交流为主，分享碰撞不同的观点、经验和想法。 | 1049 | 群组 |
-| [Amazon 海淘购物交流群](https://t.me/firstAmazon) | 美亚(美国亚马逊)代购、拼单、转运、优惠劵、Fire TV Stick 团购、海淘交流。 | 2189 | 群组 |
-| [期货与期权📈📉📊 Derivatives](https://t.me/CNderivatives) | 期货、期权和各类金融交易品的投机与套利 | 3691 | 群组 |
-| [主机百科资讯分享](https://t.me/zhujiwiki_info) | 主机百科的主机类信息分享频道。 | 7581 | 频道 |
-| [DRC官方中文群](https://t.me/drc_info) | DRC——“数字世界的华尔街”，作为全球首创的区块链分布式协同专业服务平台，连通项目方、投资者、社区成员和专业机构，提供尽职调查、项目评级、数字资产估值与定价等专业服务,促进区块链行业的健康发展！ | 411 | 群组 |
-| [APPDO 数字生活指南](https://t.me/AppDoDo) | 💡互联网/数码/App/羊毛/相机/数字指南 | 28505 | 频道 |
-| [瘦瘦的绘画世界](https://t.me/drawing1024) | 记录自己的绘画作品 | 3922 | 频道 |
-| [Google Play限免信息](https://t.me/playsales) | 不定时推介Play Store上的限免游戏，应用喵。尽量保证推荐信息的质量喵～ | 8005 | 频道 |
-| [Anonymouser Group Father](https://t.me/anonyabbot) | Anonyabbot is a bot for creating bots as fully anonymous groups, where messages are broadcasted to all members. | None | 机器人 |
-| [(ゲームCG)一个兴趣使然的PC壁纸频道](https://t.me/CGSFW) | 本频道附属于  | 9175 | 频道 |
-| [秋风のとおり道](https://t.me/AWAvenue) | 一个常年秋风萧瑟的频道 🍂 | 19540 | 频道 |
-| [SubConverter 更新频道](https://t.me/subconverter) | 在各种订阅格式之间进行转换的实用程序。 | 2318 | 频道 |
-| [财联社VIP](https://t.me/clsvip) | 财联社 VIP文章即时更新：盘中宝、风口研报、狙击龙虎榜、电报解读、财联社早知道、研选、公告早知道、九点特供：https://t.me/clsvip | 5051 | 频道 |
-| [爷青结动画分享交流群](https://t.me/yeqingjie) | 带大家寻找儿时的回忆！(禁止广告以及任何形式的推广) | 2437 | 群组 |
-| [萌图](https://t.me/ovov1234) | 分享 pixiv 美图 萌图 壁纸 更新时间大概一星期一次 | 12925 | 频道 |
-| [Cuttlefishの自留地](https://t.me/ddgksf2021) | 我隨便發發，你將就看看 | 28374 | 频道 |
-| [Steam◆中文讨论群](https://t.me/SteamGroup) | https://store.steampowered.com/ | 6774 | 群组 |
-| [滴！极乐卡](https://t.me/happySD) | None | 351 | 频道 |
-| [羊毛党--TG支部 (薅死羊不偿命系列)🐑🐑🐑](https://t.me/cn_coupon) | 薅死羊不偿命系列 | 5023 | 群组 |
-| [Yummy 😋](https://t.me/GodlyNews1) | 📰 本频道不定期推送科技数码类新资讯，欢迎关注！ | 31225 | 频道 |
-| [乱七八糟的储物箱](https://t.me/xyxyspace) | 本频道仅作为本人研究备份使用，所有内容下载后请于24小时内删除，请不要搬运到酷安、App分享、奇妙应用、葫芦侠等各类平台 | 22048 | 频道 |
-| [SomeACG  每日少女壁纸 🍩](https://t.me/SomeACG) | 请问今天要来一张壁纸吗？这里是全TG质量最高的ACG壁纸频道！欢迎订阅！ | 13192 | 频道 |
-| [托尔酱的梗图与FW](https://t.me/TooruChan_Memes) | 本频道属于 Tooruchan's 系列频道 | 2641 | 频道 |
-| [PUSH科技快讯](https://t.me/pushings) | ✈️本频道不定期推送相关资讯 | 2122 | 频道 |
-| [每日文章精选](https://t.me/daily_read) | 关键词：每日 文章 精选 微信 总结 | 1893 | 频道 |
-| [Vultr 用户群](https://t.me/vultr_group) | Vultr 用户群，非官方 | 4253 | 群组 |
-| [[好读] ReadFine电子书屋](https://t.me/Readfine) | 好读提供电子书一站式体验，包括评分简介封面，一键下载，享受读趣。在这里，因为有您的陪伴，阅读变得并不孤单。频道只负责搜索资源并不对内容负责。 | 60053 | 频道 |
-| [Web3 中文社区](https://t.me/smartmoney0x369Dao) | 频道新闻：https://t.me/newsforbitcoin | 171 | 群组 |
-| [如何与沙雕相处🤡](https://t.me/ruheyushadiaoxiangchu) | 💬交流群：  | 20197 | 频道 |
-| [零度解说](https://t.me/lingdutg) | 零度博客：https://www.freedidi.com | 35928 | 群组 |
-| [笑掉大牙](https://t.me/xiaodiaodaya) | 开心一刻，笑话大全，爆笑冷笑话精选，经典笑话尽在笑掉大牙！海量笑话内容每日定时更新，给您带来更多快乐 | 1559 | 频道 |
-| [喵喵小喵喵](https://t.me/MeowMiniMeow) | 大喵喵和小喵喵的转发频道 | 807 | 频道 |
-| [BlockBeats](https://t.me/theblockbeats) | BlockBeats-专业的区块链研究机构与资讯平台 | 13448 | 频道 |
-| [PremiumCounterBot](https://t.me/PremiumCounterBot) | 一个计算群内 Telegram Premium 用户占比的机器人。 | None | 机器人 |
-| [Rust 视界](https://t.me/rust_daily_news) | Rust 热点、开源项目、动态 | 2504 | 频道 |
-| [图床粉丝群](https://t.me/smms_images) | https://sm.ms/ | 2884 | 群组 |
-| [搞笑研究所️🔥](https://t.me/gaoxiaoshu) | 有笑点，且高级 | 2009 | 频道 |
-| [[好读] ReadFine交流总群](https://t.me/ReadfineChat) | 频    道   | 4160 | 群组 |
-| [在瓦尔登湖畔读书](https://t.me/gujinpintan1) | 想象重塑自身的可能 | 2935 | 频道 |
-| [中英语言学习  Learning Chinese & English](https://t.me/LinguisticAcademy) | 1. 本群旨在汉语和英语的学习 | 4268 | 群组 |
-| [Price Tag](https://t.me/appfans) | 推荐 App 限免降价，推送好物好券 | 17817 | 频道 |
-| [Immersive Translate](https://t.me/immersivetranslate) | 沉浸式翻译频道， 加群链接：https://t.me/+rq848Z09nehlOTgx | 4532 | 频道 |
-| [Data Science Archive](https://t.me/DataScienceArchive) | 小熊猫的个人工具收纳箱，还包括一些零碎的笔记，大概会有这些： | 1919 | 频道 |
-| [图拉丁](https://t.me/lajilao) | 图拉丁（Tualatin）即 Intel 奔腾 III 最后一版的代号，由于其超强的超频性能、优秀的温度控制、功耗还有价格著称。 | 2886 | 群组 |
-| [Machine Learning CN](https://t.me/ml_cn) | 机器学习中文讨论群组，共同学习，一起炼丹。 | 2717 | 群组 |
-| [Apple Watch 大集合](https://t.me/apple_watch) | Apple Watch 用户群 | 693 | 群组 |
-| [Magazine｜期刊｜The Economist｜外刊｜财新周刊｜杂志](https://t.me/Qikan2023) | 经济学人,纽约客,财新周刊,卫报,华尔街日报,中国日报,科学 | 22245 | 频道 |
-| [小声读书](https://t.me/what_youread) | 小声读书是一个探索数字阅读可能性和未来的开放项目，致力于打破信息茧房，挖掘价值信息。亦是一份杂志，一个博客，混搭不拘一格，时常荒腔走板。 | 12422 | 群组 |
-| [Software Hub](https://t.me/ksc666) | None | 11971 | 频道 |
-| [黑科技软件资源分享交流群](https://t.me/blacktechsharing) | 分享免费实用高效率网络资源、黑科技软件、实用黑技巧。本群禁色情、禁广告！ | 17110 | 群组 |
-| [有故事的女同学](https://t.me/WenAnGuan_botjihuo) | 💖网易云热评💖   | 12528 | 频道 |
-| [RSS 频道收集](https://t.me/rss_channels) | 【关于】 | 6007 | 频道 |
-| [Appinn Talk 💧](https://t.me/appinn) | 小众软件 appinn.com | 9212 | 群组 |
-| [瞎玩菌 #SFW](https://t.me/blindgamer) | 🕹 聚焦 PC / 主机游戏，分享游戏见闻，晒趣图，赏视频。 | 8362 | 频道 |
-| [肯德基 4K 电影 发布频道🍟](https://t.me/XiangxiuNB) | 🌟频道简介： | 28962 | 频道 |
-| [微博合集](https://t.me/weibo_one) | 感谢支持和关心我们众多读者朋友，我们将从投稿中筛选出真实、善意、公允的内容，努力为大家提供一个脱离平台算法，真正服务于读者的内容精选。 | 4399 | 频道 |
-| [竹新资料库](https://t.me/kt_database) | 分享新闻资料。 | 7828 | 频道 |
-
-## 免责声明
-
-本项目的所有内容均来源于网络，仅供学习和研究使用。项目中列出的频道/群组/机器人等可能包含部分敏感内容。请您自觉遵守当地的法律法规。本项目不对使用者的行为承担任何责任。使用者应自行承担使用本项目所产生的一切后果。如有内容侵犯了您的权益，请联系我们删除相关内容。
-
-
-
-## Special Thanks
-
-
-
-##### Special thanks to JetBrains for their support of this project.
-
+<h1 align="center">Telegram 每日推荐</h1>
 
 <div align="center">
-    <a href="https://www.jetbrains.com">
-        <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" alt="JetBrains Logo (Main) logo." width="300px" height="300px">
-    </a>
+
+![GitHub license](https://img.shields.io/github/license/jackhawks/rectg)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
+![GitHub stars](https://img.shields.io/github/stars/jackhawks/rectg?style=social)
+![GitHub forks](https://img.shields.io/github/forks/jackhawks/rectg?style=social)
+![GitHub issues](https://img.shields.io/github/issues/jackhawks/rectg)
+![GitHub contributors](https://img.shields.io/github/contributors/jackhawks/rectg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
+![Requirements](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
+
 </div>
 
+从全网搜集超 100,000 个 Telegram 群组、频道和机器人，并筛选出优质且持续更新的资源，为 数据分析、研究与学习 提供支持。所有数据均来源于互联网，仅用于研究分析，不涉及商业或违法用途，使用者需自行承担风险。
 
+> [GitHub 项目地址](https://github.com/jackhawks/rectg)
+
+## 频道推荐
+
+|    频道名称    |             链接              | 简介 |
+| :------------: | :---------------------------: | --- |
+| Telegram 每日推荐 | [https://t.me/sharetgs](https://t.me/sharetgs) | Telegram 每日推荐频道 |
+
+## 群组推荐
+
+|    群组名称    |             链接             | 简介                |
+| :------------: |:--------------------------:|-------------------|
+| Telegram 每日推荐讨论组 |   [https://t.me/sharetgsg](https://t.me/sharetgsg)   |  Telegram 每日推荐讨论组  |
+
+## 频道
+- `Telegram 每日推荐`: [https://t.me/sharetgs](https://t.me/sharetgs)
+- `硬核科技资讯`: [https://t.me/AAACatShare](https://t.me/AAACatShare)
+- `GitHubDailys （GitHub每日热门榜）`: [https://t.me/GitHubDailys](https://t.me/GitHubDailys)
+- `📊 Polls Channel`: [https://t.me/polls_channel](https://t.me/polls_channel)
+- `Duyao｜SpeedTest｜科技生活｜资讯转发`: [https://t.me/DuyaoSS](https://t.me/DuyaoSS)
+- `完美弧度`: [https://t.me/wanmeihudu](https://t.me/wanmeihudu)
+- `看小姐姐`: [https://t.me/kanxiaojiejie](https://t.me/kanxiaojiejie)
+- `TGX -社群`: [https://t.me/tgx_group](https://t.me/tgx_group)
+- `公共交通部落`: [https://t.me/fhs_publictransport_zone](https://t.me/fhs_publictransport_zone)
+- `micro`: [https://t.me/microshit](https://t.me/microshit)
+- `WhaleDiscovery`: [https://t.me/whalediscovery](https://t.me/whalediscovery)
+- `AnXray`: [https://t.me/AnXray](https://t.me/AnXray)
+- `Product Hunt Hot`: [https://t.me/product_hunt_hot](https://t.me/product_hunt_hot)
+- `WebNotes2`: [https://t.me/WebNotes2](https://t.me/WebNotes2)
+- `Tbo 交流群`: [https://t.me/TboJiangGroup](https://t.me/TboJiangGroup)
+- `Netch Channel`: [https://t.me/netch_channel](https://t.me/netch_channel)
+- `胖客十袋`: [https://t.me/pankt](https://t.me/pankt)
+- `📣 LifeAnalysis Lab Update`: [https://t.me/lalabeng](https://t.me/lalabeng)
+- `orz001`: [https://t.me/homeassiant666](https://t.me/homeassiant666)
+- `Snipaste-Mac-Bugs`: [https://t.me/joinchat/BGyWwD-l6rbaO5NEsfYRQQ](https://t.me/joinchat/BGyWwD-l6rbaO5NEsfYRQQ)
+- `TeFuirZIDu`: [https://t.me/TeFuirZIDu](https://t.me/TeFuirZIDu)
+- `Aliyundrive Backup`: [https://t.me/aliyundrive_backup](https://t.me/aliyundrive_backup)
+- `WSU_A`: [https://t.me/wikipedia_zh_wsu](https://t.me/wikipedia_zh_wsu)
+- `Feuilleton&films nigerians`: [https://t.me/Feuilletons](https://t.me/Feuilletons)
+- `Школа Таро ~TARO LAB ~`: [https://t.me/tarolab](https://t.me/tarolab)
+- `Дневник Габриэля`: [https://t.me/gabriel_channel](https://t.me/gabriel_channel)
+- `羊王🐑频道｜神价捡漏群`: [https://t.me/yangwangpindao](https://t.me/yangwangpindao)
+- `碎嘴老鼠`: [https://t.me/dms_share](https://t.me/dms_share)
+- `【中转站】柯基犬的日常 - 吹水群`: [https://t.me/UntitledGroup](https://t.me/UntitledGroup)
+- `Dew`: [https://t.me/dew_cn](https://t.me/dew_cn)
+- `BeijingAir`: [https://t.me/BeijingAir](https://t.me/BeijingAir)
+- `4K`: [https://t.me/My4KmovieClub](https://t.me/My4KmovieClub)
+- `Airplanse`: [https://t.me/Airplanese](https://t.me/Airplanese)
+- `财经幽灵电报群`: [https://t.me/financial_ghostGroup](https://t.me/financial_ghostGroup)
+- `𝗧𝗚𝗴𝗲𝗲𝗸 ♾ 极客新闻`: [https://t.me/TGgeekNews](https://t.me/TGgeekNews)
+- `中文维基《求闻》- Qiuwen Chinese Wikipedia`: [https://t.me/Qiuwen](https://t.me/Qiuwen)
+- `中國地震速报（≥4.5级）`: [https://t.me/dizhen](https://t.me/dizhen)
+- `NintendoSwitchCN`: [https://t.me/nintendoswitch_cn](https://t.me/nintendoswitch_cn)
+- `placeholder`: [https://t.me/zuragram](https://t.me/zuragram)
+- `Design Newsletter`: [https://t.me/fireballnewsletter](https://t.me/fireballnewsletter)
+- `FreeTrial.Store`: [https://t.me/freetrialsell](https://t.me/freetrialsell)
+- `比特新声`: [https://t.me/bitvoice](https://t.me/bitvoice)
+- `灵魂画手喵喵喵？`: [https://t.me/miaopang](https://t.me/miaopang)
+- `Real Donald Trump`: [https://t.me/realDonaldTrumpTwitter](https://t.me/realDonaldTrumpTwitter)
+- `VisionarySub`: [https://t.me/VisionarySub](https://t.me/VisionarySub)
+- `阿里云盘影视大全-日更🔥`: [https://t.me/aliyunys](https://t.me/aliyunys)
+- `Ukraine NOW [German]`: [https://t.me/UkraineNowGerman](https://t.me/UkraineNowGerman)
+- `Python Telegram Network Rules`: [https://t.me/rules_for_python](https://t.me/rules_for_python)
+- `PC Games Reserve`: [https://t.me/pcgameslist](https://t.me/pcgameslist)
+- `Ukraine NOW [Spanish]`: [https://t.me/UkraineNowSpanish](https://t.me/UkraineNowSpanish)
+- `Graphics Premium Store`: [https://t.me/gfxpremiumstore](https://t.me/gfxpremiumstore)
+- `Ukraine NOW [Poland]`: [https://t.me/UkraineNowPoland](https://t.me/UkraineNowPoland)
+- `不求甚解`: [https://t.me/fakeye?boost](https://t.me/fakeye?boost)
+- `Ukraine NOW [Italian]`: [https://t.me/UkraineNowItalian](https://t.me/UkraineNowItalian)
+- `推特翻译`: [https://t.me/twitter_translate](https://t.me/twitter_translate)
+- `Aikes’s channel`: [https://t.me/aikes_blog](https://t.me/aikes_blog)
+- `Ɗєℓυχє ℳυѕι¢ Aℓвυмѕ`: [https://t.me/+PaYXX6gAspZjHGVZ](https://t.me/+PaYXX6gAspZjHGVZ)
+- `信号旗规则`: [https://t.me/xhq_rule](https://t.me/xhq_rule)
+- `亿万同人字幕组官方推送频道`: [https://t.me/joinchat/WANHn_x8bpMETj4q](https://t.me/joinchat/WANHn_x8bpMETj4q)
+- `Tg Links`: [https://t.me/TgDict](https://t.me/TgDict)
+- `电报指南 & 精品排行榜`: [https://t.me/TgTrillion](https://t.me/TgTrillion)
+- `Wallpapers`: [https://t.me/joinchat/AAAAAEp0gD9_Q7lrKDfb3Q](https://t.me/joinchat/AAAAAEp0gD9_Q7lrKDfb3Q)
+- `电子书/听书/期刊/课程资源`: [https://t.me/sharebooks4you/5698](https://t.me/sharebooks4you/5698)
+- `Ukraine NOW [French]`: [https://t.me/UkraineNowFrench](https://t.me/UkraineNowFrench)
+- `纽约时报双语新闻`: [https://t.me/nyt_bilingual](https://t.me/nyt_bilingual)
+- `你不知道的冷知识`: [https://t.me/knowledge1024](https://t.me/knowledge1024)
+- `英文学习桌`: [https://t.me/english_learning_discuss](https://t.me/english_learning_discuss)
+- `男士日常消费穿搭 (👔衣&👖裤&👞鞋&🧴护肤&💻数码)`: [https://t.me/mandailywear](https://t.me/mandailywear)
+- `Pop Music History Trip`: [https://t.me/popmusichistory](https://t.me/popmusichistory)
+- `币圈动态`: [https://t.me/biquan321](https://t.me/biquan321)
+- `滴！极乐卡`: [https://t.me/happySD](https://t.me/happySD)
+- `Linux软件收录`: [https://t.me/linuxsoft_zh_CN](https://t.me/linuxsoft_zh_CN)
+- `财联社`: [https://t.me/cailianshe](https://t.me/cailianshe)
+- `R探长`: [https://t.me/agentONE_R](https://t.me/agentONE_R)
+- `Rust 视界`: [https://t.me/rust_daily_news](https://t.me/rust_daily_news)
+- `Reddit 精选`: [https://t.me/reddit_one](https://t.me/reddit_one)
+- `最美壁纸 » 每天一张精选壁纸`: [https://t.me/zuimeibizhi](https://t.me/zuimeibizhi)
+- `PC游戏搬运工`: [https://t.me/youxibanyunenen](https://t.me/youxibanyunenen)
+- `AI News`: [https://t.me/aigcnote](https://t.me/aigcnote)
+- `心理学笔记分享`: [https://t.me/xlxbj](https://t.me/xlxbj)
+- `APPDO 数字生活指南`: [https://t.me/AppDoDo](https://t.me/AppDoDo)
+- `TG表情包推送总部`: [https://t.me/StickersXJBG](https://t.me/StickersXJBG)
+- `电脑安防等技术资料频道`: [https://t.me/zhuyianquan](https://t.me/zhuyianquan)
+- `看番吧！Anime！动漫音乐日剧！高速在线播放！`: [https://t.me/kanfanba](https://t.me/kanfanba)
+- `经济学人(英文) RSS`: [https://t.me/economist_rss](https://t.me/economist_rss)
+- `推特精选`: [https://t.me/twitter_read](https://t.me/twitter_read)
+- `人人影视字幕文件`: [https://t.me/yyets_subtitles](https://t.me/yyets_subtitles)
+- `英语/乱弹@EnglishSlice`: [https://t.me/englishslice](https://t.me/englishslice)
+- `网盘资源收藏(夸克)`: [https://t.me/yunpanshare](https://t.me/yunpanshare)
+- `微博热搜`: [https://t.me/weiboresou](https://t.me/weiboresou)
+- `Software Hub`: [https://t.me/ksc666](https://t.me/ksc666)
+- `【华尔街见闻】- 财经时讯`: [https://t.me/FinanceNewsDaily](https://t.me/FinanceNewsDaily)
+- `乱七八糟的储物箱`: [https://t.me/xyxyspace](https://t.me/xyxyspace)
+- `Word Power Made Easy`: [https://t.me/pieroots](https://t.me/pieroots)
+- `财联社VIP文章分享`: [https://t.me/clsvip](https://t.me/clsvip)
+- `肯德基の4K影视综合电影云盘站`: [https://t.me/XiangxiuNB](https://t.me/XiangxiuNB)
+- `DecoHack-独立产品周刊`: [https://t.me/decohack](https://t.me/decohack)
+- `啰哩啰嗦分享频道`: [https://t.me/notonlyshare](https://t.me/notonlyshare)
+- `美女收集器👗`: [https://t.me/meinvshouji](https://t.me/meinvshouji)
+- `追尾游戏热点`: [https://t.me/Vwyxrd](https://t.me/Vwyxrd)
+- `你不知道的内幕消息`: [https://t.me/inside1024](https://t.me/inside1024)
+- `Blu-ray Project | 蓝光视频工程`: [https://t.me/beyondHD](https://t.me/beyondHD)
+- `爷青回动画分享频道`: [https://t.me/yeqingjie_GJG666](https://t.me/yeqingjie_GJG666)
+- `中外美文語錄`: [https://t.me/nicequotes123](https://t.me/nicequotes123)
+- `Find Blog👁发现博客`: [https://t.me/FindBlog](https://t.me/FindBlog)
+- `⚡️ 7x24投资快讯`: [https://t.me/golden_wind_news](https://t.me/golden_wind_news)
+- `ALL Investing`: [https://t.me/AI_newsletter](https://t.me/AI_newsletter)
+- `引流`: [https://t.me/PremiumCounterBot](https://t.me/PremiumCounterBot)
+- `Data Science Archive`: [https://t.me/DataScienceArchive](https://t.me/DataScienceArchive)
+- `快乐星球 | 妹子图 | 收集器`: [https://t.me/botmzt](https://t.me/botmzt)
+- `Yuan的记事本 📚✍🏻 分享 软件 新闻 Yuan's Notepad`: [https://t.me/Yuan_En](https://t.me/Yuan_En)
+- `搞笑研究所️🔥`: [https://t.me/gaoxiaoshu](https://t.me/gaoxiaoshu)
+- `报刊亭📰 [精选] 🅥 -- 新闻，报纸，杂志，电子书，资料 PDF🗞`: [https://t.me/magazinesclubnew](https://t.me/magazinesclubnew)
+- `表情包👾贴纸`: [https://t.me/tiezhia](https://t.me/tiezhia)
+- `🖼ANIME Wallpaper`: [https://t.me/acgwallpaper](https://t.me/acgwallpaper)
+- `[Pixiv]wallpaper| 高质量插画壁纸`: [https://t.me/pixivshare](https://t.me/pixivshare)
+- `0x Meme/项目/空投`: [https://t.me/newsforbitcoin](https://t.me/newsforbitcoin)
+- `Zeroの电影院线 Channel`: [https://t.me/zerodemovie](https://t.me/zerodemovie)
+- `外滩读书会-最新报纸、杂志、财经报告及流行电子书分享`: [https://t.me/readingclubus](https://t.me/readingclubus)
+- `FinelyGirlsChannel`: [https://t.me/finelygirls](https://t.me/finelygirls)
+- `金十数据 闪电资讯`: [https://t.me/jin10news](https://t.me/jin10news)
+- `ChatGPT 精选`: [https://t.me/AwesomeChatGPT](https://t.me/AwesomeChatGPT)
+- `Windows软件资源汇总频道`: [https://t.me/huizong0917](https://t.me/huizong0917)
+- `财新网 RSS`: [https://t.me/caixin_web](https://t.me/caixin_web)
+- `PIXIV站每日 Top50搬运|动漫|ACG|二次元|每日精选图片|動漫|P站`: [https://t.me/pixiv_top50](https://t.me/pixiv_top50)
+- `如有乐享`: [https://t.me/ruyoblog](https://t.me/ruyoblog)
+- `科技&趣闻&杂记`: [https://t.me/kejiqu](https://t.me/kejiqu)
+- `Python潮流周刊🐍`: [https://t.me/pythontrendingweekly](https://t.me/pythontrendingweekly)
+- `英语 英語 English 學習`: [https://t.me/Englishyinyu](https://t.me/Englishyinyu)
+- `瘦瘦的绘画世界`: [https://t.me/drawing1024](https://t.me/drawing1024)
+- `深度分享`: [https://t.me/shendu666](https://t.me/shendu666)
+- `AI绘画｜AI视频 | AI音乐`: [https://t.me/AI_Pintura](https://t.me/AI_Pintura)
+- `theBlock`: [https://t.me/theBlockClub](https://t.me/theBlockClub)
+- `绝对萌域`: [https://t.me/moeisland](https://t.me/moeisland)
+- `「降价」-「iOS」iWall-动态桌面`: [https://t.me/gxzyzd](https://t.me/gxzyzd)
+- `AI中文社区`: [https://t.me/LptTech](https://t.me/LptTech)
+- `普通休闲书籍资源`: [https://t.me/bookusefor4](https://t.me/bookusefor4)
+- `影视推荐&PT资讯频道【豆瓣资源下载大师官方】`: [https://t.me/doubanchannel](https://t.me/doubanchannel)
+- `今天又发现了哪个漂亮小姐姐`: [https://t.me/xiaojiejiexixi](https://t.me/xiaojiejiexixi)
+- `Immersive Translate`: [https://t.me/immersivetranslate](https://t.me/immersivetranslate)
+- `MacApp分享频道`: [https://t.me/macapp_channel](https://t.me/macapp_channel)
+- `PDF图书联盟|电子书|ebook📖`: [https://t.me/PDFtushuguan](https://t.me/PDFtushuguan)
+- `高画质动漫分享 Anime share`: [https://t.me/YXHMd](https://t.me/YXHMd)
+- `数学及其应用`: [https://t.me/mathematics_and_its_applications](https://t.me/mathematics_and_its_applications)
+- `好书分享频道`: [https://t.me/Bookworm_Bibliophile](https://t.me/Bookworm_Bibliophile)
+- `精选音乐收藏馆`: [https://t.me/qing_03](https://t.me/qing_03)
+- `NC-Raws | Channel`: [https://t.me/Read_Hub](https://t.me/Read_Hub)
+- `萌图志`: [https://t.me/moepic](https://t.me/moepic)
+- `Widget🏂软件工具资源分享`: [https://t.me/WidgetChannel](https://t.me/WidgetChannel)
+- `Time经济观察`: [https://t.me/TimeHorizonX](https://t.me/TimeHorizonX)
+- `油油资源分享`: [https://t.me/youyousharechannel](https://t.me/youyousharechannel)
+- `飞鱼资源分享|冲浪指南|中文软件`: [https://t.me/feiyu123](https://t.me/feiyu123)
+- `每日無數汪`: [https://t.me/wushuwang](https://t.me/wushuwang)
+- `有意思的分享`: [https://t.me/ziyouzengzhang](https://t.me/ziyouzengzhang)
+- `ChatGPT / AI新闻聚合`: [https://t.me/AI_News_CN](https://t.me/AI_News_CN)
+- `iAliyun`: [https://t.me/iAliyun](https://t.me/iAliyun)
+- `MATLAB TIPS`: [https://t.me/MATLAB_tips](https://t.me/MATLAB_tips)
+- `新闻派`: [https://t.me/nnpai](https://t.me/nnpai)
+- `AI探索指南`: [https://t.me/aigc1024](https://t.me/aigc1024)
+- `网盘(高品质)影视`: [https://t.me/alyp_1](https://t.me/alyp_1)
+- `🎶音乐收藏`: [https://t.me/flac_file](https://t.me/flac_file)
+- `妮妮羊毛分享🅥`: [https://t.me/NiNiShare](https://t.me/NiNiShare)
+- `足控天堂`: [https://t.me/sizukon](https://t.me/sizukon)
+- `主机情报 | 优惠 | 补货 | 测评`: [https://t.me/hostcab](https://t.me/hostcab)
+- `白丝即正义`: [https://t.me/baisi](https://t.me/baisi)
+- `某科学的一个频道`: [https://t.me/titan_pain](https://t.me/titan_pain)
+- `📖Telegram数字图书馆`: [https://t.me/TG_book_data](https://t.me/TG_book_data)
+- `影视资源联盟`: [https://t.me/yszylm](https://t.me/yszylm)
+- `胖虎の收藏夹`: [https://t.me/gitbig](https://t.me/gitbig)
+- `撸猫社`: [https://t.me/lumaoshe](https://t.me/lumaoshe)
+- `在瓦尔登湖畔读书`: [https://t.me/gujinpintan1](https://t.me/gujinpintan1)
+- `杂货铺`: [https://t.me/sunnymoonk](https://t.me/sunnymoonk)
+- `优质网站汇总频道`: [https://t.me/ziyuan917](https://t.me/ziyuan917)
+- `🤖TGBot News`: [https://t.me/Hao12News](https://t.me/Hao12News)
+- `Hostloc 新帖图文推送`: [https://t.me/HostlocPro](https://t.me/HostlocPro)
+- `颜值即正义`: [https://t.me/yzjzy](https://t.me/yzjzy)
+- `日语学习`: [https://t.me/jp_study](https://t.me/jp_study)
+- `开发者日报`: [https://t.me/cndevdaily](https://t.me/cndevdaily)
+- `币讯 @BiXun 最新的加密货币新闻，观点和数据分析，洞见市场发展。`: [https://t.me/NewsCoinSpace](https://t.me/NewsCoinSpace)
+- `纪录片爱好者`: [https://t.me/jlpahz](https://t.me/jlpahz)
+- `SomeACG | 每日少女壁纸 🥛`: [https://t.me/SomeACG](https://t.me/SomeACG)
+- `极客分享`: [https://t.me/geekshare](https://t.me/geekshare)
+- `RSS 频道收集`: [https://t.me/rss_channels](https://t.me/rss_channels)
+- `有故事的女同学`: [https://t.me/WenAnGuan_botjihuo](https://t.me/WenAnGuan_botjihuo)
+- `金十数据 闪电资讯`: [https://t.me/jin10light](https://t.me/jin10light)
+- `BlockBeats`: [https://t.me/theblockbeats](https://t.me/theblockbeats)
+- `微博合集`: [https://t.me/weibo_one](https://t.me/weibo_one)
+- `🧸【佳佳】文案素材吧🧸`: [https://t.me/WenAnBa](https://t.me/WenAnBa)
+- `书屋 电子书 📚 𝑻𝑮𝒆𝑩𝒐𝒐𝒌`: [https://t.me/TGeBook](https://t.me/TGeBook)
+- `Telo News 简体中文 - 加密货币｜DeFi ｜Web3`: [https://t.me/telonews_cn](https://t.me/telonews_cn)
+- `🐾 可爱の收藏 cute collection`: [https://t.me/kawaii_collection](https://t.me/kawaii_collection)
+- `萌图`: [https://t.me/ovov1234](https://t.me/ovov1234)
+- `秋风のとおり道`: [https://t.me/AWAvenue](https://t.me/AWAvenue)
+- `🍭高清壁纸`: [https://t.me/jingxu6](https://t.me/jingxu6)
+- `少女实在是太美好了`: [https://t.me/tastegirl](https://t.me/tastegirl)
+- `瘦瘦的碎碎念`: [https://t.me/+rvCtIaOWZ1lmNmY1](https://t.me/+rvCtIaOWZ1lmNmY1)
+- `科技爱好者周刊`: [https://t.me/scitech_fans](https://t.me/scitech_fans)
+- `Magazine｜期刊杂志｜考公｜中文 | 网课分享`: [https://t.me/Qikan2023](https://t.me/Qikan2023)
+- `高分壁纸推荐|Anime gallery`: [https://t.me/acgzhenghe](https://t.me/acgzhenghe)
+- `链闻 ChainNews`: [https://t.me/chainnews](https://t.me/chainnews)
+- `朱颜别镜 | 妹子图 | 美女图`: [https://t.me/meizitu3](https://t.me/meizitu3)
+- `AIM扩散力场`: [https://t.me/nekosc](https://t.me/nekosc)
+- `lowendaff`: [https://t.me/lowendaff_blog](https://t.me/lowendaff_blog)
+- `Legado｜开源阅读｜频道`: [https://t.me/Legado_Channels](https://t.me/Legado_Channels)
+- `阿里、夸克、百度等网盘4K影视资源`: [https://t.me/Aliyun_4K_Movies](https://t.me/Aliyun_4K_Movies)
+- `有声故事 🔊`: [https://t.me/youshenggushi](https://t.me/youshenggushi)
+- `新闻联播`: [https://t.me/CCTVNewsBroadcast](https://t.me/CCTVNewsBroadcast)
+- `螺莉莉的黑板报`: [https://t.me/im_RORIRI](https://t.me/im_RORIRI)
+- `NFW`: [https://t.me/NewsFW](https://t.me/NewsFW)
+- `Plus 中文討論區`: [https://t.me/plusfgc](https://t.me/plusfgc)
+- `电报时报`: [https://t.me/times001](https://t.me/times001)
+- `ZUOLUOTV`: [https://t.me/zuoluotvofficial](https://t.me/zuoluotvofficial)
+- `主机贴士(zhujitips.com)`: [https://t.me/BWH1NET](https://t.me/BWH1NET)
+- `荔枝木`: [https://t.me/lychee_wood](https://t.me/lychee_wood)
+- `《維基人》官方推播頻道`: [https://t.me/the_Wikipedian](https://t.me/the_Wikipedian)
+- `码力全开工作室`: [https://t.me/maliquankai](https://t.me/maliquankai)
+- `不存在的世界`: [https://t.me/illusory_world](https://t.me/illusory_world)
+- `快讯猎手（重要版）`: [https://t.me/zhongyaokuaixun](https://t.me/zhongyaokuaixun)
+- `校长读报`: [https://t.me/XiaoZhangDuBao](https://t.me/XiaoZhangDuBao)
+- `Jailbreak Notifications`: [https://t.me/jailbreaknotifications](https://t.me/jailbreaknotifications)
+- `即刻精选`: [https://t.me/jike_collection](https://t.me/jike_collection)
+- `NS新闻转报`: [https://t.me/SwitchNewCN](https://t.me/SwitchNewCN)
+- `Ingress`: [https://t.me/NianticOfficial](https://t.me/NianticOfficial)
+- `电影爱好者`: [https://t.me/MovieAnywhere](https://t.me/MovieAnywhere)
+- `苍穹の下 · 小丑皇の门😅😅😅`: [https://t.me/blueskyxnblog](https://t.me/blueskyxnblog)
+- `Telegram 中文频道`: [https://t.me/YinxiangBiji_News](https://t.me/YinxiangBiji_News)
+- `Λ-Reading ♡`: [https://t.me/GoReading](https://t.me/GoReading)
+- `o1xhack ☁️ 远上天台`: [https://t.me/o1xinsight](https://t.me/o1xinsight)
+- `自言自语`: [https://t.me/bettergoods](https://t.me/bettergoods)
+- `ALL About RSS`: [https://t.me/aboutrss](https://t.me/aboutrss)
+- `Telegram (DE)`: [https://t.me/TelegramDE](https://t.me/TelegramDE)
+- `Host Testing and evaluation`: [https://t.me/HostEvaluate](https://t.me/HostEvaluate)
+- `PWRTelegram API channel`: [https://t.me/Pwrtelegram](https://t.me/Pwrtelegram)
+- `如何与沙雕相处`: [https://t.me/ruheyushadiaoxiangchu](https://t.me/ruheyushadiaoxiangchu)
+- `BotsArchive`: [https://t.me/BotsArchive](https://t.me/BotsArchive)
+- `中国纪录片`: [https://t.me/chinesedocumentary](https://t.me/chinesedocumentary)
+- `Notizie da Telegram`: [https://t.me/TelegramIT](https://t.me/TelegramIT)
+- `Hexo 博客交流`: [https://t.me/hexozh](https://t.me/hexozh)
+- `突发新闻`: [https://t.me/breakingnews_t](https://t.me/breakingnews_t)
+- `@AR72014`: [https://t.me/AR72014](https://t.me/AR72014)
+- `每日摄影观察`: [https://t.me/cnphotog_collect](https://t.me/cnphotog_collect)
+- `NF2影视频道入口`: [https://t.me/nfnfgroup](https://t.me/nfnfgroup)
+- `Surge News`: [https://t.me/surgenews](https://t.me/surgenews)
+- `64Gram Release`: [https://t.me/tg_x64](https://t.me/tg_x64)
+- `PT资讯频道`: [https://t.me/privatetrackernews](https://t.me/privatetrackernews)
+- `信息安全技术频道🔎`: [https://t.me/tg_InternetSecurity](https://t.me/tg_InternetSecurity)
+- `pikapush`: [https://t.me/pikapush](https://t.me/pikapush)
+- `边走边吃的夏天`: [https://t.me/deliciousxia](https://t.me/deliciousxia)
+- `Lee Hsien Loong`: [https://t.me/leehsienloong](https://t.me/leehsienloong)
+- `FlyingSky's Channel`: [https://t.me/FlyingSky233](https://t.me/FlyingSky233)
+- `Boring class`: [https://t.me/BoringClass](https://t.me/BoringClass)
+- `远上寒山石径斜 🅥 🌈🌝🐳🏳️‍🌈 limbopro.com 🔗`: [https://t.me/limboprossr](https://t.me/limboprossr)
+- `RSSHub News`: [https://t.me/awesomeRSSHub](https://t.me/awesomeRSSHub)
+- `维生素E|经济学哲学知识分享播客`: [https://t.me/vitamineEpodcast](https://t.me/vitamineEpodcast)
+- `扫地僧º笔记`: [https://t.me/lover_links](https://t.me/lover_links)
+- `德国 德国之声 中文全文`: [https://t.me/dw_rss](https://t.me/dw_rss)
+- `TelePlus`: [https://t.me/TelePlus_Channel](https://t.me/TelePlus_Channel)
+- `财经快讯`: [https://t.me/fnnew](https://t.me/fnnew)
+- `PDF资料`: [https://t.me/pdf_001](https://t.me/pdf_001)
+- `电报新闻`: [https://t.me/chinesenewss](https://t.me/chinesenewss)
+- `Noticias de Telegram`: [https://t.me/TelegramES](https://t.me/TelegramES)
+- `Vanilla | Telegram Themes`: [https://t.me/VanillaTG](https://t.me/VanillaTG)
+- `网络资源共享库`: [https://t.me/Sharedspace](https://t.me/Sharedspace)
+- `「Meeta」share`: [https://t.me/meetashare](https://t.me/meetashare)
+- `Telegram Beta`: [https://t.me/tgbeta](https://t.me/tgbeta)
+- `rvalue的生草日常`: [https://t.me/rvalue_daily](https://t.me/rvalue_daily)
+- `电子书频道`: [https://t.me/haoshufenxiang](https://t.me/haoshufenxiang)
+- `DLK搞笑趣闻情报站`: [https://t.me/dlkqingbaozhan](https://t.me/dlkqingbaozhan)
+- `Price Tag`: [https://t.me/appfans](https://t.me/appfans)
+- `Classical Music`: [https://t.me/exploreclassical](https://t.me/exploreclassical)
+- `Ingress Chengdu&Chongqing`: [https://t.me/IngressChengduChongqing](https://t.me/IngressChengduChongqing)
+- `中文維基新聞廣播頻道`: [https://t.me/wikinews_zh_broadcast](https://t.me/wikinews_zh_broadcast)
+- `一任阶前点滴到天明`: [https://t.me/hearrain](https://t.me/hearrain)
+- `國家地理雜誌 中文版`: [https://t.me/natgeomedia](https://t.me/natgeomedia)
+- `網絡•安全•資源平台`: [https://t.me/tgdailigg](https://t.me/tgdailigg)
+- `津津乐道播客`: [https://t.me/jinjinledao](https://t.me/jinjinledao)
+- `Pure Writer Releases`: [https://t.me/purewriter/](https://t.me/purewriter/)
+- `老毛子Padavan固件发布`: [https://t.me/pdcn1](https://t.me/pdcn1)
+- `52破解信息`: [https://t.me/wuaipojie](https://t.me/wuaipojie)
+- `85.60×53.98卡粉订阅/提醒`: [https://t.me/DocOfCard](https://t.me/DocOfCard)
+- `Telegram 中文`: [https://t.me/Tele_zh_TW](https://t.me/Tele_zh_TW)
+- `笔记本：Lin's 文字世界 : 个人见闻/B站视频/网络见闻`: [https://t.me/LinsBookA](https://t.me/LinsBookA)
+- `不求甚解`: [https://t.me/fakeye](https://t.me/fakeye)
+- `不良林`: [https://t.me/buliang00](https://t.me/buliang00)
+- `读•书`: [https://t.me/readingeventhosting](https://t.me/readingeventhosting)
+- `KeralaGram [Official]®`: [https://t.me/KeralaGramChannel](https://t.me/KeralaGramChannel)
+- `&'a ::rynco::UntitledChannel`: [https://t.me/rynif](https://t.me/rynif)
+- `PhilTalk`: [https://t.me/philchannel](https://t.me/philchannel)
+- `Zapro Notice`: [https://t.me/zaproshare](https://t.me/zaproshare)
+- `電報新群推送 Telegram Group Links`: [https://t.me/linkpush](https://t.me/linkpush)
+- `上班划水之无聊图`: [https://t.me/goworkbitch](https://t.me/goworkbitch)
+- `NLP for Work`: [https://t.me/NLPfW](https://t.me/NLPfW)
+- `《無次元》博客`: [https://t.me/wuciyuan](https://t.me/wuciyuan)
+- `R.O.D.`: [https://t.me/read_or_dead](https://t.me/read_or_dead)
+- `Yachen's Channel`: [https://t.me/yachme](https://t.me/yachme)
+- `ACG Stickers`: [https://t.me/ACGStickers](https://t.me/ACGStickers)
+- `PVSZ for QuanX`: [https://t.me/PVSZforQuanX](https://t.me/PVSZforQuanX)
+- `Science in telegram`: [https://t.me/science](https://t.me/science)
+- `Laoself 🪏`: [https://t.me/laoself](https://t.me/laoself)
+- `Telegram中文语言包`: [https://t.me/go2cn](https://t.me/go2cn)
+- `Kindle 电子书精品降价`: [https://t.me/kindlePrice](https://t.me/kindlePrice)
+- `撸猫云魔法`: [https://t.me/merlinclashcat](https://t.me/merlinclashcat)
+- `Telegram China News`: [https://t.me/tgchinanews](https://t.me/tgchinanews)
+- `GBox 官方频道`: [https://t.me/GBoxTGC](https://t.me/GBoxTGC)
+- `Matters | 閲讀精選`: [https://t.me/MattersHub](https://t.me/MattersHub)
+- `吴说区块链 新闻与深度`: [https://t.me/wublock](https://t.me/wublock)
+- `Programmer Jokes`: [https://t.me/programmerjokes](https://t.me/programmerjokes)
+- `下饭时间`: [https://t.me/xqsranimegif](https://t.me/xqsranimegif)
+- `Trending Stickers 🍒`: [https://t.me/TrendingStickers](https://t.me/TrendingStickers)
+- `免费节点|每日更新|SSR|Vray|ShadowRockect`: [https://t.me/freevpntg](https://t.me/freevpntg)
+- `少数派sspai`: [https://t.me/sspai](https://t.me/sspai)
+- `Scale system`: [https://t.me/scalesystem](https://t.me/scalesystem)
+- `Cool Scripts`: [https://t.me/cool_scripts](https://t.me/cool_scripts)
+- `Kindle 特价书`: [https://t.me/KindleBookDeals](https://t.me/KindleBookDeals)
+- `每日沙雕墙`: [https://t.me/woshadiao](https://t.me/woshadiao)
+- `互联网从业者充电站`: [https://t.me/https1024](https://t.me/https1024)
+- `MtalkRes 媒说资源`: [https://t.me/mtalk](https://t.me/mtalk)
+- `新闻实验室`: [https://t.me/newslab2020](https://t.me/newslab2020)
+- `Linux中国`: [https://t.me/linuxdotcn](https://t.me/linuxdotcn)
+- `落枕电波`: [https://t.me/Bakage1016](https://t.me/Bakage1016)
+- `峰哥分享引导频道`: [https://t.me/fengsharegroup](https://t.me/fengsharegroup)
+- `🔍此岸情报局🔎`: [https://t.me/JustReformation](https://t.me/JustReformation)
+- `unwire.hk 生活科技頻道`: [https://t.me/unwire](https://t.me/unwire)
+- `Jair M. Bolsonaro 1`: [https://t.me/jairbolsonarobrasil](https://t.me/jairbolsonarobrasil)
+- `Die Lichtung 林間空地`: [https://t.me/dieLichtung](https://t.me/dieLichtung)
+- `Foolish TraceWind`: [https://t.me/FoolishTraceWind](https://t.me/FoolishTraceWind)
+- `AI一线｜ShareCentre`: [https://t.me/sharecentre](https://t.me/sharecentre)
+- `Telegram Stickers | Стикеры`: [https://t.me/TgSticker](https://t.me/TgSticker)
+- `一休兒之學習動態`: [https://t.me/yixiuer](https://t.me/yixiuer)
+- `Telegram News`: [https://t.me/telegram](https://t.me/telegram)
+- `中国数字时代`: [https://t.me/cdtchinesefeed](https://t.me/cdtchinesefeed)
+- `每日免费节点`: [https://t.me/autofreevpn](https://t.me/autofreevpn)
+- `喵喵小喵喵`: [https://t.me/MeowMiniMeow](https://t.me/MeowMiniMeow)
+- `Telegram Desktop Themes`: [https://t.me/desktopThemes](https://t.me/desktopThemes)
+- `Android Weekly Update ⚡️`: [https://t.me/update4weekly](https://t.me/update4weekly)
+- `精选中文播客🎧`: [https://t.me/chinapodcast](https://t.me/chinapodcast)
+- `编程随想推荐书籍（非官方）#声援编程随想`: [https://t.me/programthinkbooks](https://t.me/programthinkbooks)
+- `计算机类书籍`: [https://t.me/bookusefor3](https://t.me/bookusefor3)
+- `Telegram Passport`: [https://t.me/TelegramPassport](https://t.me/TelegramPassport)
+- `Anti Revoke Plugin - 防撤回插件`: [https://t.me/AntiRevoke](https://t.me/AntiRevoke)
+- `SubConverter 更新频道`: [https://t.me/subconverter](https://t.me/subconverter)
+- `☁️云上报刊亭📰 [精选] 🅥 -- 新闻，报纸，杂志，电子书，资料 PDF🗞`: [https://t.me/magazinesclub](https://t.me/magazinesclub)
+- `Telegram APKs for Android`: [https://t.me/TAndroidAPK](https://t.me/TAndroidAPK)
+- `TikTok🕊抖音短视频🫰🏻Тик Ток💕`: [https://t.me/TiktokA3](https://t.me/TiktokA3)
+- `Quantumult X News`: [https://t.me/QuanXNews](https://t.me/QuanXNews)
+- `zZPiglet`: [https://t.me/zZPiglet](https://t.me/zZPiglet)
+- `BBC中文 全文 实时推送`: [https://t.me/bbczhongwen_rss](https://t.me/bbczhongwen_rss)
+- `Telegram Blog Secrets`: [https://t.me/tgblog_secrets](https://t.me/tgblog_secrets)
+- `Jerry Zhang 的频道`: [https://t.me/JerryZhang](https://t.me/JerryZhang)
+- `饭否每周精选`: [https://t.me/fanfou_weekly](https://t.me/fanfou_weekly)
+- `Plus Messenger official`: [https://t.me/plusmsgr](https://t.me/plusmsgr)
+- `AppPie`: [https://t.me/AppPie](https://t.me/AppPie)
+- `Qure News`: [https://t.me/QureIconSet](https://t.me/QureIconSet)
+- `⭐️My Desctop`: [https://t.me/PhoneDesctop](https://t.me/PhoneDesctop)
+- `无籽水稻种植基地`: [https://t.me/seedless_channel](https://t.me/seedless_channel)
+- `Emmanuel Macron`: [https://t.me/emmanuelmacron](https://t.me/emmanuelmacron)
+- `瞎玩菌 #SFW`: [https://t.me/blindgamer](https://t.me/blindgamer)
+- `《一天世界》博客`: [https://t.me/yitianshijie](https://t.me/yitianshijie)
+- `Donald Trump Jr`: [https://t.me/TrumpJr](https://t.me/TrumpJr)
+- `无意识电波配送[确信]`: [https://t.me/justAboringchannel](https://t.me/justAboringchannel)
+- `Kotatogram`: [https://t.me/kotatogram](https://t.me/kotatogram)
+- `IPN 播客网络`: [https://t.me/ipnpodcast](https://t.me/ipnpodcast)
+- `知音`: [https://t.me/Musiccnchannel](https://t.me/Musiccnchannel)
+- `蛋挞观察室`: [https://t.me/ijustseesee](https://t.me/ijustseesee)
+- `随机波动 StochasticVolatility`: [https://t.me/StochasticVolatilityPodcast](https://t.me/StochasticVolatilityPodcast)
+- `AdGuard`: [https://t.me/adguarden](https://t.me/adguarden)
+- `阿里云盘发布频道`: [https://t.me/shareAliyun](https://t.me/shareAliyun)
+- `沙雕根据地`: [https://t.me/shadiaoo](https://t.me/shadiaoo)
+- `豆瓣知乎简书微信公众号💐`: [https://t.me/dbzhjs](https://t.me/dbzhjs)
+- `经济信息联播`: [https://t.me/eco_cn](https://t.me/eco_cn)
+- `Timmy Channel 2025`: [https://t.me/TimmyChannel](https://t.me/TimmyChannel)
+- `👁‍🗨耳目💬`: [https://t.me/earsandeyes](https://t.me/earsandeyes)
+- `一方天地`: [https://t.me/world2us](https://t.me/world2us)
+- `KidO`: [https://t.me/Pythonista3jiaoliuqun](https://t.me/Pythonista3jiaoliuqun)
+- `Telegram Info`: [https://t.me/tginfo](https://t.me/tginfo)
+- `煎蛋无聊图`: [https://t.me/jiandan_bored](https://t.me/jiandan_bored)
+- `Clash .NET 公告`: [https://t.me/ClashDotNetFrameworkAnncmnt](https://t.me/ClashDotNetFrameworkAnncmnt)
+- `Wolley News`: [https://t.me/wolleynews](https://t.me/wolleynews)
+- `LIF's Group - 须知`: [https://t.me/MyAndroidTools](https://t.me/MyAndroidTools)
+- `硬核小卒`: [https://t.me/yinghexiaozu](https://t.me/yinghexiaozu)
+- `Ingress 中文`: [https://t.me/IngressChinese](https://t.me/IngressChinese)
+- `AdGuard消息`: [https://t.me/AdGuardcn](https://t.me/AdGuardcn)
+- `V1 Blog 科技｜生活｜主机评测｜Apple`: [https://t.me/V1_BLOG](https://t.me/V1_BLOG)
+- `TestFlightX`: [https://t.me/TestFlightX](https://t.me/TestFlightX)
+- `Cydia Updates`: [https://t.me/cydiaupdate](https://t.me/cydiaupdate)
+- `黑客早知道`: [https://t.me/csrinfo](https://t.me/csrinfo)
+- `白嫖电子书库`: [https://t.me/sg_rss](https://t.me/sg_rss)
+- `Reuters: World`: [https://t.me/ReutersWorldChannel](https://t.me/ReutersWorldChannel)
+- `Arch Linux Chinese Messages`: [https://t.me/archlinuxcn](https://t.me/archlinuxcn)
+- `cnBeta.COM中文业界资讯站`: [https://t.me/cnbeta_com](https://t.me/cnbeta_com)
+- `BotNews`: [https://t.me/BotNews](https://t.me/BotNews)
+- `zread (推) - 什么书值得读 📚`: [https://t.me/zreadpush](https://t.me/zreadpush)
+- `Katalog Telegram`: [https://t.me/katalogtelegram](https://t.me/katalogtelegram)
+- `Du Rove's Channel`: [https://t.me/durov](https://t.me/durov)
+- `目录频道`: [https://t.me/jumpto22222](https://t.me/jumpto22222)
+- `Aliexpress`: [https://t.me/my_ali_bot](https://t.me/my_ali_bot)
+- `XDDOS压力测试`: [https://t.me/xddos2](https://t.me/xddos2)
+- `写作交流`: [https://t.me/writing_discuss](https://t.me/writing_discuss)
+- `💊 辣鸡咕鸽毁我信仰 #CurryMyLife`: [https://t.me/googleshit](https://t.me/googleshit)
+- `诡异的鱼塘`: [https://t.me/Memory_Of_Fish](https://t.me/Memory_Of_Fish)
+- `Shavkat Mirziyoyev_press-service`: [https://t.me/shmirziyoyev](https://t.me/shmirziyoyev)
+- `crash.mini ｜ notification`: [https://t.me/ClashMiniNo1](https://t.me/ClashMiniNo1)
+- `币圈日报`: [https://t.me/bidaily](https://t.me/bidaily)
+- `PixelExperience`: [https://t.me/PixelExperience](https://t.me/PixelExperience)
+- `科学上网资讯整合`: [https://t.me/ysl_channel](https://t.me/ysl_channel)
+- `YanTai`: [https://t.me/yantaiinfo](https://t.me/yantaiinfo)
+- `Stickers Winners`: [https://t.me/topanimated](https://t.me/topanimated)
+- `Stickers Channel`: [https://t.me/stickersChannel](https://t.me/stickersChannel)
+- `tgfiles`: [https://t.me/tgfiles](https://t.me/tgfiles)
+- `MiaoTony's Box`: [https://t.me/MiaoTonyChannel](https://t.me/MiaoTonyChannel)
+- `Telegram Usernames`: [https://t.me/username](https://t.me/username)
+- `車車的阁楼`: [https://t.me/DuskPipe](https://t.me/DuskPipe)
+- `Google Play Public`: [https://t.me/GooglePlayPublic](https://t.me/GooglePlayPublic)
+- `elecV2`: [https://t.me/elecV2](https://t.me/elecV2)
+- `ISIS Watch`: [https://t.me/ISISwatch](https://t.me/ISISwatch)
+- `Aptitude Test Updates`: [https://t.me/AptitudeTestContest](https://t.me/AptitudeTestContest)
+- `Telegram Designers`: [https://t.me/designers](https://t.me/designers)
+- `卷毛鼠-影视频道`: [https://t.me/CurlyMouse](https://t.me/CurlyMouse)
+- `Telegram Contests`: [https://t.me/contest](https://t.me/contest)
+- `Awesome Collection`: [https://t.me/awesome_collection](https://t.me/awesome_collection)
+- `竹新资料库`: [https://t.me/kt_database](https://t.me/kt_database)
+- `Telegram Stable Releases`: [https://t.me/tgstable](https://t.me/tgstable)
+- `Typecho Dev Channel`: [https://t.me/typechodev](https://t.me/typechodev)
+- `無逸齋隨筆`: [https://t.me/todayread](https://t.me/todayread)
+- `ARK官方频道`: [https://t.me/arktochannel](https://t.me/arktochannel)
+- `App TestFlight 资讯聚合`: [https://t.me/Appcn](https://t.me/Appcn)
+- `悟空的日常TG频道`: [https://t.me/daily5kong](https://t.me/daily5kong)
+- `嗶咔漫畫頻道 Pica Channel - 十年相伴`: [https://t.me/PicACG](https://t.me/PicACG)
+- `Alist资源频道`: [https://t.me/alistshare](https://t.me/alistshare)
+- `亚马逊 Amazon 每日热销、降价榜`: [https://t.me/amazonhotevery](https://t.me/amazonhotevery)
+- `每日消费电子观察`: [https://t.me/CE_Observe](https://t.me/CE_Observe)
+- `Telegram for macOS Updates`: [https://t.me/macos_stable_updates_files](https://t.me/macos_stable_updates_files)
+- `中文社科讲座资讯`: [https://t.me/chwebinars](https://t.me/chwebinars)
+- `hyperapp`: [https://t.me/hyperapp](https://t.me/hyperapp)
+- `资源速递`: [https://t.me/SharedResources](https://t.me/SharedResources)
+- `天才儿童小博士🍭`: [https://t.me/eessej](https://t.me/eessej)
+- `hayami's blog｜日常人间观察`: [https://t.me/hayami_kiraa](https://t.me/hayami_kiraa)
+- `坐和放宽的碎碎念`: [https://t.me/SitandRelaxW](https://t.me/SitandRelaxW)
+- `杂物`: [https://t.me/zaawuu](https://t.me/zaawuu)
+- `Creative Motion`: [https://t.me/creativemotion](https://t.me/creativemotion)
+- `Newlearnerの自留地`: [https://t.me/NewlearnerChannel](https://t.me/NewlearnerChannel)
+- `Digital Immigrants丨Want Want Channel`: [https://t.me/Licensesss](https://t.me/Licensesss)
+- `TestFlight News`: [https://t.me/testflights](https://t.me/testflights)
+- `吃喝玩乐在深圳🥳🥳`: [https://t.me/shenzhentg](https://t.me/shenzhentg)
+- `iOS 越狱插件更新信息`: [https://t.me/Jailbreak_Tweaks](https://t.me/Jailbreak_Tweaks)
+- `每日 AWESOME 观察`: [https://t.me/awesomeopensource](https://t.me/awesomeopensource)
+- `笔记本：好图收藏与整理：壁纸`: [https://t.me/linyunbook2](https://t.me/linyunbook2)
+- `📣 LifeAnalysis Lab 更新`: [https://t.me/lalab](https://t.me/lalab)
+- `Stop Child Abuse`: [https://t.me/stopCA](https://t.me/stopCA)
+- `Sukka's Notebook`: [https://t.me/SukkaChannel](https://t.me/SukkaChannel)
+- `Paypal`: [https://t.me/paypal_us](https://t.me/paypal_us)
+- `Shadowsocks&Clash百科`: [https://t.me/shadowsocks_clash](https://t.me/shadowsocks_clash)
+- `Nicegram`: [https://t.me/nicegramapp](https://t.me/nicegramapp)
+- `APPDO 数字生活指南`: [https://t.me/appdodo](https://t.me/appdodo)
+- `Clash for Windows 汉化公告板`: [https://t.me/ClashR_for_Windows_Channel](https://t.me/ClashR_for_Windows_Channel)
+- `那些好看的Tg主题`: [https://t.me/beautifultgtheme](https://t.me/beautifultgtheme)
+- `新蛤社`: [https://t.me/XinHaNewsAgency](https://t.me/XinHaNewsAgency)
+- `乌鸦观察`: [https://t.me/bigcrowdev](https://t.me/bigcrowdev)
+- `全球主流新闻媒体中文速览`: [https://t.me/allzhnews](https://t.me/allzhnews)
+- `Yummy 😋`: [https://t.me/GodlyNews1](https://t.me/GodlyNews1)
+- `💊食屎啦 Niantic`: [https://t.me/shitofniantic](https://t.me/shitofniantic)
+- `Surfboard News`: [https://t.me/surfboardnews](https://t.me/surfboardnews)
+- `Sync资源更新（只发key）`: [https://t.me/shenkey](https://t.me/shenkey)
+- `In The Flux`: [https://t.me/intheflux](https://t.me/intheflux)
+- `AK讲废话`: [https://t.me/joinchat/AAAAAEWbURDTisztrTcwqA](https://t.me/joinchat/AAAAAEWbURDTisztrTcwqA)
+- `💊烤苹果`: [https://t.me/AppleCooked](https://t.me/AppleCooked)
+- `浅影随想`: [https://t.me/lightFantasy](https://t.me/lightFantasy)
+- `•ين نجِيب مثلك حتىَ ننسا`: [https://t.me/SuperIndexCNBot](https://t.me/SuperIndexCNBot)
+- `大咕咕咕鸡`: [https://t.me/dagudu](https://t.me/dagudu)
+- `Stick Rules`: [https://t.me/usestick](https://t.me/usestick)
+- `ASMR CHAOS 视转音|瞎逛|正经☄️`: [https://t.me/asmrforme](https://t.me/asmrforme)
+- `短句文案`: [https://t.me/yidu520](https://t.me/yidu520)
+- `赚客吧 有奖一起赚`: [https://t.me/zuanke8](https://t.me/zuanke8)
+- `mini`: [https://t.me/Orzmini](https://t.me/Orzmini)
+- `Telegram Geeks`: [https://t.me/geekschannel](https://t.me/geekschannel)
+- `Galgame 频道`: [https://t.me/Galgamer_Channel](https://t.me/Galgamer_Channel)
+- `每日文章精选`: [https://t.me/daily_read](https://t.me/daily_read)
+- `PUSH科技快讯`: [https://t.me/Pushings](https://t.me/Pushings)
+- `Milkice's NG`: [https://t.me/milkice_portal](https://t.me/milkice_portal)
+- `VPS信号旗播报`: [https://t.me/vps_xhq](https://t.me/vps_xhq)
+- `Rachel 碎碎念`: [https://t.me/RachelBlahblah](https://t.me/RachelBlahblah)
+- `Equal Leaks`: [https://t.me/EqualLeaks](https://t.me/EqualLeaks)
+- `空空如也`: [https://t.me/MomoKCH](https://t.me/MomoKCH)
+- `Tech Guide`: [https://t.me/TechGuide](https://t.me/TechGuide)
+- `Telegram Info English`: [https://t.me/tginfoen](https://t.me/tginfoen)
+- `Tips Telegram`: [https://t.me/telegramtipsID](https://t.me/telegramtipsID)
+- `Telegram Indonesia`: [https://t.me/TelegramIndonesia](https://t.me/TelegramIndonesia)
+- `风向旗参考快讯`: [https://t.me/xhqcankao](https://t.me/xhqcankao)
+- `鹤望兰`: [https://t.me/bpsheel](https://t.me/bpsheel)
+- `Useless Ideas`: [https://t.me/uselessideas](https://t.me/uselessideas)
+- `Telegram iOS Beta Slots`: [https://t.me/tgslots](https://t.me/tgslots)
+- `你有一个打折需要了解`: [https://t.me/SteamNy](https://t.me/SteamNy)
+- `有她`: [https://t.me/AlltheChannel](https://t.me/AlltheChannel)
+- `微博热搜`: [https://t.me/weibo_hot](https://t.me/weibo_hot)
+- `Telegram X Localizations`: [https://t.me/tgx_android_translate](https://t.me/tgx_android_translate)
+- `计算机与部分其他种类书籍资源`: [https://t.me/bookusefor2](https://t.me/bookusefor2)
+- `Video Messages`: [https://t.me/videomessages](https://t.me/videomessages)
+- `NickTalk`: [https://t.me/nicktalk](https://t.me/nicktalk)
+- `XDA-Hub`: [https://t.me/xdadevelopershub](https://t.me/xdadevelopershub)
+- `💊TG...药丸？`: [https://t.me/tgpill](https://t.me/tgpill)
+- `Apps推荐&抽奖&活动`: [https://t.me/AppsSweepstakesNews](https://t.me/AppsSweepstakesNews)
+- `〄FW`: [https://t.me/JISFW](https://t.me/JISFW)
+- `飞享一刻｜频道`: [https://t.me/w37fhy](https://t.me/w37fhy)
+- `坐和放宽版聊实验室`: [https://t.me/SitandRelaxLabs](https://t.me/SitandRelaxLabs)
+- `𝚂𝚙𝚎𝚎𝚍𝙲𝚎𝚗𝚝𝚛𝚎`: [https://t.me/speedcentre](https://t.me/speedcentre)
+- `笑掉大牙`: [https://t.me/xiaodiaodaya](https://t.me/xiaodiaodaya)
+- `客服咨询中心`: [https://t.me/TGreCAPTCHABot](https://t.me/TGreCAPTCHABot)
+- `主机百科资讯分享`: [https://t.me/zhujiwiki_info](https://t.me/zhujiwiki_info)
+- `Telegram Desktop`: [https://t.me/desktop](https://t.me/desktop)
+- `微信搬运工（旧）`: [https://t.me/WeChatEssence](https://t.me/WeChatEssence)
+- `Desktop Themes Channel`: [https://t.me/themes](https://t.me/themes)
+- `日本 共同网 朝日新闻 日经中文网`: [https://t.me/jp_rss](https://t.me/jp_rss)
+- `iOS Releases`: [https://t.me/iOSUpdates](https://t.me/iOSUpdates)
+- `Listen to Reza 🎧`: [https://t.me/Listentoreza](https://t.me/Listentoreza)
+- `Nekogram APKs`: [https://t.me/NekogramAPKs](https://t.me/NekogramAPKs)
+- `Parallel Experiments 🌠`: [https://t.me/LinghaoCh](https://t.me/LinghaoCh)
+- `FT中文网 全文 实时推送`: [https://t.me/ftzhongwen_rss](https://t.me/ftzhongwen_rss)
+- `电书摊`: [https://t.me/telebookstall](https://t.me/telebookstall)
+- `🎬 云盘盘 - 投稿🚦`: [https://t.me/YunPanPan](https://t.me/YunPanPan)
+- `Affyuncom-每日offers推送`: [https://t.me/affyunpush](https://t.me/affyunpush)
+- `Sticker_tw`: [https://t.me/sticker_tw](https://t.me/sticker_tw)
+- `Павел Дуров`: [https://t.me/durov_russia](https://t.me/durov_russia)
+- `南方周末 / Southern Weekly`: [https://t.me/infzm](https://t.me/infzm)
+- `Emby影视资源发布`: [https://t.me/Plus_Movie_Best](https://t.me/Plus_Movie_Best)
+- `冷眼向洋`: [https://t.me/lengyanxiangyang](https://t.me/lengyanxiangyang)
+- `PagerMaid-Modify Update`: [https://t.me/PagerMaid_Modify](https://t.me/PagerMaid_Modify)
+- `MrKevin博客 | 资讯 分享 测评`: [https://t.me/hilinuxcn](https://t.me/hilinuxcn)
+- `南国微雪 | 一切，都很美丽。`: [https://t.me/TinySnow4Yi](https://t.me/TinySnow4Yi)
+- `通天阁_不止于学习`: [https://t.me/tongtiange](https://t.me/tongtiange)
+- `Dynamic Wallpaper Club`: [https://t.me/dynamicwallpaperclub](https://t.me/dynamicwallpaperclub)
+- `Better Naming`: [https://t.me/rebornix](https://t.me/rebornix)
+- `HCJS`: [https://t.me/ThorHCC](https://t.me/ThorHCC)
+- `秋水逸冰`: [https://t.me/qiushuiyibing](https://t.me/qiushuiyibing)
+- `Unigram Mirror`: [https://t.me/unigramappx](https://t.me/unigramappx)
+- `iQZone - Privacy First`: [https://t.me/iQ_Zone](https://t.me/iQ_Zone)
+- `BosLife`: [https://t.me/boslifenews](https://t.me/boslifenews)
+- `Wallpapers/Обои`: [https://t.me/EZwalls](https://t.me/EZwalls)
+- `Kartoshka🐱`: [https://t.me/sweet_kartoshka](https://t.me/sweet_kartoshka)
+- `币圈快讯`: [https://t.me/btcnewsdaily](https://t.me/btcnewsdaily)
+- `Never|mind`: [https://t.me/ButNothingHappened](https://t.me/ButNothingHappened)
+- `每周一书 🎉`: [https://t.me/weekly_books](https://t.me/weekly_books)
+- `乙烷日报`: [https://t.me/OverDaily](https://t.me/OverDaily)
+- `Animated Emojis`: [https://t.me/AnimatedEmojis](https://t.me/AnimatedEmojis)
+- `(ゲームCG)一个兴趣使然的PC壁纸频道`: [https://t.me/CGSFW](https://t.me/CGSFW)
+- `报毒-APK-免杀-苹果签`: [https://t.me/tmioeTG](https://t.me/tmioeTG)
+- `ARLZJNZM`: [https://t.me/mdssios](https://t.me/mdssios)
+- `Flippy_Openwrt`: [https://t.me/openwrt_flippy](https://t.me/openwrt_flippy)
+- `卖桃者说`: [https://t.me/mactalk](https://t.me/mactalk)
+- `DivineEngine | Channel`: [https://t.me/DivineEngine](https://t.me/DivineEngine)
+- `Gramip Channel`: [https://t.me/Gramip](https://t.me/Gramip)
+- `GitHub Trends`: [https://t.me/githubtrending](https://t.me/githubtrending)
+- `每日无数猫`: [https://t.me/miaowu](https://t.me/miaowu)
+- `Adguard News`: [https://t.me/AdguardNews](https://t.me/AdguardNews)
+- `LetITFly News`: [https://t.me/LetITFlyW](https://t.me/LetITFlyW)
+- `看新闻 学英语 双语新闻`: [https://t.me/shuangyunews_rss](https://t.me/shuangyunews_rss)
+- `俄罗斯 卫星通讯社 中文全文`: [https://t.me/ru_rss](https://t.me/ru_rss)
+- `CyanChannel`: [https://t.me/CyanCh](https://t.me/CyanCh)
+- `初恋的感觉`: [https://t.me/chuliandeganjue](https://t.me/chuliandeganjue)
+- `文杏馆（藏书分享）`: [https://t.me/BooksThatMakeYouThink](https://t.me/BooksThatMakeYouThink)
+- `大虾的编程资源库/码农/程序员资源`: [https://t.me/programmingsrchub](https://t.me/programmingsrchub)
+- `山巅出版社`: [https://t.me/shandian2084](https://t.me/shandian2084)
+- `Readhub`: [https://t.me/readhub_cn](https://t.me/readhub_cn)
+- `Free Telegram proxy`: [https://t.me/proxyme](https://t.me/proxyme)
+- `糗事百科`: [https://t.me/qiushibaike](https://t.me/qiushibaike)
+- `科技圈🎗在花频道📮`: [https://t.me/TestFlightCN](https://t.me/TestFlightCN)
+- `報導者 The Reporter`: [https://t.me/tw_reporter_org](https://t.me/tw_reporter_org)
+- `音乐库`: [https://t.me/MusicSharePlatform](https://t.me/MusicSharePlatform)
+- `Hk3ToN - Wallpaper`: [https://t.me/Hk3To](https://t.me/Hk3To)
+- `壁纸 | Wallpaper`: [https://t.me/bizhi123](https://t.me/bizhi123)
+- `Chavy Scripts`: [https://t.me/chavyscripts](https://t.me/chavyscripts)
+- `gcjiriji`: [https://t.me/gcjiriji](https://t.me/gcjiriji)
+- `文案吧`: [https://t.me/Godaregirls](https://t.me/Godaregirls)
+- `傅Sir的船新世界🏄🏻‍♂️🏄🏻‍♂️`: [https://t.me/newworldviafu](https://t.me/newworldviafu)
+- `不客观 Not Objective`: [https://t.me/notobjective](https://t.me/notobjective)
+- `ImShuker文件及公告`: [https://t.me/shukerxiaoxi](https://t.me/shukerxiaoxi)
+- `为也行`: [https://t.me/weiyexing](https://t.me/weiyexing)
+- `一起偷偷观察 DIYgod`: [https://t.me/awesomeDIYgod](https://t.me/awesomeDIYgod)
+- `Instant View Contest News`: [https://t.me/IVcontest](https://t.me/IVcontest)
+- `音乐世界`: [https://t.me/lumingguandj](https://t.me/lumingguandj)
+- `WooMai's Channel`: [https://t.me/WooMaiChannel](https://t.me/WooMaiChannel)
+- `Appinn Feed`: [https://t.me/appinnfeed](https://t.me/appinnfeed)
+- `polyhedron`: [https://t.me/polyhedron](https://t.me/polyhedron)
+- `Spotify News`: [https://t.me/spotifynews](https://t.me/spotifynews)
+- `Zelenskiy / Official`: [https://t.me/V_Zelenskiy_official](https://t.me/V_Zelenskiy_official)
+- `Hell Cell 功能教学`: [https://t.me/HellCellZC123](https://t.me/HellCellZC123)
+- `Iyouport`: [https://t.me/iyouport](https://t.me/iyouport)
+- `Pi&N1交流群通知频道`: [https://t.me/NewPiN1Channel](https://t.me/NewPiN1Channel)
+- `eSir Playground互助交流群专属频道`: [https://t.me/joinchat/AAAAAE-8dVyO8ljrgQ5yCw](https://t.me/joinchat/AAAAAE-8dVyO8ljrgQ5yCw)
+- `情话箱`: [https://t.me/qinghua_box](https://t.me/qinghua_box)
+- `Project X Channel`: [https://t.me/projectXtls](https://t.me/projectXtls)
+- `APP喵-软件资源共享`: [https://t.me/appmew](https://t.me/appmew)
+- `tesla特斯拉/科技NEWS`: [https://t.me/Tesla_share](https://t.me/Tesla_share)
+- `Telegram Brasil`: [https://t.me/TelegramBR](https://t.me/TelegramBR)
+- `📢 斯呆拉的中文播客精选`: [https://t.me/greatpodcasts](https://t.me/greatpodcasts)
+- `pythonista 3 脚本通知频道`: [https://t.me/pythonista3jiaoben](https://t.me/pythonista3jiaoben)
+- `OnePlus™`: [https://t.me/OnePlus](https://t.me/OnePlus)
+- `托尔随便拆拆`: [https://t.me/TooruTeardowns](https://t.me/TooruTeardowns)
+- `Hacker News`: [https://t.me/hacker_news_feed](https://t.me/hacker_news_feed)
+- `搞笑视频`: [https://t.me/joinchat/AAAAAFe-j4P9-B1VgdAmJw](https://t.me/joinchat/AAAAAFe-j4P9-B1VgdAmJw)
+- `骚音世界`: [https://t.me/listentotheworld](https://t.me/listentotheworld)
+- `Tips de Telegram`: [https://t.me/telegramtipsES](https://t.me/telegramtipsES)
+- `ACL4SSR`: [https://t.me/ACL4SSR](https://t.me/ACL4SSR)
+- `路透中文 全文 实时推送`: [https://t.me/lutouzhongwen_rss](https://t.me/lutouzhongwen_rss)
+- `庭说 - 海贼王 | TingTalk One Piece`: [https://t.me/tingtalk_op](https://t.me/tingtalk_op)
+- `X Plus Channel`: [https://t.me/XPlus_Channel](https://t.me/XPlus_Channel)
+- `XDA-News [Official]`: [https://t.me/xdanews](https://t.me/xdanews)
+- `托尔酱的梗图与FW`: [https://t.me/TooruChan_Memes](https://t.me/TooruChan_Memes)
+- `看看就好的频道`: [https://t.me/swiminthedream](https://t.me/swiminthedream)
+- `树洞🌳群友问🗳万事答`: [https://t.me/ShortcutsCN](https://t.me/ShortcutsCN)
+- `A Place Of Happiness`: [https://t.me/get_happiness](https://t.me/get_happiness)
+- `Google Voice 靓号 ✨✔️`: [https://t.me/voice_google](https://t.me/voice_google)
+- `跑路公告板`: [https://t.me/Paolutongzhi](https://t.me/Paolutongzhi)
+- `Sean`: [https://t.me/SeanChannel](https://t.me/SeanChannel)
+- `4K影视屋(分屋）-蓝光无损电影`: [https://t.me/dianying4K](https://t.me/dianying4K)
+- `Animated Stickers`: [https://t.me/AnimatedStickers](https://t.me/AnimatedStickers)
+- `EMK Public Channel`: [https://t.me/JacobEMK](https://t.me/JacobEMK)
+- `馒头&雪糕的日常`: [https://t.me/xiao_man_tou](https://t.me/xiao_man_tou)
+- `黑洞资源笔记中转站`: [https://t.me/tieliu](https://t.me/tieliu)
+- `纪录片自留地`: [https://t.me/litterpanda](https://t.me/litterpanda)
+- `zrj766的频道`: [https://t.me/zrj96](https://t.me/zrj96)
+- `基本操作非官方频道`: [https://t.me/papercliphub](https://t.me/papercliphub)
+- `数字优惠`: [https://t.me/DigitalSpecialDeals](https://t.me/DigitalSpecialDeals)
+- `美剧←→blahblah (& etc.)`: [https://t.me/mytvseries](https://t.me/mytvseries)
+- `免費資源網路社群 Free Group`: [https://t.me/Free_Group](https://t.me/Free_Group)
+- `Rachel 的消息发布站点`: [https://t.me/RachelNotice](https://t.me/RachelNotice)
+- `𝗧𝗚𝗴𝗲𝗲𝗸 ♾ TG极客`: [https://t.me/TGgeek](https://t.me/TGgeek)
+- `T 备忘录`: [https://t.me/tsbblog](https://t.me/tsbblog)
+- `⚡️黑科技⚡️TG代理⚡️TG破解版⚡️推特破解⚡️破解软件`: [https://t.me/iPoject](https://t.me/iPoject)
+- `Justf News`: [https://t.me/justfNew](https://t.me/justfNew)
+- `饭否每日精选`: [https://t.me/fanfou_daily](https://t.me/fanfou_daily)
+- `Telegram Tips`: [https://t.me/TelegramTips](https://t.me/TelegramTips)
+- `GFW 3DS`: [https://t.me/GFW3DS](https://t.me/GFW3DS)
+- `Telegram X`: [https://t.me/tgx_android](https://t.me/tgx_android)
+- `咕 Billchen 咕 |`: [https://t.me/billchenla](https://t.me/billchenla)
+- `韩国 中央日报 朝鲜日报`: [https://t.me/korea_rss](https://t.me/korea_rss)
+- `moke 的 日常分享、吐槽和动态`: [https://t.me/mokeyjay_channel](https://t.me/mokeyjay_channel)
+- `Office Tool Plus Channel 📰`: [https://t.me/otp_channel](https://t.me/otp_channel)
+- `纽约时报 全文 实时推送`: [https://t.me/niuyueshibao_rss](https://t.me/niuyueshibao_rss)
+- `美国之音 全文 实时推送`: [https://t.me/meiguozhiyin_rss](https://t.me/meiguozhiyin_rss)
+- `Flysocks-公告频道`: [https://t.me/flysocks](https://t.me/flysocks)
+- `Find Blog👁发现博客`: [https://t.me/findblog](https://t.me/findblog)
+- `BIGDONGDONG`: [https://t.me/bigdongdongchannel](https://t.me/bigdongdongchannel)
+- `读舍 FM`: [https://t.me/bookcn](https://t.me/bookcn)
+- `Dicas do Telegram`: [https://t.me/telegramtipsbr](https://t.me/telegramtipsbr)
+- `Arch Linux Updates`: [https://t.me/archlinuxcn_updates](https://t.me/archlinuxcn_updates)
+- `LIFETIME视界(非官方)`: [https://t.me/lifetimecn](https://t.me/lifetimecn)
+- `Free網絡信息自由門 （纯事件为主的翻墙free公益网友闲极无聊自媒体）`: [https://t.me/todayfreedom](https://t.me/todayfreedom)
+- `Connectivity Test`: [https://t.me/connectivity_test](https://t.me/connectivity_test)
+- `David’s YouTube 频道推荐`: [https://t.me/davidsyoutube](https://t.me/davidsyoutube)
+- `Surge & Loon & QX 脚本收集`: [https://t.me/NobyDa](https://t.me/NobyDa)
+- `Shadowrocket News`: [https://t.me/ShadowrocketNews](https://t.me/ShadowrocketNews)
+- `Fndroid的日常`: [https://t.me/fndroid_news](https://t.me/fndroid_news)
+- `华尔街日报 RSS`: [https://t.me/wsj_rss](https://t.me/wsj_rss)
+- `Cloudflare 在中国频道`: [https://t.me/Cloudflare_CN](https://t.me/Cloudflare_CN)
+- `Abiy Ahmed Ali 🇪🇹`: [https://t.me/AbiyAhmedAliofficial](https://t.me/AbiyAhmedAliofficial)
+- `浮光掠影`: [https://t.me/inbox_all](https://t.me/inbox_all)
+- `土味生活`: [https://t.me/tuweishenghuo](https://t.me/tuweishenghuo)
+- `Wallpapers And Art`: [https://t.me/pfff_wall](https://t.me/pfff_wall)
+- `ClashR频道`: [https://t.me/ClashR_News](https://t.me/ClashR_News)
+- `python-telegram-bot`: [https://t.me/pythontelegrambotchannel](https://t.me/pythontelegrambotchannel)
+- `Speechlessness`: [https://t.me/thespeechless](https://t.me/thespeechless)
+- `Recep Tayyip Erdoğan`: [https://t.me/RTErdogan](https://t.me/RTErdogan)
+- `🥳靠谱VPS推荐(默认带aff） - VPS仓/古博`: [https://t.me/vpscang](https://t.me/vpscang)
+- `💊内核怕怕 - 辣鸡 Linux`: [https://t.me/kernelscared](https://t.me/kernelscared)
+- `拾趣`: [https://t.me/peekfun](https://t.me/peekfun)
+- `一个自由的画室(大概)|Channel`: [https://t.me/free_stusio](https://t.me/free_stusio)
+- `今天abc看了啥 🤔`: [https://t.me/abcthoughts](https://t.me/abcthoughts)
+- `🎏「 彼岸情报🔎！」🎏薅羊毛情报（网站/资源/软件/限免APP）见闻社`: [https://t.me/BaccanoSoul](https://t.me/BaccanoSoul)
+- `Digital Immigrants丨Want Want Lobby`: [https://t.me/Licensess](https://t.me/Licensess)
+- `Unigram News`: [https://t.me/unigram](https://t.me/unigram)
+- `科技圈的日常`: [https://t.me/misakatech](https://t.me/misakatech)
+- `Google Drive 资源 | New @gdurl`: [https://t.me/gdsharing](https://t.me/gdsharing)
+- `Fragment Monitor 👁‍🗨`: [https://t.me/Fragment_Monitor](https://t.me/Fragment_Monitor)
+- `HEMC Tech Tips`: [https://t.me/SitandRelaxLab](https://t.me/SitandRelaxLab)
+- `TVBox`: [https://t.me/TVbox888](https://t.me/TVbox888)
+- `行动派公民联盟`: [https://t.me/citizen_united](https://t.me/citizen_united)
+- `花卷说科技`: [https://t.me/technical_with_love](https://t.me/technical_with_love)
+- `音游沙雕频道`: [https://t.me/yingyoushadiao](https://t.me/yingyoushadiao)
+- `小破不入渠🌏`: [https://t.me/forwardlikehell](https://t.me/forwardlikehell)
+- `GroupOwnerBots`: [https://t.me/GroupOwnerBots](https://t.me/GroupOwnerBots)
+- `NewMobileLife`: [https://t.me/newmobilelife](https://t.me/newmobilelife)
+- `OurBits RSS频道`: [https://t.me/OurBits_RSS](https://t.me/OurBits_RSS)
+- `每日一歌`: [https://t.me/dailymusich](https://t.me/dailymusich)
+- `KAIX.IN`: [https://t.me/kaix_in](https://t.me/kaix_in)
+- `小林家的托尔`: [https://t.me/TooruchanNews](https://t.me/TooruchanNews)
+- `笔记软件交流讨论 - 频道`: [https://t.me/joinchat/AAAAAFPA6feibNtwoeiZcw](https://t.me/joinchat/AAAAAFPA6feibNtwoeiZcw)
+- `小岛电波`: [https://t.me/biubiubiuchat](https://t.me/biubiubiuchat)
+- `Soha 的日常`: [https://t.me/sohadays](https://t.me/sohadays)
+- `Android Themes Channel`: [https://t.me/AndroidThemes](https://t.me/AndroidThemes)
+- `App Store`: [https://t.me/iTunesGiftNews](https://t.me/iTunesGiftNews)
+- `Telegram Memes`: [https://t.me/MemesTelegram](https://t.me/MemesTelegram)
+- `火箭酷🅥「TG代理」`: [https://t.me/Rocketcool](https://t.me/Rocketcool)
+- `LIHAI 分享`: [https://t.me/lihaiba](https://t.me/lihaiba)
+- `The Sociologist`: [https://t.me/thesoc](https://t.me/thesoc)
+- `tg生态观察 ٭✡️⚝✹✸✶✷✴️✧⊛🔯❂⍣≛✨🇻🇳`: [https://t.me/tgsucks](https://t.me/tgsucks)
+- `Telegram - 文言翻譯`: [https://t.me/classical_chinese](https://t.me/classical_chinese)
+- `庭说 TingTalk`: [https://t.me/tingtalk](https://t.me/tingtalk)
+- `人间指南`: [https://t.me/renjianzhinan_channel](https://t.me/renjianzhinan_channel)
+- `开源社区`: [https://t.me/opencfdchannel](https://t.me/opencfdchannel)
+- `Suggerimenti di Telegram`: [https://t.me/telegramtipsit](https://t.me/telegramtipsit)
+- `Null`: [https://t.me/shuziyimin](https://t.me/shuziyimin)
+- `每天趣事`: [https://t.me/Meitian](https://t.me/Meitian)
+- `限時免費 LimitFree`: [https://t.me/limitfree](https://t.me/limitfree)
+- `IMG2D`: [https://t.me/IMG2D](https://t.me/IMG2D)
+- `知乎日报 全文 实时推送`: [https://t.me/zhihuribao_rss](https://t.me/zhihuribao_rss)
+- `@BooksThief`: [https://t.me/BooksThief](https://t.me/BooksThief)
+- `Life & Knowledge`: [https://t.me/LifeAndKnowledge](https://t.me/LifeAndKnowledge)
+- `Telegram 中文频道 🅥`: [https://t.me/tgcn_wiki](https://t.me/tgcn_wiki)
+- `Leonn的博客`: [https://t.me/liyuans](https://t.me/liyuans)
+- `Z-Turns`: [https://t.me/Z_Turns](https://t.me/Z_Turns)
+- `澳大利亚 广播公司 中文全文`: [https://t.me/abc_rss](https://t.me/abc_rss)
+- `今日份的豆酱`: [https://t.me/today_bean](https://t.me/today_bean)
+- `iPhone Telegram Themes️`: [https://t.me/IOSTelegramThemes](https://t.me/IOSTelegramThemes)
+- `[好读] ReadFine电子书屋`: [https://t.me/Readfine](https://t.me/Readfine)
+- `Telegreat Project`: [https://t.me/Telegreat](https://t.me/Telegreat)
+- `屏浅隐狱（何究）`: [https://t.me/peopleofscreen](https://t.me/peopleofscreen)
+- `🖥 iWallpaperPC | Обои для компьютера`: [https://t.me/iWallpaperPC](https://t.me/iWallpaperPC)
+- `电报障害`: [https://t.me/poorRideoReception](https://t.me/poorRideoReception)
+- `Learn SwiftUI`: [https://t.me/learnswiftui](https://t.me/learnswiftui)
+- `Leeco-雪花社 ❄️`: [https://t.me/xuehuashe](https://t.me/xuehuashe)
+- `黄金剧场`: [https://t.me/joinchat/AAAAAEhkwtQjONQXe--Z8g](https://t.me/joinchat/AAAAAEhkwtQjONQXe--Z8g)
+- `懒狗集中营-115/阿里/百度 分享 阿里云盘百度网盘115网盘`: [https://t.me/vip115hot](https://t.me/vip115hot)
+- `Andrés Manuel López Obrador`: [https://t.me/PresidenteAMLO](https://t.me/PresidenteAMLO)
+- `悦读「优质少量RSS聚合」`: [https://t.me/dailyrss](https://t.me/dailyrss)
+- `摄神取念`: [https://t.me/Legolimens](https://t.me/Legolimens)
+- `zaobao.sg 早报`: [https://t.me/zaobaosg](https://t.me/zaobaosg)
+- `Solidot`: [https://t.me/solidot](https://t.me/solidot)
+- `Snipaste 通知`: [https://t.me/snipaste](https://t.me/snipaste)
+- `Think Positive Words`: [https://t.me/thinkpositivewords](https://t.me/thinkpositivewords)
+- `MeowThemes`: [https://t.me/MeowThemes](https://t.me/MeowThemes)
+- `程序员之家`: [https://t.me/useless_project_ideas](https://t.me/useless_project_ideas)
+- `noexebot`: [https://t.me/noexebot](https://t.me/noexebot)
+- `小黄车分享`: [https://t.me/shortyellowbikeshare](https://t.me/shortyellowbikeshare)
+- `𝐕 𝐀 𝐆 𝐔 𝐄 - 針`: [https://t.me/oz_sensei](https://t.me/oz_sensei)
+- `图图广播`: [https://t.me/tualatrix_says](https://t.me/tualatrix_says)
+- `豆瓣精选`: [https://t.me/douban_read](https://t.me/douban_read)
+- ` Apple Nuts`: [https://t.me/AppleNuts](https://t.me/AppleNuts)
+- `程序员资源分享频道`: [https://t.me/gotoshare](https://t.me/gotoshare)
+- `GroupHub广播站`: [https://t.me/GroupHub](https://t.me/GroupHub)
+- `竹新社`: [https://t.me/tnews365](https://t.me/tnews365)
+- `叨庭涂说`: [https://t.me/tingtalk_all](https://t.me/tingtalk_all)
+- `自留 channel`: [https://t.me/who_channel](https://t.me/who_channel)
+- `Discuss That!`: [https://t.me/DiscussThis](https://t.me/DiscussThis)
+- ` Apple Spyder 果蛛 🕷️`: [https://t.me/AppleSpyder](https://t.me/AppleSpyder)
+- `老梁的音频[搬运]`: [https://t.me/Laoliang666](https://t.me/Laoliang666)
+- `法国 国际广播电台 中文全文`: [https://t.me/rfi_rss](https://t.me/rfi_rss)
+- `ServerCat - 偶然更新的深度评测`: [https://t.me/servercat](https://t.me/servercat)
+- `Telegram (NL)`: [https://t.me/TelegramNL](https://t.me/TelegramNL)
+- `🏆资源福利分享 ｜频道`: [https://t.me/freemorebest](https://t.me/freemorebest)
+- `层叠 - The Cascading`: [https://t.me/outvivid](https://t.me/outvivid)
+- `广西聊天交友群【频道】`: [https://t.me/NanNingTG](https://t.me/NanNingTG)
+- `台灣蘋果同好群 - 佈告板`: [https://t.me/TWAppleFansAnnounce](https://t.me/TWAppleFansAnnounce)
+- `電報群組廣播`: [https://t.me/FOCUSTELEGRAMGROUPLINK](https://t.me/FOCUSTELEGRAMGROUPLINK)
+- `Tesla News 🅥`: [https://t.me/Teslacn](https://t.me/Teslacn)
+- `Google Play限免信息`: [https://t.me/playsales](https://t.me/playsales)
+- `TG规则脚本信息分享器`: [https://t.me/MRHXPJGG](https://t.me/MRHXPJGG)
+- `Quantumult X JS 收集分享`: [https://t.me/QuanXJS](https://t.me/QuanXJS)
+- `Reference Error`: [https://t.me/reference_error](https://t.me/reference_error)
+- `澳門日報-重要資訊頻道`: [https://t.me/macaodaily](https://t.me/macaodaily)
+- `Tempest TCN`: [https://t.me/TempestApp](https://t.me/TempestApp)
+- `GFW R16`: [https://t.me/GfWR16](https://t.me/GfWR16)
+- `Lymbo@碎碎念`: [https://t.me/lymbo_chatting](https://t.me/lymbo_chatting)
+- `آموزش اکسل`: [https://t.me/excellearner](https://t.me/excellearner)
+- `ISIS Watch`: [https://t.me/IsisWatch](https://t.me/IsisWatch)
+- `简悦 - SimpRead 📢`: [https://t.me/simpread](https://t.me/simpread)
+- `Steam快讯`: [https://t.me/steamsteam](https://t.me/steamsteam)
+- `蛋挞报`: [https://t.me/pincongessence](https://t.me/pincongessence)
+- `SSPanel-UIM`: [https://t.me/sspanel_Uim](https://t.me/sspanel_Uim)
+- `Menhera-Channel`: [https://t.me/nanasekurumi](https://t.me/nanasekurumi)
+- `ex-Nicegram Dev`: [https://t.me/nicegramdev](https://t.me/nicegramdev)
+- `Popular Design Articles流行设计文章资源`: [https://t.me/designtaalk](https://t.me/designtaalk)
+- `PUSH科技快讯`: [https://t.me/pushings](https://t.me/pushings)
+- `缤纷世界的彩色冒险`: [https://t.me/bunte_Welt](https://t.me/bunte_Welt)
+- `🔥🔥ZBook,|电子书📚| 小说|漫画资源||禁书分|享|交流频道|🔥🔥🅰电子书`: [https://t.me/ziyuanfeng59](https://t.me/ziyuanfeng59)
+- `逆风社`: [https://t.me/nifengpress](https://t.me/nifengpress)
+
+## 群组
+- `Telegram 每日推荐｜讨论组💬`: [https://t.me/sharetgsg](https://t.me/sharetgsg)
+- `树莓派 Raspberry Pi`: [https://t.me/raspicn](https://t.me/raspicn)
+- `游戏交流`: [https://t.me/yxbymm](https://t.me/yxbymm)
+- `黑科技软件资源分享交流群`: [https://t.me/blacktechsharing](https://t.me/blacktechsharing)
+- `🔥AI 富豪俱乐部🔥`: [https://t.me/cloudnativer](https://t.me/cloudnativer)
+- `Dat 中文交流`: [https://t.me/datzh](https://t.me/datzh)
+- `【动漫】福利视频 里番 H动漫 成人 资源 二次元`: [https://t.me/siwa9999](https://t.me/siwa9999)
+- `今日头条.西湖集团@xihu🌸`: [https://t.me/jinritoutiao](https://t.me/jinritoutiao)
+- `Android Plaza`: [https://t.me/AndroidPlaza](https://t.me/AndroidPlaza)
+- `网络技术交流--AE`: [https://t.me/joinchat/KvkGoxAJywGVPq7LVUAXug](https://t.me/joinchat/KvkGoxAJywGVPq7LVUAXug)
+- `多平台技术交流`: [https://t.me/alldesktop](https://t.me/alldesktop)
+- `Comments in theBlock`: [https://t.me/Notionfans](https://t.me/Notionfans)
+- `【梦乃爱华】夢乃あいか（Aika Yumeno）AV女优S1专属`: [https://t.me/guochan99999](https://t.me/guochan99999)
+- `这里有只猫`: [https://t.me/glados_network](https://t.me/glados_network)
+- `گروه لاتاری ویزا`: [https://t.me/Lottery_Group](https://t.me/Lottery_Group)
+- `ASJD`: [https://t.me/China_irl_News](https://t.me/China_irl_News)
+- `Aa`: [https://t.me/i_book_in](https://t.me/i_book_in)
+- `Deleted Group`: [https://t.me/crazycapital](https://t.me/crazycapital)
+- `iOS Dev CN`: [https://t.me/iOS_Dev_CN](https://t.me/iOS_Dev_CN)
+- `资源分享群`: [https://t.me/joinchat/A4fzlAC1AatZACa_NSKqwg](https://t.me/joinchat/A4fzlAC1AatZACa_NSKqwg)
+- `各种奇奇怪怪的优惠买买买`: [https://t.me/joinchat/AAAAAEDHaeh76nlGWM6zhg](https://t.me/joinchat/AAAAAEDHaeh76nlGWM6zhg)
+- `【葵司】葵つかさ 日本AV女优`: [https://t.me/zhubo9999](https://t.me/zhubo9999)
+- `【佐仓绊】さくら きずな，Kizuna 日本AV女优`: [https://t.me/cos99999](https://t.me/cos99999)
+- `蛤? 墜后避難所`: [https://t.me/telehathgroup](https://t.me/telehathgroup)
+- `TenVM/ToSpeed 交流群`: [https://t.me/tenvmgroup](https://t.me/tenvmgroup)
+- `【快看】制服护士老师制服诱惑`: [https://t.me/freevray](https://t.me/freevray)
+- `⏰羊毛活动`: [https://t.me/Groups_cn](https://t.me/Groups_cn)
+- `AppPie Group`: [https://t.me/AppPieGroup](https://t.me/AppPieGroup)
+- `湖南大学 | HunanUniversity`: [https://t.me/HunanUniversity](https://t.me/HunanUniversity)
+- `《維基人》讀者交流群`: [https://t.me/the_Wikipedian_group](https://t.me/the_Wikipedian_group)
+- `讨论组`: [https://t.me/lychee_discuss](https://t.me/lychee_discuss)
+- `【丝袜制服诱惑】福利视频`: [https://t.me/dongman999](https://t.me/dongman999)
+- `wikipedia-zh-MPC`: [https://t.me/marginalizedpersonsclub](https://t.me/marginalizedpersonsclub)
+- `Dev. iOS/macOS/iPadOS/watchOS/tvOS`: [https://t.me/AppleDevCN](https://t.me/AppleDevCN)
+- `libra 区块链大中华交流`: [https://t.me/joinchat/Lfx59xaZjZfOm8BEJXgSGQ](https://t.me/joinchat/Lfx59xaZjZfOm8BEJXgSGQ)
+- `BlackBerry Fans`: [https://t.me/bbfans](https://t.me/bbfans)
+- `某不科学的上网插件`: [https://t.me/joinchat/AAAAAEC7pgV9vPdPcJ4dJw](https://t.me/joinchat/AAAAAEC7pgV9vPdPcJ4dJw)
+- `v2exchat`: [https://t.me/v2exchat](https://t.me/v2exchat)
+- `大学联盟 🎓 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆𝗔𝗹𝗹𝗶𝗮𝗻𝗰𝗲`: [https://t.me/UniversityAlliance](https://t.me/UniversityAlliance)
+- `高雄維基媒體社群：高知識`: [https://t.me/wikikaohsiung](https://t.me/wikikaohsiung)
+- `设计交流群`: [https://t.me/+Qsf56E4IGogw80Co](https://t.me/+Qsf56E4IGogw80Co)
+- `印度伟哥药店`: [https://t.me/shenyebaojianshi666](https://t.me/shenyebaojianshi666)
+- `PC Games Support`: [https://t.me/pc_game_down_support](https://t.me/pc_game_down_support)
+- `[𝙏𝘿𝙎𝙏𝙀]`: [https://t.me/joinchat/KLhITkjaDHd5mn9n8VRg2Q](https://t.me/joinchat/KLhITkjaDHd5mn9n8VRg2Q)
+- `VPS信号旗技术讨论组`: [https://t.me/vpsxinhaoqi](https://t.me/vpsxinhaoqi)
+- `电报指南 & 瞭望台`: [https://t.me/TgTrillions](https://t.me/TgTrillions)
+- `電報群推廣`: [https://t.me/joinchat/F7Z-RT15AV_zH_mUPCQTvQ](https://t.me/joinchat/F7Z-RT15AV_zH_mUPCQTvQ)
+- `无损音乐及娱乐综艺视频`: [https://t.me/losslesschat](https://t.me/losslesschat)
+- `Telegram 機器人應用交流 Bot Discuss`: [https://t.me/joinchat/Bosd1z3ENpG7cPjLw3qmYQ](https://t.me/joinchat/Bosd1z3ENpG7cPjLw3qmYQ)
+- `搬瓦工 (BandwagonHost)`: [https://t.me/BandwagonHostGroup](https://t.me/BandwagonHostGroup)
+- `粤`: [https://t.me/joinchat/ScrVLBgpRcw3ZTkz](https://t.me/joinchat/ScrVLBgpRcw3ZTkz)
+- `全球主机交易推送`: [https://t.me/host_trading](https://t.me/host_trading)
+- `主机百科`: [https://t.me/+-u8HmydNUT43YTRh](https://t.me/+-u8HmydNUT43YTRh)
+- `全球主机信息推送`: [https://t.me/host_news](https://t.me/host_news)
+- `天涯讨论组`: [https://t.me/tianyarss](https://t.me/tianyarss)
+- `内涵段子之狼人杀`: [https://t.me/werewolfcn](https://t.me/werewolfcn)
+- `🎶点歌台 音乐 听歌 music`: [https://t.me/tingge8](https://t.me/tingge8)
+- `爷青结动画分享交流群`: [https://t.me/yeqingjie](https://t.me/yeqingjie)
+- `数理化生实验室`: [https://t.me/mpcblab](https://t.me/mpcblab)
+- `知乎`: [https://t.me/Zhihu1](https://t.me/Zhihu1)
+- `科技圈🎗の 茶馆`: [https://t.me/ZaihuaChat](https://t.me/ZaihuaChat)
+- `单机恐怖游戏总群`: [https://t.me/danjikongbu](https://t.me/danjikongbu)
+- `业余无线电爱好者HAM|中继查询`: [https://t.me/ham002](https://t.me/ham002)
+- `Vim 正體中文社群`: [https://t.me/vim_tw](https://t.me/vim_tw)
+- `零度解说`: [https://t.me/lingdutg](https://t.me/lingdutg)
+- `DRC官方中文群`: [https://t.me/drc_info](https://t.me/drc_info)
+- `Minecraft 中文群組 (Chinese only)`: [https://t.me/Minecraft_Chinese](https://t.me/Minecraft_Chinese)
+- `美剧电影吧`: [https://t.me/meijukingdom](https://t.me/meijukingdom)
+- `好棒 🌈 羊毛超级搜`: [https://t.me/dajiajia](https://t.me/dajiajia)
+- `即時投資消息推送`: [https://t.me/touzi8](https://t.me/touzi8)
+- `Telegram 中文圈 🅥`: [https://t.me/tgzhcn](https://t.me/tgzhcn)
+- `CSGO`: [https://t.me/csgocn](https://t.me/csgocn)
+- `影巢4K影视官方群`: [https://t.me/alypzyhzq](https://t.me/alypzyhzq)
+- `MIR4传奇交流群`: [https://t.me/mir4chinese](https://t.me/mir4chinese)
+- `Kevin自留地`: [https://t.me/mrkevinh](https://t.me/mrkevinh)
+- `Machine Learning CN`: [https://t.me/ml_cn](https://t.me/ml_cn)
+- `呆萌影视`: [https://t.me/dmysfx](https://t.me/dmysfx)
+- `CTG 中文社区`: [https://t.me/CTGgroup](https://t.me/CTGgroup)
+- `亿万同人唯一指定官方群🍻`: [https://t.me/ywtrzm](https://t.me/ywtrzm)
+- `电报摄影部`: [https://t.me/shashinbu](https://t.me/shashinbu)
+- `MUG_ZH|泛用型音游中文讨论群组|说不定内含萌狼`: [https://t.me/mug_zh](https://t.me/mug_zh)
+- `Telegram 新手帮助`: [https://t.me/Newbie_Chat](https://t.me/Newbie_Chat)
+- `Steam◆中文讨论群`: [https://t.me/SteamGroup](https://t.me/SteamGroup)
+- `网易云音乐`: [https://t.me/yuncun](https://t.me/yuncun)
+- `AI星球人工智能聊天群-ChatGPT-DeepSeek`: [https://t.me/chatgpt003](https://t.me/chatgpt003)
+- `音乐相声小说💯搜一下`: [https://t.me/dianbotai](https://t.me/dianbotai)
+- `動漫遊戲Cosplay群組`: [https://t.me/cosplaysharegroup](https://t.me/cosplaysharegroup)
+- `BlockBeats Chat`: [https://t.me/BlockBeats_App](https://t.me/BlockBeats_App)
+- `频道🏆资源福利分享 Chat`: [https://t.me/freemorebestchat](https://t.me/freemorebestchat)
+- `Google Play Party`: [https://t.me/+RDKqoTmhCmd2Q8g-](https://t.me/+RDKqoTmhCmd2Q8g-)
+- `APP喵：群聊`: [https://t.me/appmiao](https://t.me/appmiao)
+- `GPT4Plus各类账号问题交流`: [https://t.me/+tLmbq7vP6BxiMjQ1](https://t.me/+tLmbq7vP6BxiMjQ1)
+- `Manjaro Linux CN`: [https://t.me/manjarolinux_cn](https://t.me/manjarolinux_cn)
+- `python 自学交流`: [https://t.me/P_Y_T_H_O_N](https://t.me/P_Y_T_H_O_N)
+- `可爱的美少女们`: [https://t.me/flgirl](https://t.me/flgirl)
+- `HiFi音乐资源`: [https://t.me/HiFiMusicResource](https://t.me/HiFiMusicResource)
+- `酷漫404粉丝群`: [https://t.me/CoolComic404_Fans](https://t.me/CoolComic404_Fans)
+- `各种奇奇怪怪的优惠买买买`: [https://t.me/shoppingwdiscount](https://t.me/shoppingwdiscount)
+- `《Outage! - 初音？》`: [https://t.me/+lE4aRgBXk0M0MDMx](https://t.me/+lE4aRgBXk0M0MDMx)
+- `图拉丁`: [https://t.me/lajilao](https://t.me/lajilao)
+- `Zapro · 2025`: [https://t.me/zaprobest](https://t.me/zaprobest)
+- `✨神魔聊天群✨`: [https://t.me/tos_unofficial](https://t.me/tos_unofficial)
+- `Manjaro 中文群`: [https://t.me/manjarocn_group](https://t.me/manjarocn_group)
+- `羊毛党--TG支部 (薅死羊不偿命系列)🐑🐑🐑`: [https://t.me/cn_coupon](https://t.me/cn_coupon)
+- `Planet Chat 🌍`: [https://t.me/joinchat/AAAAAEBz8Owuzgri6kB2UA](https://t.me/joinchat/AAAAAEBz8Owuzgri6kB2UA)
+- `味之道听众群`: [https://t.me/joinchat/At5ANzuy5JM9yhPrmuGrcQ](https://t.me/joinchat/At5ANzuy5JM9yhPrmuGrcQ)
+- `[Archive] Plash Speed Xtreme`: [https://t.me/ps4cn2](https://t.me/ps4cn2)
+- `Fedora 中文用户组`: [https://t.me/fedorazh](https://t.me/fedorazh)
+- `SSRSpeed N 使用交流`: [https://t.me/SSRSpeedN](https://t.me/SSRSpeedN)
+- `Language: Classical Chinese`: [https://t.me/translation_chinese_ancient](https://t.me/translation_chinese_ancient)
+- `Telegram macOS`: [https://t.me/macswift](https://t.me/macswift)
+- `Spotify Addict Group`: [https://t.me/spotifyaddict](https://t.me/spotifyaddict)
+- `IINA`: [https://t.me/IINAUsers](https://t.me/IINAUsers)
+- `XlinkWorld`: [https://t.me/joinchat/E5UhwEOdb4UtA_VbonoxDw](https://t.me/joinchat/E5UhwEOdb4UtA_VbonoxDw)
+- `雷神之锤`: [https://t.me/thorshu](https://t.me/thorshu)
+- `第二现场  🎉`: [https://t.me/dearlive](https://t.me/dearlive)
+- `eSir PlayGround - 正能量最喜欢冷漠的原子化社会`: [https://t.me/joinchat/JjxmyRZZXJWb74I-sCrryA](https://t.me/joinchat/JjxmyRZZXJWb74I-sCrryA)
+- `8度群组`: [https://t.me/abc999222](https://t.me/abc999222)
+- `Python`: [https://t.me/Python](https://t.me/Python)
+- `GBox Official`: [https://t.me/GBoxOfficial](https://t.me/GBoxOfficial)
+- `Anytype Community 🇺🇦✌️`: [https://t.me/anytype](https://t.me/anytype)
+- `三星手机交流`: [https://t.me/samsung_cn](https://t.me/samsung_cn)
+- `Geeks Chat`: [https://t.me/geeksChat](https://t.me/geeksChat)
+- `>>> telegram.Bot()`: [https://t.me/pythontelegrambotgroup](https://t.me/pythontelegrambotgroup)
+- `ExCloud`: [https://t.me/excloud](https://t.me/excloud)
+- `HN 中文社区`: [https://t.me/hn_china](https://t.me/hn_china)
+- `CYLINK - 退退退`: [https://t.me/cylink](https://t.me/cylink)
+- `#v2fly`: [https://t.me/v2fly_chat](https://t.me/v2fly_chat)
+- `Jailbreak`: [https://t.me/iOS_Jailbreak](https://t.me/iOS_Jailbreak)
+- `加密货币与区块链讨论群`: [https://t.me/onBlockchain](https://t.me/onBlockchain)
+- `TechCrunch中文讨论组`: [https://t.me/tcchinese](https://t.me/tcchinese)
+- `键盘交流群，听取哇声一片`: [https://t.me/keyboard_cn](https://t.me/keyboard_cn)
+- `Coder Offtopic 中文群`: [https://t.me/coder_ot](https://t.me/coder_ot)
+- `Docker`: [https://t.me/dockertutorial](https://t.me/dockertutorial)
+- `No U`: [https://t.me/NoUGroup](https://t.me/NoUGroup)
+- `iOS`: [https://t.me/iOSdevotee](https://t.me/iOSdevotee)
+- `Telegram Desktop Talk`: [https://t.me/TelegramDesktopTalk](https://t.me/TelegramDesktopTalk)
+- `中文独立博客`: [https://t.me/indieBlogs](https://t.me/indieBlogs)
+- `zread 读书会 📚`: [https://t.me/zread](https://t.me/zread)
+- `JavaScript 中文交流`: [https://t.me/javascriptzh](https://t.me/javascriptzh)
+- `App Privacy Insights Official Group`: [https://t.me/joinchat/66CSVhKAs3pmYTQ1](https://t.me/joinchat/66CSVhKAs3pmYTQ1)
+- `91yun.co 大海航行靠舵手`: [https://t.me/im91yun](https://t.me/im91yun)
+- `#v2fly-random`: [https://t.me/joinchat/GhXX_0zQFLOkjy9z81eQqg](https://t.me/joinchat/GhXX_0zQFLOkjy9z81eQqg)
+- `android Discuss | 辣鸡谷歌还我甜点 🌶🐓🌾🕊`: [https://t.me/AndroidDiscuss](https://t.me/AndroidDiscuss)
+- `Telegram Bot Talk`: [https://t.me/BotTalk](https://t.me/BotTalk)
+- `流媒体交流`: [https://t.me/zxc1017yyfx](https://t.me/zxc1017yyfx)
+- `V2EX后花园 v2.0`: [https://t.me/goV2EX](https://t.me/goV2EX)
+- `Blinkload 售前咨询群`: [https://t.me/thessrgroup](https://t.me/thessrgroup)
+- `YouTube—ImShuker`: [https://t.me/shukerz](https://t.me/shukerz)
+- `Here内测群`: [https://t.me/HereApp](https://t.me/HereApp)
+- `flomo浮墨卡片笔记`: [https://t.me/flomoapp](https://t.me/flomoapp)
+- `「得意忘形」听众群`: [https://t.me/joinchat/Bx8JqQ33oVCrKSul-cHJGQ](https://t.me/joinchat/Bx8JqQ33oVCrKSul-cHJGQ)
+- `台灣蘋果同好交流群`: [https://t.me/TaiwanAppleFans](https://t.me/TaiwanAppleFans)
+- `Via Official Group`: [https://t.me/viatg](https://t.me/viatg)
+- `期货与期权📈📉📊 Derivatives`: [https://t.me/CNderivatives](https://t.me/CNderivatives)
+- `Leetcode刷题`: [https://t.me/leetcode_discuss](https://t.me/leetcode_discuss)
+- `deepseek❤️gemini＆grok ai&chatgpt ai&meta ai＆claude ai＆Midjourney人工智能 phone talk`: [https://t.me/pixelcn](https://t.me/pixelcn)
+- `墙外 四川交流群`: [https://t.me/civhuanglaoxiao](https://t.me/civhuanglaoxiao)
+- `AdGuard 【中文】`: [https://t.me/AdGuard_chinese](https://t.me/AdGuard_chinese)
+- `老毛子Padavan固件纯净交流群`: [https://t.me/pdcn0](https://t.me/pdcn0)
+- `Count To 1 Million`: [https://t.me/CountToOneMillion](https://t.me/CountToOneMillion)
+- `Amazon 海淘购物交流群`: [https://t.me/firstAmazon](https://t.me/firstAmazon)
+- `苹果用户交流群→MacOS/iPadOS/iOS`: [https://t.me/Balancer996](https://t.me/Balancer996)
+- `黑苹果osx86项目中文讨论/Hackintosh CHN Discussion`: [https://t.me/osx86zh](https://t.me/osx86zh)
+- `BDD@Tech`: [https://t.me/bigdongdongGroup](https://t.me/bigdongdongGroup)
+- `Telegram Party`: [https://t.me/PublicTestGroup](https://t.me/PublicTestGroup)
+- `Appinn Talk 💧`: [https://t.me/appinn](https://t.me/appinn)
+- `Snowball Fight - Streamers Den`: [https://t.me/SnowballFight](https://t.me/SnowballFight)
+- `程序员资源分享社区`: [https://t.me/joinchat/FwAZpxdwmTHP2W1sPydPAQ](https://t.me/joinchat/FwAZpxdwmTHP2W1sPydPAQ)
+- `Bot开发者交流群`: [https://t.me/bot_dev_group](https://t.me/bot_dev_group)
+- `西安电报群`: [https://t.me/joinchat/FY1SJkRF6ubEQzU-3Mq3cw](https://t.me/joinchat/FY1SJkRF6ubEQzU-3Mq3cw)
+- `OpenWrt Discuss | ImmortalWrt's Group`: [https://t.me/ctcgfw_openwrt_discuss](https://t.me/ctcgfw_openwrt_discuss)
+- `Telegram X Android`: [https://t.me/tgandroidtests](https://t.me/tgandroidtests)
+- `CSS 討論區`: [https://t.me/csstw](https://t.me/csstw)
+- `Wallpapers️`: [https://t.me/G_Wallpapers](https://t.me/G_Wallpapers)
+- `[CN]Flutter Dev`: [https://t.me/FlutterCN](https://t.me/FlutterCN)
+- `Nathosts主机交流群`: [https://t.me/nathosts](https://t.me/nathosts)
+- `阿里云交流群`: [https://t.me/Balancer985](https://t.me/Balancer985)
+- `读者`: [https://t.me/duzhe](https://t.me/duzhe)
+- `pyTelegramBotAPI`: [https://t.me/joinchat/Bn4ixj84FIZVkwhk2jag6A](https://t.me/joinchat/Bn4ixj84FIZVkwhk2jag6A)
+- `太医来了听众群`: [https://t.me/taiyilaile](https://t.me/taiyilaile)
+- `高清影音数码折腾群`: [https://t.me/TalkUHD](https://t.me/TalkUHD)
+- `少数人TG ［闲搁］ 交流群`: [https://t.me/shaoshurenx](https://t.me/shaoshurenx)
+- `Apple TV`: [https://t.me/AppleTVPlus](https://t.me/AppleTVPlus)
+- `Handshake中文社区`: [https://t.me/handshake_cn](https://t.me/handshake_cn)
+- `[No Support] Plus Chat ([ Offtopic ] Plus Messenger Chat)`: [https://t.me/offTopicPlusChat](https://t.me/offTopicPlusChat)
+- `R 语言中文交流`: [https://t.me/rprojectzh](https://t.me/rprojectzh)
+- `Google Voice 互拨交流群`: [https://t.me/zh_GV](https://t.me/zh_GV)
+- `MK播放器 for M3U8`: [https://t.me/MKPlayerApp](https://t.me/MKPlayerApp)
+- `GroupHub Chat`: [https://t.me/GroupHub_Chat](https://t.me/GroupHub_Chat)
+- `字谈字畅听众群`: [https://t.me/TypeChat](https://t.me/TypeChat)
+- `Telegram Android Talk`: [https://t.me/TelegramAndroidTalk](https://t.me/TelegramAndroidTalk)
+- `ZeroNet 中文交流`: [https://t.me/zeronetzh](https://t.me/zeronetzh)
+- `硬核英语/Hardcore English`: [https://t.me/hardcoreng](https://t.me/hardcoreng)
+- `Perl 中文交流`: [https://t.me/perlzh](https://t.me/perlzh)
+- `SPhard交流群-不谈政治-不吵架`: [https://t.me/sphard](https://t.me/sphard)
+- `RSSHub - Everything is RSSible`: [https://t.me/rsshub](https://t.me/rsshub)
+- `Language: Chinese (zh-Hant-TW) @zh_Hant_TW`: [https://t.me/translation_taiwan](https://t.me/translation_taiwan)
+- `河南周口`: [https://t.me/zhoukou](https://t.me/zhoukou)
+- `iTools`: [https://t.me/toolinbox](https://t.me/toolinbox)
+- `Cloudflare 在中国`: [https://t.me/CN_Cloudflare](https://t.me/CN_Cloudflare)
+- `Telegram iOS - Public beta testing`: [https://t.me/tgiostests](https://t.me/tgiostests)
+- `Air-Universe 开源后端交流群`: [https://t.me/Air_Universe](https://t.me/Air_Universe)
+- `APPDO 每日拍大腿说又后悔了群`: [https://t.me/appdododo](https://t.me/appdododo)
+- `C++ 中文交流`: [https://t.me/cpluspluszh](https://t.me/cpluspluszh)
+- `🚀 火箭写书`: [https://t.me/woicesu](https://t.me/woicesu)
+- `Synology/黑群晖用户群`: [https://t.me/nasfan](https://t.me/nasfan)
+- `Конкурсы Telegram`: [https://t.me/contests_ru](https://t.me/contests_ru)
+- `中英语言学习 | Learning Chinese & English`: [https://t.me/LinguisticAcademy](https://t.me/LinguisticAcademy)
+- `TDLib chat`: [https://t.me/tdlibchat](https://t.me/tdlibchat)
+- `小声读书 ☘️`: [https://t.me/what_youread](https://t.me/what_youread)
+- `中国数字时代-讨论群`: [https://t.me/cdtchinese](https://t.me/cdtchinese)
+- `Google Voice 交流群`: [https://t.me/googlevoice](https://t.me/googlevoice)
+- `IINA 中文`: [https://t.me/IINAUsersZH](https://t.me/IINAUsersZH)
+- `科学上网技术研究会👨‍💻`: [https://t.me/kxswjs](https://t.me/kxswjs)
+- `Surge 交流`: [https://t.me/loveapps](https://t.me/loveapps)
+- `iOS 越狱`: [https://t.me/iOS_jailbreaking](https://t.me/iOS_jailbreaking)
+- `Enjoy Study Club`: [https://t.me/officelearner](https://t.me/officelearner)
+- `Telegram Android Themes`: [https://t.me/AndroidThemesGroup](https://t.me/AndroidThemesGroup)
+- `路由器固件玩家群`: [https://t.me/sbxsw](https://t.me/sbxsw)
+- `Language: Duangified Chinese (Simplified)`: [https://t.me/translation_duang_zh_hans](https://t.me/translation_duang_zh_hans)
+- `西安电报群`: [https://t.me/XianCity](https://t.me/XianCity)
+- `FriendChCodeList`: [https://t.me/FriendChCodeList](https://t.me/FriendChCodeList)
+- `电报人:知识群非娱乐群`: [https://t.me/three001](https://t.me/three001)
+- `沉浸式翻译讨论`: [https://t.me/+rq848Z09nehlOTgx](https://t.me/+rq848Z09nehlOTgx)
+- `Gate.io的小伙伴們`: [https://t.me/gate_io](https://t.me/gate_io)
+- `谷歌云(Gcp)交流群`: [https://t.me/Balancer166](https://t.me/Balancer166)
+- `Frontend 前端中文技术交流`: [https://t.me/frontend_talk](https://t.me/frontend_talk)
+- `Go`: [https://t.me/GolangCN](https://t.me/GolangCN)
+- `Technical Blog | 技術博客`: [https://t.me/Technical_Blog](https://t.me/Technical_Blog)
+- `加密货币爱好者`: [https://t.me/twittercryptofans](https://t.me/twittercryptofans)
+- `Shortcuts`: [https://t.me/SiriShortcuts](https://t.me/SiriShortcuts)
+- `Ruby 中文圈`: [https://t.me/rubycn](https://t.me/rubycn)
+- `微软云(Azure)交流群`: [https://t.me/Balancer211](https://t.me/Balancer211)
+- `Telegram Windows Phone Talk`: [https://t.me/TelegramWPtalk](https://t.me/TelegramWPtalk)
+- `畅邮（Cymail）`: [https://t.me/cyemail](https://t.me/cyemail)
+- `Anti Revoke Chat`: [https://t.me/AntiRevokeChat](https://t.me/AntiRevokeChat)
+- `wikipedia-zh`: [https://t.me/wikipedia_zh_n](https://t.me/wikipedia_zh_n)
+- `TG 简中交流（水）群`: [https://t.me/cnpub](https://t.me/cnpub)
+- `🍳 库克的后厨 🍤`: [https://t.me/OnlineAppleUserGroup](https://t.me/OnlineAppleUserGroup)
+- `Language: English`: [https://t.me/translation_en](https://t.me/translation_en)
+- `[CN] Android Dev`: [https://t.me/AndroidDevCn](https://t.me/AndroidDevCn)
+- `M-Team Unofficial chat - Chinese`: [https://t.me/M_Team_Chat](https://t.me/M_Team_Chat)
+- `Official Geph Users | 迷霧通官方用戶群`: [https://t.me/gephusers](https://t.me/gephusers)
+- `利器 👨🏻‍💻👩‍💻 🧤`: [https://t.me/fun_makers](https://t.me/fun_makers)
+- `🤣古博 - 靠谱VPS交流群（禁止名字打广告）`: [https://t.me/guboorg](https://t.me/guboorg)
+- `DEVONthink Chinese`: [https://t.me/DEVONthink](https://t.me/DEVONthink)
+- `大数据杂谈`: [https://t.me/bigdatazh](https://t.me/bigdatazh)
+- `图床粉丝群`: [https://t.me/smms_images](https://t.me/smms_images)
+- `C 语言中文交流`: [https://t.me/Clanguagezh](https://t.me/Clanguagezh)
+- `Faangbbs APP北美程序员大群`: [https://t.me/faangbbs](https://t.me/faangbbs)
+- `ടെലിഗ്രാമം | KeralaGram`: [https://t.me/keralagram](https://t.me/keralagram)
+- `V2EX 交流群`: [https://t.me/V2EXPro](https://t.me/V2EXPro)
+- `[好读] ReadFine交流总群`: [https://t.me/ReadfineChat](https://t.me/ReadfineChat)
+- `科技圈🎗の 茶馆`: [https://t.me/zaihuachat](https://t.me/zaihuachat)
+- `Adguard [CN]`: [https://t.me/adguard_cn](https://t.me/adguard_cn)
+- `WallStreetBets华尔街中文官方交流群`: [https://t.me/WSBetsZH](https://t.me/WSBetsZH)
+- `老毛子Padavan固件IOS自助交流群`: [https://t.me/pdcn3](https://t.me/pdcn3)
+- `NyanCAT - 1 2 3木头人`: [https://t.me/NyanCaaaat](https://t.me/NyanCaaaat)
+- `MugglePay 麻瓜宝💰crypto only`: [https://t.me/mugglepay](https://t.me/mugglepay)
+- `Swarm免费梯子🆓翻墙`: [https://t.me/hxisj8whsv](https://t.me/hxisj8whsv)
+- `Bigo社区群`: [https://t.me/bigo_tool](https://t.me/bigo_tool)
+- `Spotify使用者（及其他music(audio?) streaming`: [https://t.me/joinchat/DlW6BkAiT7ReIIADtANzYw](https://t.me/joinchat/DlW6BkAiT7ReIIADtANzYw)
+- `大佬吹牛群-DDOS`: [https://t.me/xddos0](https://t.me/xddos0)
+- `NobyDa Script`: [https://t.me/joinchat/JikZ61Y-WyLUu6dBFPfu6w](https://t.me/joinchat/JikZ61Y-WyLUu6dBFPfu6w)
+- `读书分享`: [https://t.me/dushufenxiang_chat](https://t.me/dushufenxiang_chat)
+- `手机里有一款开放世界手游`: [https://t.me/Orz_zayu](https://t.me/Orz_zayu)
+- `Koolcenter merlin firmware`: [https://t.me/xbchat](https://t.me/xbchat)
+- `vAgent网络部`: [https://t.me/crossgreatfirewall](https://t.me/crossgreatfirewall)
+- `Leetcode Discussions`: [https://t.me/leetcode_discussion](https://t.me/leetcode_discussion)
+- `免费翻墙加速器交流`: [https://t.me/gouwu](https://t.me/gouwu)
+- `TG技术党`: [https://t.me/MRHXPJ](https://t.me/MRHXPJ)
+- `ShadowsocksR 讨论组`: [https://t.me/ssrunofficial](https://t.me/ssrunofficial)
+- `奇点`: [https://t.me/jidian](https://t.me/jidian)
+- `🎣 科技无国界 🤼‍♂️`: [https://t.me/LifeAnaTech](https://t.me/LifeAnaTech)
+- `DGEN Labs 中本街社区`: [https://t.me/SatoshiStreetBetsZH](https://t.me/SatoshiStreetBetsZH)
+- `谷歌、微软云盘讨论群`: [https://t.me/google_win](https://t.me/google_win)
+- `Bark反馈群`: [https://t.me/joinchat/OsCbLzovUAE0YjY1](https://t.me/joinchat/OsCbLzovUAE0YjY1)
+- `FastClip | Stay Sponsors`: [https://t.me/fastclipchat](https://t.me/fastclipchat)
+- `读舍 - 享受阅读时光`: [https://t.me/shufm](https://t.me/shufm)
+- `Project X`: [https://t.me/projectXray](https://t.me/projectXray)
+- `Kali / BlackArch Linux 中文交流`: [https://t.me/hackerzh](https://t.me/hackerzh)
+- `Telegram 新手問答區`: [https://t.me/TGQNA](https://t.me/TGQNA)
+- `流浪防区 China_irl`: [https://t.me/China_irl](https://t.me/China_irl)
+- ` Apple 用户社群`: [https://t.me/appleusergroup_tg](https://t.me/appleusergroup_tg)
+- `mini club`: [https://t.me/Orz_mini](https://t.me/Orz_mini)
+- `GIF 群聚地`: [https://t.me/GIFgroupTW](https://t.me/GIFgroupTW)
+- `滕州 Telegram 办事处`: [https://t.me/tengzhou](https://t.me/tengzhou)
+- `ShadowsocksR - 技术|讨论|提问|少水`: [https://t.me/chatssr](https://t.me/chatssr)
+- `中文输入法爱好者群`: [https://t.me/IME_zhCN](https://t.me/IME_zhCN)
+- `Apple Watch 大集合`: [https://t.me/apple_watch](https://t.me/apple_watch)
+- `星露 galaxy沉浸式恋爱体验馆`: [https://t.me/joinchat/KmUaGRMWdO29JVd3wcCHCg](https://t.me/joinchat/KmUaGRMWdO29JVd3wcCHCg)
+- `Telegram 討論區`: [https://t.me/PublicGroupForzh](https://t.me/PublicGroupForzh)
+- `NobyDa Script`: [https://t.me/joinchat/JtzRlVY-WyJPDavvhKjrbw](https://t.me/joinchat/JtzRlVY-WyJPDavvhKjrbw)
+- `电影爱好者交流`: [https://t.me/Moviemarket_group](https://t.me/Moviemarket_group)
+- `合租小车🚗`: [https://t.me/TogetherHub](https://t.me/TogetherHub)
+- `Mixin Network (XIN)`: [https://t.me/MixinCommunity](https://t.me/MixinCommunity)
+- `🇬🇧 Nicegram Chat`: [https://t.me/nicegramchat](https://t.me/nicegramchat)
+- `Python云`: [https://t.me/pythonyun](https://t.me/pythonyun)
+- `自由世界之声`: [https://t.me/TetgramC](https://t.me/TetgramC)
+- `今日热榜`: [https://t.me/joinchat/IL6n4w9xiRMvHaU1YpVFog](https://t.me/joinchat/IL6n4w9xiRMvHaU1YpVFog)
+- `SaltyLeo的博客讨论组！`: [https://t.me/SaltyLeo_blog](https://t.me/SaltyLeo_blog)
+- `DLK老群`: [https://t.me/dlkvpn](https://t.me/dlkvpn)
+- `Gridea | 群组`: [https://t.me/joinchat/IDY0ahRqb8NPodv95BNpBg](https://t.me/joinchat/IDY0ahRqb8NPodv95BNpBg)
+- `树莓派 Raspberry Pi`: [https://t.me/shumeipai](https://t.me/shumeipai)
+- `左罗·TG·交流`: [https://t.me/zuoluotv](https://t.me/zuoluotv)
+- `iGame 游戏交流群`: [https://t.me/gamecn](https://t.me/gamecn)
+- `SURGE PRO`: [https://t.me/SurgePro](https://t.me/SurgePro)
+- `GBox官方交流群`: [https://t.me/GBoxTG](https://t.me/GBoxTG)
+- `AdGuard Chat [EN]`: [https://t.me/adguard_en](https://t.me/adguard_en)
+- `Linmi 简日志`: [https://t.me/cmemo](https://t.me/cmemo)
+- `Vivaldi Browser chat group`: [https://t.me/vivaldibrowser](https://t.me/vivaldibrowser)
+- `Language: zh_CN (Simpified, langCN)`: [https://t.me/translation_zhlangcn](https://t.me/translation_zhlangcn)
+- `Python 中文交流`: [https://t.me/pythonzh](https://t.me/pythonzh)
+- `。`: [https://t.me/SitandRelaxGroup](https://t.me/SitandRelaxGroup)
+- `BIS科学上网`: [https://t.me/BISproject](https://t.me/BISproject)
+- `体育爱好者|足球|篮球|NBA|CBA|交流`: [https://t.me/tiyu365](https://t.me/tiyu365)
+- `腾讯云VS阿里云`: [https://t.me/TencentAliyun](https://t.me/TencentAliyun)
+- `Scala User Group [zh]`: [https://t.me/scala_zh](https://t.me/scala_zh)
+- `小小布吉岛闲聊群～`: [https://t.me/bujidaochat](https://t.me/bujidaochat)
+- `全球主机交流中心`: [https://t.me/VPSchat](https://t.me/VPSchat)
+- `灭茶苦茶听众群`: [https://t.me/ipn_miechakucha](https://t.me/ipn_miechakucha)
+- `Java 编程语言`: [https://t.me/Javaer](https://t.me/Javaer)
+- `Google Voice讨论组`: [https://t.me/swatpc1](https://t.me/swatpc1)
+- `Let's Charge｜一起充电群`: [https://t.me/letsbuycharger](https://t.me/letsbuycharger)
+- `Plus Messenger Support`: [https://t.me/plusmsgrchat](https://t.me/plusmsgrchat)
+- `《内核恐慌》听众群`: [https://t.me/pan_icu](https://t.me/pan_icu)
+- `翼起乐`: [https://t.me/YiQiLe](https://t.me/YiQiLe)
+- `Notion 中文社区`: [https://t.me/Notionso](https://t.me/Notionso)
+- `XDA Labs`: [https://t.me/xda_feed](https://t.me/xda_feed)
+- `老王讨论群`: [https://t.me/wangvpn_user_chat](https://t.me/wangvpn_user_chat)
+- `Comments in theBlock`: [https://t.me/NotionFans](https://t.me/NotionFans)
+- `创造者日报`: [https://t.me/creatorsdaily](https://t.me/creatorsdaily)
+- `ImmTelecom 签到专用群`: [https://t.me/immtelecom_chat](https://t.me/immtelecom_chat)
+- `Unigram Insiders`: [https://t.me/unigraminsiders](https://t.me/unigraminsiders)
+- `sspai_group`: [https://t.me/sspai_group](https://t.me/sspai_group)
+- `Du Rove's Chat`: [https://t.me/durovschat](https://t.me/durovschat)
+- `[老上] 摄影`: [https://t.me/cnphotog](https://t.me/cnphotog)
+- `Reddigram`: [https://t.me/reddigram](https://t.me/reddigram)
+- `愚民小鎮 🥳 保衛香港！ @werewolfbot (入群請先看規定)`: [https://t.me/twWolf](https://t.me/twWolf)
+- `Chinese Developers`: [https://t.me/ChineseDevelopers](https://t.me/ChineseDevelopers)
+- `TG话题测试（你们是真的闲）`: [https://t.me/ZH_wool](https://t.me/ZH_wool)
+- `NS Xbox PS PC游戏闲聊`: [https://t.me/NintendoSwitchCN](https://t.me/NintendoSwitchCN)
+- `北京`: [https://t.me/beijingz](https://t.me/beijingz)
+- `Official Counterparty Chat`: [https://t.me/Counterparty_XCP](https://t.me/Counterparty_XCP)
+- `HanHan小卖铺`: [https://t.me/hanhans2](https://t.me/hanhans2)
+- `PixelExperience - Official chat`: [https://t.me/pixelexperiencechat](https://t.me/pixelexperiencechat)
+- `苹果派群组`: [https://t.me/iOS1314](https://t.me/iOS1314)
+- `TypeScript 中文交流`: [https://t.me/typescriptzh](https://t.me/typescriptzh)
+- `湖南电报群`: [https://t.me/hunantg](https://t.me/hunantg)
+- `EhViewer [DEPRECATED]`: [https://t.me/ehviewer](https://t.me/ehviewer)
+- `Price Tag Friends`: [https://t.me/pricetagapp](https://t.me/pricetagapp)
+- `Haskell 中文交流`: [https://t.me/haskellzh](https://t.me/haskellzh)
+- `枫之谷`: [https://t.me/fzgjs](https://t.me/fzgjs)
+- `Transno`: [https://t.me/transnousergroup](https://t.me/transnousergroup)
+- `翻译机器人讨论`: [https://t.me/fanyi_group](https://t.me/fanyi_group)
+- `LanceX Friends`: [https://t.me/lancex_app](https://t.me/lancex_app)
+- `Language: Chinese (Traditional)`: [https://t.me/translation_zh_hant](https://t.me/translation_zh_hant)
+- `东京IT技术者交流群`: [https://t.me/TokyoIT](https://t.me/TokyoIT)
+- `版本控`: [https://t.me/nextnb](https://t.me/nextnb)
+- `Coolapk Chat Group`: [https://t.me/coolapkxianliao](https://t.me/coolapkxianliao)
+- `OpenWrt-flippy`: [https://t.me/joinchat/GxqUyxzQCFgf4KEcXxee3Q](https://t.me/joinchat/GxqUyxzQCFgf4KEcXxee3Q)
+- `Loon-0x00`: [https://t.me/Loon0x00](https://t.me/Loon0x00)
+- `Hugo 博客交流`: [https://t.me/hugoblog](https://t.me/hugoblog)
+- `Julia 编程语言交流`: [https://t.me/julialangzh](https://t.me/julialangzh)
+- `👸大漂亮的小夥伴們（唯一群！嚴打廣告，大漂亮不會主動DM各位小夥伴）`: [https://t.me/giantcutie6688](https://t.me/giantcutie6688)
+- `OpenWRT*LEDE/Wireless Routers`: [https://t.me/OpenWRT_Routers](https://t.me/OpenWRT_Routers)
+- `Ubuntu 中文`: [https://t.me/ubuntuzh](https://t.me/ubuntuzh)
+- `狗推摸鱼 划水 狼人杀`: [https://t.me/langrensha888](https://t.me/langrensha888)
+- `Language: Meowfied Chinese`: [https://t.me/translation_meowcn](https://t.me/translation_meowcn)
+- `岁寒输入法交流群`: [https://t.me/SuiHanIME](https://t.me/SuiHanIME)
+- `高可用性技术研究不了一点`: [https://t.me/joinchat/FiMK0A5tQhJxLu9tBb0QTA](https://t.me/joinchat/FiMK0A5tQhJxLu9tBb0QTA)
+- `Tg唱吧总站`: [https://t.me/changba_tg](https://t.me/changba_tg)
+- `酷安`: [https://t.me/cool_apk](https://t.me/cool_apk)
+- `Telegram iOS Talk`: [https://t.me/TelegramiOStalk](https://t.me/TelegramiOStalk)
+- `EOS`: [https://t.me/EOSproject](https://t.me/EOSproject)
+- `小米玩机交流群`: [https://t.me/xiaomi6666](https://t.me/xiaomi6666)
+- `RFW`: [https://t.me/RailwayFW](https://t.me/RailwayFW)
+- `CentOS 中文`: [https://t.me/centoszh](https://t.me/centoszh)
+- `Hamibot`: [https://t.me/HamibotChat](https://t.me/HamibotChat)
+- `KidProject`: [https://t.me/joinchat/AAAAAD-tO7GPvfOU131_vg](https://t.me/joinchat/AAAAAD-tO7GPvfOU131_vg)
+- `wikipedia-zh-game`: [https://t.me/wikipedia_zh_game](https://t.me/wikipedia_zh_game)
+- `简悦 - SimpRead`: [https://t.me/simpreadgroup](https://t.me/simpreadgroup)
+- `璃颜&红尘，伊人笑`: [https://t.me/liyanhongchen](https://t.me/liyanhongchen)
+- `Telegram Themes`: [https://t.me/TelegramThemes](https://t.me/TelegramThemes)
+- `PanoanDrive-免费离线下载资源至Google Drive`: [https://t.me/PanoanDriveBasic](https://t.me/PanoanDriveBasic)
+- `RouterGroup|软路由|硬路由|外贸电视`: [https://t.me/ruanlu](https://t.me/ruanlu)
+- `一天世界听众群`: [https://t.me/ipn_yitianshijie](https://t.me/ipn_yitianshijie)
+- `MOZE`: [https://t.me/mozeapp](https://t.me/mozeapp)
+- `MWeb 及相关讨论`: [https://t.me/mwebapp](https://t.me/mwebapp)
+- `小众 App 交流群`: [https://t.me/appfoundgroup](https://t.me/appfoundgroup)
+- `VPS信号旗水群`: [https://t.me/vps_xinhaoqi](https://t.me/vps_xinhaoqi)
+- `OKAB3吹水`: [https://t.me/OKAB3Script](https://t.me/OKAB3Script)
+- `想尽办法看电视`: [https://t.me/joinchat/MgUQ3B1apkzq3sqVzTFP0A](https://t.me/joinchat/MgUQ3B1apkzq3sqVzTFP0A)
+- `Boast - App`: [https://t.me/BoastTG](https://t.me/BoastTG)
+- `Telegram Beta Chat`: [https://t.me/tgbetachat](https://t.me/tgbetachat)
+- `Freetrial.store`: [https://t.me/FreetrialStore](https://t.me/FreetrialStore)
+- `wikipedia-zh-help`: [https://t.me/wikipedia_zh_help](https://t.me/wikipedia_zh_help)
+- `捷径社区`: [https://t.me/shortcuts_cn](https://t.me/shortcuts_cn)
+- `Telegram 新手帮助`: [https://t.me/newbie_chat](https://t.me/newbie_chat)
+- `Chromebook CN`: [https://t.me/chromebook_cn](https://t.me/chromebook_cn)
+- `[SFW/SFMC] Magisk 吹水 (unofficial)`: [https://t.me/magiskCNshare](https://t.me/magiskCNshare)
+- `Vultr 用户群`: [https://t.me/vultr_group](https://t.me/vultr_group)
+- `科技圈🎗の 茶馆`: [https://t.me/GoogleFans](https://t.me/GoogleFans)
+- `科技聚变听众群`: [https://t.me/TechFusionChat](https://t.me/TechFusionChat)
+- `Google Fans Club 中文`: [https://t.me/googlecn](https://t.me/googlecn)
+- `时尚怪物听众群`: [https://t.me/ipn_fashionmonster](https://t.me/ipn_fashionmonster)
+- `内涵段子之闲聊群`: [https://t.me/OverseasChinese](https://t.me/OverseasChinese)
+- `Netch 使用交流群组`: [https://t.me/Netch_Discuss_Group](https://t.me/Netch_Discuss_Group)
+- `小点播放器[请自签iplayr使用]`: [https://t.me/dotplayer](https://t.me/dotplayer)
+- `Telegram Contests`: [https://t.me/contests](https://t.me/contests)
+- `Telegram macOS Talk`: [https://t.me/TelegramMacOsTalk](https://t.me/TelegramMacOsTalk)
+- `Telegreat Desktop 中文討論區 (Mandarin Chat)`: [https://t.me/TelegreatX](https://t.me/TelegreatX)
+- `oooooohmygosh & friends 1.0（🚫暂停入群 & 禁言中）`: [https://t.me/omgfriends](https://t.me/omgfriends)
+- `iBeta 尝鲜派 | 官方群`: [https://t.me/ibetame](https://t.me/ibetame)
+- `Telegram Alpha Talk`: [https://t.me/tgalphachat](https://t.me/tgalphachat)
+- `码力全开 Friends`: [https://t.me/forcecoder](https://t.me/forcecoder)
+- `广州粤语电报群 Cantonese Group`: [https://t.me/GuangzhouIT](https://t.me/GuangzhouIT)
+- `Quantumult X`: [https://t.me/QuanXApp](https://t.me/QuanXApp)
+- `Pharos Pro For Apple`: [https://t.me/Shadow_x_user_support](https://t.me/Shadow_x_user_support)
+- `VNoteX`: [https://t.me/vnotex](https://t.me/vnotex)
+- `泉城济南电报群 🅐`: [https://t.me/jinan_tg](https://t.me/jinan_tg)
+- ` iPad 用户社群`: [https://t.me/iPadOS](https://t.me/iPadOS)
+- `RSS屋`: [https://t.me/joinchat/HiIOAxV7g9JwNuLuThUsyQ](https://t.me/joinchat/HiIOAxV7g9JwNuLuThUsyQ)
+- `NewlearnerのIT社群`: [https://t.me/NewlearnerGroup](https://t.me/NewlearnerGroup)
+- `貼圖群 - 進群閱置頂 Sticker Group Taiwan`: [https://t.me/StickerGroup](https://t.me/StickerGroup)
+- `infuse 自购分享`: [https://t.me/infusepro6](https://t.me/infusepro6)
+- `SSTap-Rule`: [https://t.me/SSTapRule](https://t.me/SSTapRule)
+- `Pin apps`: [https://t.me/PinTG](https://t.me/PinTG)
+- `Instant View Platform Chat`: [https://t.me/IVpublic](https://t.me/IVpublic)
+- `智能手机讨论组📱`: [https://t.me/M_Phone](https://t.me/M_Phone)
+- `KoolCenter LEDE & iStoreOS`: [https://t.me/joinchat/ERO9vEMMVu1dzQ-F8nP6kA](https://t.me/joinchat/ERO9vEMMVu1dzQ-F8nP6kA)
+- `臺大維基社`: [https://t.me/ntuwpc](https://t.me/ntuwpc)
+- `闲蛋面板🥚交流群`: [https://t.me/xdzzmb](https://t.me/xdzzmb)
+- `逗比据地根`: [https://t.me/doubi](https://t.me/doubi)
+- `秋水逸冰`: [https://t.me/qiushui2018](https://t.me/qiushui2018)
+- `币安官方中文群`: [https://t.me/BinanceChinese](https://t.me/BinanceChinese)
+- `Google Drive 无限容量`: [https://t.me/google_drive](https://t.me/google_drive)
+- `SSPanel之國 章魚集團🐙`: [https://t.me/woaizyg](https://t.me/woaizyg)
+- `S&D两位先生`: [https://t.me/Science_Democracy](https://t.me/Science_Democracy)
+- `日本語學習`: [https://t.me/joinchat/BGDV_Qcq7MTcpiFkB2n7Fw](https://t.me/joinchat/BGDV_Qcq7MTcpiFkB2n7Fw)
+- `macOS 交流组`: [https://t.me/macoser](https://t.me/macoser)
+- `Launch Center Pro 交流分享`: [https://t.me/lcpapp](https://t.me/lcpapp)
+- `Hexo Hugo Blog 中文博客`: [https://t.me/bokecn](https://t.me/bokecn)
+- `Apple Arcade CN`: [https://t.me/applearcadecn](https://t.me/applearcadecn)
+- `CoolApk World`: [https://t.me/Riocoolapk](https://t.me/Riocoolapk)
+- `Language: Chinese (Simplified)`: [https://t.me/translation_zh_hans](https://t.me/translation_zh_hans)
+- `Tg攝影社群`: [https://t.me/photographyintelegram](https://t.me/photographyintelegram)
+- `Language: Chinese (Simplified, zhcncc)`: [https://t.me/translation_zhcncc](https://t.me/translation_zhcncc)
+- `ZOE Group`: [https://t.me/ZOEAPP](https://t.me/ZOEAPP)
+- `博物志听众群`: [https://t.me/museelogue](https://t.me/museelogue)
+
+## 机器人
+- `EventsAggregator`: [https://t.me/EventsAggregatorBot](https://t.me/EventsAggregatorBot)
+- `Ll. Muhamad Sofyan Hadi`: [https://t.me/llmsh](https://t.me/llmsh)
+- `Celebes City`: [https://t.me/kuaikanmanhua](https://t.me/kuaikanmanhua)
+- `Андрей Горячев`: [https://t.me/daily73](https://t.me/daily73)
+- `B Ham`: [https://t.me/kuaba](https://t.me/kuaba)
+- `Максім`: [https://t.me/superli](https://t.me/superli)
+- `Liaoyuan`: [https://t.me/liaoyuan](https://t.me/liaoyuan)
+- `Mas Noe`: [https://t.me/mas_cn](https://t.me/mas_cn)
+- `Darwin Castaño`: [https://t.me/datapy](https://t.me/datapy)
+- `Apple Park`: [https://t.me/apple_park](https://t.me/apple_park)
+- `Lamara Lamara`: [https://t.me/mastergogogo](https://t.me/mastergogogo)
+- `Panda's Bot`: [https://t.me/PandasChatBot](https://t.me/PandasChatBot)
+- `HelloGeorge`: [https://t.me/HelloGeorge_Bot](https://t.me/HelloGeorge_Bot)
+- `zhujiwiki`: [https://t.me/t66y_net](https://t.me/t66y_net)
+- `UserMetaBot`: [https://t.me/UserMeta_Bot](https://t.me/UserMeta_Bot)
+- `BingDict - AI Translate`: [https://t.me/bingdict_bot](https://t.me/bingdict_bot)
+- `网易云音乐ncm转换器`: [https://t.me/netease_ncm_bot](https://t.me/netease_ncm_bot)
+- `GIF出处查询机器人`: [https://t.me/TumblrAce_bot](https://t.me/TumblrAce_bot)
+- `小鹿机器人`: [https://t.me/iiWordCloudBot](https://t.me/iiWordCloudBot)
+- `流媒体解锁测试`: [https://t.me/stairunlock_test_bot](https://t.me/stairunlock_test_bot)
+- `flowerss`: [https://t.me/rssflowbot](https://t.me/rssflowbot)
+- `TYPCN NLP Analysis`: [https://t.me/typcn_soliloquize_bot](https://t.me/typcn_soliloquize_bot)
+- `RSS屋`: [https://t.me/RSSWBot](https://t.me/RSSWBot)
+- `VK Music Bot`: [https://t.me/Vkmusic_bot](https://t.me/Vkmusic_bot)
+- `utubebot`: [https://t.me/utubest_Bot](https://t.me/utubest_Bot)
+- `Pay Bot`: [https://t.me/feeMasterBot](https://t.me/feeMasterBot)
+- `Feed Man Bot`: [https://t.me/FeedManBot](https://t.me/FeedManBot)
+- `GatMedia > SaveMediaBot`: [https://t.me/getmediabot](https://t.me/getmediabot)
+- `LittleGuardian`: [https://t.me/littleGuardianBot](https://t.me/littleGuardianBot)
+- `群组大全_Bot`: [https://t.me/qunzudaquan_bot](https://t.me/qunzudaquan_bot)
+- `阿里云盘资源 Bot`: [https://t.me/AliYunPanBot](https://t.me/AliYunPanBot)
+- `一起搜电影`: [https://t.me/sotv](https://t.me/sotv)
+- `🇺🇦YoutubeDL - YouTube Download Bot`: [https://t.me/YtbDownBot](https://t.me/YtbDownBot)
+- `验证机器人`: [https://t.me/group_confirmation_bot](https://t.me/group_confirmation_bot)
+- `一起搜电影`: [https://t.me/Cctv365bot](https://t.me/Cctv365bot)
+- `AntiServiceMessageBot`: [https://t.me/AntiServiceMessageBot](https://t.me/AntiServiceMessageBot)
+- `Help Limitati Bot`: [https://t.me/LimitatiBot](https://t.me/LimitatiBot)
+- `方丈机器人`: [https://t.me/fangzhang_bot/](https://t.me/fangzhang_bot/)
+- `Shop Bot`: [https://t.me/shopbot](https://t.me/shopbot)
+- `enterprise@qoot.cool`: [https://t.me/thoranubis](https://t.me/thoranubis)
+- `MarkdownBot`: [https://t.me/mdrobot](https://t.me/mdrobot)
+- `森近真帆`: [https://t.me/MahoNato_bot](https://t.me/MahoNato_bot)
+- `Telemetrio`: [https://t.me/telemetr_io_bot/](https://t.me/telemetr_io_bot/)
+- `TransferRobot`: [https://t.me/TransferRobot](https://t.me/TransferRobot)
+- `WatchDog Robot`: [https://t.me/watchdog_robot](https://t.me/watchdog_robot)
+- `CommentBot`: [https://t.me/bakalztbot](https://t.me/bakalztbot)
+- `Telegraph`: [https://t.me/telegraph](https://t.me/telegraph)
+- `OrgRobot`: [https://t.me/orgrobot](https://t.me/orgrobot)
+- `FreqRobot`: [https://t.me/freqrobot](https://t.me/freqrobot)
+- `nmBot`: [https://t.me/nmnmfunbot](https://t.me/nmnmfunbot)
+- `Previews`: [https://t.me/previews](https://t.me/previews)
+- `Wallet`: [https://t.me/wallet/](https://t.me/wallet/)
+- `[DOWN] Spotify Music Downloader`: [https://t.me/SpotifyMusicDownloaderBot](https://t.me/SpotifyMusicDownloaderBot)
+- `joinhider_bot`: [https://t.me/joinhider_bot](https://t.me/joinhider_bot)
+- `Stickers Bot`: [https://t.me/Stickers/](https://t.me/Stickers/)
+- `We Group Bot`: [https://t.me/WeGroupRobot](https://t.me/WeGroupRobot)
+- `广告终结者_Bot`: [https://t.me/adzhongjiezhe_bot](https://t.me/adzhongjiezhe_bot)
+- `Download IT - Video | Music | Files`: [https://t.me/download_it_bot](https://t.me/download_it_bot)
+- `DiscussBot`: [https://t.me/discussbot](https://t.me/discussbot)
+- `Group Butler`: [https://t.me/GroupButler_bot](https://t.me/GroupButler_bot)
+- `Markdown Bot`: [https://t.me/Bold](https://t.me/Bold)
+- `查特皮皮鸡`: [https://t.me/ZUOLUOTV_AI_BOT](https://t.me/ZUOLUOTV_AI_BOT)
+- `统计秘书`: [https://t.me/FengStatsBot](https://t.me/FengStatsBot)
+- `No Hello Robot`: [https://t.me/nohello_robot](https://t.me/nohello_robot)
+- `Spam Info Bot`: [https://t.me/SpamBot](https://t.me/SpamBot)
+- `Wallet`: [https://t.me/wallet](https://t.me/wallet)
+- `GrepRobot`: [https://t.me/grep_robot](https://t.me/grep_robot)
+- `长消息杀手🥷🏻`: [https://t.me/LongMessageKillerBot](https://t.me/LongMessageKillerBot)
+- `Telegram Explorer`: [https://t.me/ExploreTelegramBot](https://t.me/ExploreTelegramBot)
+- `Post Bot`: [https://t.me/PostBot](https://t.me/PostBot)
+- `Strangy`: [https://t.me/strangybot](https://t.me/strangybot)
+- `Dr.Web`: [https://t.me/DrWebBot](https://t.me/DrWebBot)
+- `查特皮皮鸡`: [https://t.me/ZUOLUOTV_AI_BOT/](https://t.me/ZUOLUOTV_AI_BOT/)
+- `Beemo`: [https://t.me/PTRankBot](https://t.me/PTRankBot)
+- `Douyin Downloader`: [https://t.me/douyin_download_bot](https://t.me/douyin_download_bot)
+- `广告杀手 🥷🏻`: [https://t.me/GuangGaoShaShouBot](https://t.me/GuangGaoShaShouBot)
+- `冗PowerBot`: [https://t.me/jung2_bot](https://t.me/jung2_bot)
+- `RSSchina_bot`: [https://t.me/RSSchina_bot](https://t.me/RSSchina_bot)
+- `小掌萌`: [https://t.me/sauweenbot](https://t.me/sauweenbot)
+- `阿福`: [https://t.me/afoolrobot/](https://t.me/afoolrobot/)
+- `GetIDs Bot`: [https://t.me/getidsbot](https://t.me/getidsbot)
+- `IDBot`: [https://t.me/username_to_id_bot](https://t.me/username_to_id_bot)
+- `Webpage Bot`: [https://t.me/WebpageBot/](https://t.me/WebpageBot/)
+- `Shieldy`: [https://t.me/shieldy_bot](https://t.me/shieldy_bot)
+- `Gamee`: [https://t.me/gamee](https://t.me/gamee)
+- `Fragment Auction Alerts`: [https://t.me/fragment/](https://t.me/fragment/)
+- `StockPrice`: [https://t.me/stockprice_bot](https://t.me/stockprice_bot)
+- `Telegraph`: [https://t.me/Telegraph/](https://t.me/Telegraph/)
+- `JBot`: [https://t.me/the_jbot](https://t.me/the_jbot)
+- `Apollo`: [https://t.me/RealApolloBot](https://t.me/RealApolloBot)
+- `RSSBot`: [https://t.me/RustRssBot](https://t.me/RustRssBot)
+- `Sticker Downloader`: [https://t.me/Stickerdownloadbot](https://t.me/Stickerdownloadbot)
+- `Like and Comment`: [https://t.me/LikeComBot](https://t.me/LikeComBot)
+- `The Join Captcha Bot`: [https://t.me/join_captcha_bot](https://t.me/join_captcha_bot)
+- `Policr`: [https://t.me/policr_bot](https://t.me/policr_bot)
+- `Stickers Bot`: [https://t.me/Stickers](https://t.me/Stickers)
+- `NoAdBot`: [https://t.me/keyworddel_bot](https://t.me/keyworddel_bot)
+- `解除频道消息在群组的置顶`: [https://t.me/areply_bot](https://t.me/areply_bot)
+- `方丈机器人`: [https://t.me/fangzhang_bot](https://t.me/fangzhang_bot)
+- `nmBot`: [https://t.me/nmnmfunbot/](https://t.me/nmnmfunbot/)
+- `Lottery Bot`: [https://t.me/LotteryBot](https://t.me/LotteryBot)
+- `hs`: [https://t.me/kunsu_bot](https://t.me/kunsu_bot)
+- `Wikipedia Search`: [https://t.me/wiki](https://t.me/wiki)
+- `全网视频下载`: [https://t.me/icbcbot](https://t.me/icbcbot)
+- `区块链助手 - 链上信息查询`: [https://t.me/QueryTokenBot?start=invite_7439567495](https://t.me/QueryTokenBot?start=invite_7439567495)
+- `Air Pollution`: [https://t.me/AirPollution_Bot](https://t.me/AirPollution_Bot)
+- `so1234bot`: [https://t.me/So1234Bot](https://t.me/So1234Bot)
+- `Dr.Web`: [https://t.me/drwebbot](https://t.me/drwebbot)
+- `Controller Bot`: [https://t.me/ControllerBot](https://t.me/ControllerBot)
+- `SpamMeNotBot`: [https://t.me/SpamMeNotBot](https://t.me/SpamMeNotBot)
+- `InstantViewBot`: [https://t.me/CorsaBot](https://t.me/CorsaBot)
+- `LikeBot`: [https://t.me/like/](https://t.me/like/)
+- `KinhRoBot`: [https://t.me/KinhRoBot/](https://t.me/KinhRoBot/)
+- `Previews`: [https://t.me/previews/](https://t.me/previews/)
+- `Username Bot`: [https://t.me/username_bot/](https://t.me/username_bot/)
+- `Jailbreak Bot`: [https://t.me/rJailbreakBot](https://t.me/rJailbreakBot)
+- `CaptchatBot`: [https://t.me/Captchat_Bot](https://t.me/Captchat_Bot)
+- `Auto Restrict Bot [beta]`: [https://t.me/AutoRestrictBot](https://t.me/AutoRestrictBot)
+- `SangMata Info Bot`: [https://t.me/SangMataInfo_bot](https://t.me/SangMataInfo_bot)
+- `NoAdsBot 🅥`: [https://t.me/autodeletead_bot/](https://t.me/autodeletead_bot/)
+- `Combot`: [https://t.me/combot/](https://t.me/combot/)
+- `Lottery Bot V2`: [https://t.me/tgLotteryBot](https://t.me/tgLotteryBot)
+- `MTProxy Admin Bot`: [https://t.me/MTProxybot/](https://t.me/MTProxybot/)
+- `Feed Reader Bot`: [https://t.me/TheFeedReaderBot](https://t.me/TheFeedReaderBot)
+- `Yandex Translate`: [https://t.me/YTranslateBot](https://t.me/YTranslateBot)
+- `Telegram Watchdog`: [https://t.me/WatchdogVerifyBot/](https://t.me/WatchdogVerifyBot/)
+- `IFTTT`: [https://t.me/IFTTT](https://t.me/IFTTT)
+- `Webpage Bot`: [https://t.me/WebpageBot](https://t.me/WebpageBot)
+- `Jobs Bot`: [https://t.me/jobs_bot](https://t.me/jobs_bot)
+- `🎵 Music Downloader`: [https://t.me/MusicDownloaderRobot](https://t.me/MusicDownloaderRobot)
+- `BotFather`: [https://t.me/BotFather/](https://t.me/BotFather/)
+- `视频解析中心`: [https://t.me/ParsehubBot](https://t.me/ParsehubBot)
+- `NoSticker`: [https://t.me/nosticker_bot](https://t.me/nosticker_bot)
+- `Pixiv`: [https://t.me/Pixiv_bot](https://t.me/Pixiv_bot)
+- `GDPR Bot`: [https://t.me/gdprbot](https://t.me/gdprbot)
+- `Admin Caller`: [https://t.me/callAdminsBot](https://t.me/callAdminsBot)
+- `hexlightning ⚡️`: [https://t.me/hexlightning_bot](https://t.me/hexlightning_bot)
+- `ImageBot`: [https://t.me/imagebot](https://t.me/imagebot)
+- `ddbot`: [https://t.me/ddoc_bot](https://t.me/ddoc_bot)
+- `BotList Bot 🤖`: [https://t.me/BotListBot](https://t.me/BotListBot)
+- `Discuss Unpin Bot`: [https://t.me/DiscussUnpinBot](https://t.me/DiscussUnpinBot)
+- `ASCII2D bot`: [https://t.me/ascii2d_bot](https://t.me/ascii2d_bot)
+- `天童AL-1S🤖 Powered by @TooruchanNews`: [https://t.me/toorucaptchabot](https://t.me/toorucaptchabot)
+- `React Bot`: [https://t.me/ReactBot/](https://t.me/ReactBot/)
+- `图片劣化`: [https://t.me/JPEGreenBot](https://t.me/JPEGreenBot)
+- `DaySandBox`: [https://t.me/daysandbox_bot](https://t.me/daysandbox_bot)
+- `入群验证机器人`: [https://t.me/P4CaptchaBot](https://t.me/P4CaptchaBot)
+- `Telegram 权限管理机器人`: [https://t.me/autopm_bot](https://t.me/autopm_bot)
+- `Let me...`: [https://t.me/letmebot](https://t.me/letmebot)
+- `InstaSave`: [https://t.me/Instasave_bot](https://t.me/Instasave_bot)
+- `Sticker To GIF`: [https://t.me/Sticker2GIFBot](https://t.me/Sticker2GIFBot)
+- `ContestBot`: [https://t.me/ContestBot](https://t.me/ContestBot)
+- `Web to Album`: [https://t.me/web2album_bot](https://t.me/web2album_bot)
+- `Policr Mini (beta)`: [https://t.me/policr_mini_bot/](https://t.me/policr_mini_bot/)
+- `妙妙小工具Beta`: [https://t.me/GLBetabot](https://t.me/GLBetabot)
+- `You Have NO Username`: [https://t.me/UNameBot](https://t.me/UNameBot)
+- `ID查询机器人`: [https://t.me/nminfobot](https://t.me/nminfobot)
+- `AntiCommandBot`: [https://t.me/AntiCommandBot](https://t.me/AntiCommandBot)
+- `twitter_loli_bot`: [https://t.me/twitter_loli_bot](https://t.me/twitter_loli_bot)
+- `TempMail`: [https://t.me/temp_mail_bot](https://t.me/temp_mail_bot)
+- `GitHub`: [https://t.me/githubbot](https://t.me/githubbot)
+- `Telegram Channels Bot`: [https://t.me/tchannelsbot](https://t.me/tchannelsbot)
+- `Transparency Reports`: [https://t.me/Transparency](https://t.me/Transparency)
+- `Polie`: [https://t.me/LikeBot](https://t.me/LikeBot)
+- `TGCN-CAPTCHA加群验证`: [https://t.me/tgcnjoincaptchabot](https://t.me/tgcnjoincaptchabot)
+- `URL Shortener 🔗`: [https://t.me/LinkGeneratorBot](https://t.me/LinkGeneratorBot)
+- `Spam Info Bot`: [https://t.me/SpamBot/](https://t.me/SpamBot/)
+- `Combot`: [https://t.me/combot](https://t.me/combot)
+- `Okpay💰`: [https://t.me/OkayPayBot?start=creditCardInvite--6294881820](https://t.me/OkayPayBot?start=creditCardInvite--6294881820)
+- `Channel Help`: [https://t.me/chelpbot/](https://t.me/chelpbot/)
+- `Designers Bot`: [https://t.me/design_bot](https://t.me/design_bot)
+- `Quiz Bot`: [https://t.me/QuizBot](https://t.me/QuizBot)
+- `StickerBot`: [https://t.me/sticker](https://t.me/sticker)
+- `Transparency Reports`: [https://t.me/transparency/](https://t.me/transparency/)
+- `Safe Bot`: [https://t.me/thesafebot](https://t.me/thesafebot)
+- `Reddit Downloader`: [https://t.me/reddit_download_bot](https://t.me/reddit_download_bot)
+- `Manybot`: [https://t.me/Manybot](https://t.me/Manybot)
+- `呆呆兽`: [https://t.me/KeDuckBot/](https://t.me/KeDuckBot/)
+- `Lang Blocker Bot`: [https://t.me/lang_blocker_bot](https://t.me/lang_blocker_bot)
+- `HushRobot`: [https://t.me/HushRobot](https://t.me/HushRobot)
+- `WTFisBot`: [https://t.me/WTFisBot](https://t.me/WTFisBot)
+- `免费搬运机器人🤖`: [https://t.me/xiunvbanyun1bot](https://t.me/xiunvbanyun1bot)
+- `React Bot`: [https://t.me/ReactBot](https://t.me/ReactBot)
+- `Classical Music`: [https://t.me/music](https://t.me/music)
+- `Comments Bot`: [https://t.me/CommentsBot](https://t.me/CommentsBot)
+- `grouphub`: [https://t.me/GroupHub_bot](https://t.me/GroupHub_bot)
+- `dicbot`: [https://t.me/dicbot](https://t.me/dicbot)
+- `AntiHyperlinkBot`: [https://t.me/AntiHyperlinkBot](https://t.me/AntiHyperlinkBot)
+- `Welcome Bot`: [https://t.me/jh0ker_welcomebot](https://t.me/jh0ker_welcomebot)
+- `TGStat Bot`: [https://t.me/TGStat_Bot/](https://t.me/TGStat_Bot/)
+- `No Arab Bot`: [https://t.me/noarab_bot](https://t.me/noarab_bot)
+- `Watch Door [beta]`: [https://t.me/WatchDoorBot](https://t.me/WatchDoorBot)
+- `Report Impersonation`: [https://t.me/notoscam](https://t.me/notoscam)
+- `The Join Captcha Bot`: [https://t.me/join_captcha_bot/](https://t.me/join_captcha_bot/)
+- `We Group Bot`: [https://t.me/WeGroupRobot/](https://t.me/WeGroupRobot/)
+- `Sticker Time Bot`: [https://t.me/sticker_time_bot](https://t.me/sticker_time_bot)
+- `Group Help`: [https://t.me/GroupHelpBot/](https://t.me/GroupHelpBot/)
+- `Socks5 Proxy Bot`: [https://t.me/socks5_bot](https://t.me/socks5_bot)
+- `大掌门`: [https://t.me/FengDoorBot](https://t.me/FengDoorBot)
+- `File Converter`: [https://t.me/newfileconverterbot](https://t.me/newfileconverterbot)
+- `Gmail Bot`: [https://t.me/GmailBot](https://t.me/GmailBot)
+- `Livegram Bot`: [https://t.me/LivegramBot](https://t.me/LivegramBot)
+- `Weather bot`: [https://t.me/WeatherBot](https://t.me/WeatherBot)
+- `Approve By Poll`: [https://t.me/KimmyXYC_Approve_By_Poll_bot/](https://t.me/KimmyXYC_Approve_By_Poll_bot/)
+- `Minesweeper`: [https://t.me/mine_sweeper_bot](https://t.me/mine_sweeper_bot)
+- `VideoTubeBot`: [https://t.me/VideoTubeBot](https://t.me/VideoTubeBot)
+- `CloudMusicDownloader`: [https://t.me/Music163bot](https://t.me/Music163bot)
+- `不鸽了`: [https://t.me/bugele_bot](https://t.me/bugele_bot)
+- `MyTeleCloudBot`: [https://t.me/MyTeleCloudBot](https://t.me/MyTeleCloudBot)
+- `Creation Date`: [https://t.me/creationdatebot](https://t.me/creationdatebot)
+- `TGCN-币&黄广告专杀`: [https://t.me/adnamekillerbot](https://t.me/adnamekillerbot)
+- `Tenor GIF Search`: [https://t.me/gif](https://t.me/gif)
+- `SangMata`: [https://t.me/SangMata_BOT](https://t.me/SangMata_BOT)
+- `StickerSetBot`: [https://t.me/stickerset2packbot](https://t.me/stickerset2packbot)
+- `抖音Tiktok去水印bot`: [https://t.me/DouYintg_bot](https://t.me/DouYintg_bot)
+- `DiscussBot`: [https://t.me/discussbot/](https://t.me/discussbot/)
+- `BotFather`: [https://t.me/BotFather](https://t.me/BotFather)
+- `VoteBot`: [https://t.me/vote](https://t.me/vote)
+- `TG Downloader`: [https://t.me/GIFDownloader_bot](https://t.me/GIFDownloader_bot)
+- `To do list manager`: [https://t.me/todobot](https://t.me/todobot)
+- `Favorite Stickers Bot`: [https://t.me/favorite_stickers_bot](https://t.me/favorite_stickers_bot)
+- `Rose`: [https://t.me/MissRose_bot/](https://t.me/MissRose_bot/)
+- `Master Tag Alert`: [https://t.me/MasterTagAlertBot](https://t.me/MasterTagAlertBot)
+- `Verify Bot`: [https://t.me/VerifyBot/](https://t.me/VerifyBot/)
+- `Premium Bot`: [https://t.me/PremiumBot/](https://t.me/PremiumBot/)
+- `Anonymous Telegram Bot`: [https://t.me/Anonymous_telegram_bot](https://t.me/Anonymous_telegram_bot)
+- `utubebot`: [https://t.me/utubebot](https://t.me/utubebot)
+- `Protectron`: [https://t.me/ProtectronBot](https://t.me/ProtectronBot)
+- `一个勤勤恳恳的RSS订阅器`: [https://t.me/PdoRSS_bot](https://t.me/PdoRSS_bot)
+- `IQDB bot`: [https://t.me/iqdb_org_bot](https://t.me/iqdb_org_bot)
+- `Telegram Analytics Bot`: [https://t.me/tg_analytics_bot/](https://t.me/tg_analytics_bot/)
+- `Group Help`: [https://t.me/GroupHelpBot](https://t.me/GroupHelpBot)
+- `QR Code Bot`: [https://t.me/QRCodeRoBot](https://t.me/QRCodeRoBot)
+- `MTProxy Admin Bot`: [https://t.me/MTProxybot](https://t.me/MTProxybot)
+- `CaptchatBot`: [https://t.me/Captchat_Bot/](https://t.me/Captchat_Bot/)
+- `To PDF`: [https://t.me/topdf_bot](https://t.me/topdf_bot)
+- `URL Uploader`: [https://t.me/uploadbot](https://t.me/uploadbot)
+- `Telegram Store Bot`: [https://t.me/storebot](https://t.me/storebot)
+- `GameBot`: [https://t.me/gamebot](https://t.me/gamebot)
+- `罗新豪`: [https://t.me/CNBlackListRBot](https://t.me/CNBlackListRBot)
+- `AntiArabicScriptBot`: [https://t.me/AntiArabicScriptBot](https://t.me/AntiArabicScriptBot)
+- `Video Search for YouTube`: [https://t.me/vid](https://t.me/vid)
+- `Get ID bot`: [https://t.me/get_id_bot](https://t.me/get_id_bot)
+- `Vultr 助手 Bot`: [https://t.me/vultr_helper_bot](https://t.me/vultr_helper_bot)
+- `Shorten URL | ume.la`: [https://t.me/referbot](https://t.me/referbot)
+- `Channel Helper`: [https://t.me/jogle_channel_bot](https://t.me/jogle_channel_bot)
+- `中英翻譯(English Chinese(Mandarin) translation)`: [https://t.me/en_to_tw_bot](https://t.me/en_to_tw_bot)
+- `NodeRSSBot`: [https://t.me/NodeRSS_bot](https://t.me/NodeRSS_bot)
+- `APK Downloader`: [https://t.me/apkdl_bot](https://t.me/apkdl_bot)
+- `ComenBot`: [https://t.me/ComenBot](https://t.me/ComenBot)
+- `DropMail.me`: [https://t.me/DropmailBot](https://t.me/DropmailBot)
+- `Warma Bot`: [https://t.me/warma_bot](https://t.me/warma_bot)
+- `Hot Or Bot`: [https://t.me/hotorbot](https://t.me/hotorbot)
+- `BotsArchive Bot`: [https://t.me/BotsArchiveBot](https://t.me/BotsArchiveBot)
+- `Bilibili Feed Bot`: [https://t.me/bilifeedbot](https://t.me/bilifeedbot)
+- `Yaplus Bot`: [https://t.me/yaplus_bot](https://t.me/yaplus_bot)
+- `Multi Saver || Tiktok Facebook Instagram Twitter`: [https://t.me/MultiSaverXbot](https://t.me/MultiSaverXbot)
+- `GroupOwnerBot`: [https://t.me/GroupOwnerBot](https://t.me/GroupOwnerBot)
+- `Translate Father`: [https://t.me/TranslateFather_bot](https://t.me/TranslateFather_bot)
+- `Send to Kindle`: [https://t.me/Send2KindleBot](https://t.me/Send2KindleBot)
+- `Penle`: [https://t.me/penle_bot](https://t.me/penle_bot)
+- `Verify Bot`: [https://t.me/VerifyBot](https://t.me/VerifyBot)
+- `BitShares Red Pack (Beta)`: [https://t.me/redpack_bot](https://t.me/redpack_bot)
+- `IMDb`: [https://t.me/imdb](https://t.me/imdb)
+- `Searchee Bot`: [https://t.me/SearcheeBot](https://t.me/SearcheeBot)
+- `Cleaning Toolbox`: [https://t.me/CleaningToolboxBot/](https://t.me/CleaningToolboxBot/)
+- `PronunciationBot`: [https://t.me/PronunciationBot](https://t.me/PronunciationBot)
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jackhawks/rectg&type=Date)](https://star-history.com/#jackhawks/rectg&Date)
+[![Star History](https://starchart.cc/jackhawks/rectg.svg?variant=adaptive)](https://starchart.cc/jackhawks/rectg)
