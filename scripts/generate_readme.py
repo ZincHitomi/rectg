@@ -50,6 +50,12 @@ CATEGORY_ORDER = [
     "🌐 综合其他"
 ]
 
+def make_anchor(section: str, category_index: int | None = None) -> str:
+    """生成稳定锚点，避免依赖 GitHub 对中文/emoji 标题的默认锚点规则。"""
+    if category_index is None:
+        return f"section-{section}"
+    return f"section-{section}-{category_index}"
+
 def format_count(count) -> str:
     """格式化数字为精确数字字符串，带千分位逗号。"""
     if count is None:
@@ -150,6 +156,26 @@ def generate_readme(conn: sqlite3.Connection) -> str:
     lines.append("> **免责声明**：本项目基于公开互联网信息整理，仅供技术学习、信息导航与研究参考使用。请使用者自行甄别内容，并严格遵守所在地法律法规；因使用相关内容产生的风险与责任，由使用者自行承担。")
     lines.append("")
 
+    lines.append("## 目录")
+    lines.append("")
+
+    for t_info in TYPE_ORDER:
+        t_id = t_info["id"]
+        categories = tree[t_id]
+        if not categories:
+            continue
+
+        lines.append(f"- [{t_info['name']}](#{make_anchor(t_id)})")
+
+        existing_cats = set(categories.keys())
+        sorted_cats = [c for c in CATEGORY_ORDER if c in existing_cats]
+        sorted_cats += sorted(list(existing_cats - set(CATEGORY_ORDER)))
+
+        for idx, cat in enumerate(sorted_cats, start=1):
+            lines.append(f"  - [{cat}](#{make_anchor(t_id, idx)})")
+
+    lines.append("")
+
     # 生成各版块
     for t_info in TYPE_ORDER:
         t_id = t_info["id"]
@@ -158,7 +184,8 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         categories = tree[t_id]
         if not categories:
             continue
-            
+
+        lines.append(f'<a id="{make_anchor(t_id)}"></a>')
         lines.append(f"## {t_name}")
         lines.append("")
         
@@ -167,11 +194,12 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         sorted_cats = [c for c in CATEGORY_ORDER if c in existing_cats]
         sorted_cats += sorted(list(existing_cats - set(CATEGORY_ORDER)))
         
-        for cat in sorted_cats:
+        for idx, cat in enumerate(sorted_cats, start=1):
             items = categories[cat]
             if not items:
                 continue
-                
+
+            lines.append(f'<a id="{make_anchor(t_id, idx)}"></a>')
             lines.append("### " + cat)
             lines.append("")
             lines.append("| 名称 | 链接 | 订阅数 | 简介 |")

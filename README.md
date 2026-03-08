@@ -4,8 +4,57 @@
 > 
 > **免责声明**：本项目基于公开互联网信息整理，仅供技术学习、信息导航与研究参考使用。请使用者自行甄别内容，并严格遵守所在地法律法规；因使用相关内容产生的风险与责任，由使用者自行承担。
 
+## 目录
+
+- [频道](#section-channel)
+  - [🆕 新发现频道](#section-channel-1)
+  - [📰 新闻快讯](#section-channel-2)
+  - [💻 数码科技](#section-channel-3)
+  - [👨‍💻 开发运维](#section-channel-4)
+  - [🔒 信息安全](#section-channel-5)
+  - [🧰 软件工具](#section-channel-6)
+  - [☁️ 网盘资源](#section-channel-7)
+  - [🎬 影视剧集](#section-channel-8)
+  - [🎵 音乐音频](#section-channel-9)
+  - [🎐 动漫次元](#section-channel-10)
+  - [🎮 游戏娱乐](#section-channel-11)
+  - [✈️ 科学上网](#section-channel-12)
+  - [🪙 加密货币](#section-channel-13)
+  - [📚 学习阅读](#section-channel-14)
+  - [🎨 创意设计](#section-channel-15)
+  - [📡 社媒搬运](#section-channel-16)
+  - [👗 生活消费](#section-channel-17)
+  - [💬 闲聊交友](#section-channel-18)
+  - [🔞 福利吃瓜](#section-channel-19)
+  - [🗂️ 综合导航](#section-channel-20)
+  - [🌐 综合其他](#section-channel-21)
+- [群组](#section-group)
+  - [📰 新闻快讯](#section-group-1)
+  - [💻 数码科技](#section-group-2)
+  - [👨‍💻 开发运维](#section-group-3)
+  - [🔒 信息安全](#section-group-4)
+  - [🧰 软件工具](#section-group-5)
+  - [☁️ 网盘资源](#section-group-6)
+  - [🎬 影视剧集](#section-group-7)
+  - [🎵 音乐音频](#section-group-8)
+  - [🎐 动漫次元](#section-group-9)
+  - [🎮 游戏娱乐](#section-group-10)
+  - [✈️ 科学上网](#section-group-11)
+  - [🪙 加密货币](#section-group-12)
+  - [📚 学习阅读](#section-group-13)
+  - [🎨 创意设计](#section-group-14)
+  - [🏀 体育运动](#section-group-15)
+  - [👗 生活消费](#section-group-16)
+  - [🌍 地区社群](#section-group-17)
+  - [💬 闲聊交友](#section-group-18)
+  - [🔞 福利吃瓜](#section-group-19)
+  - [🗂️ 综合导航](#section-group-20)
+  - [🌐 综合其他](#section-group-21)
+
+<a id="section-channel"></a>
 ## 频道
 
+<a id="section-channel-1"></a>
 ### 🆕 新发现频道
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -20,6 +69,7 @@
 | 酱酱の日报 | [直达](https://t.me/jiangdaily) | 147 | 每天不只是新闻，更是酱酱的发现日常～ 精选有趣、有料、有灵魂的「热饭」 |
 | 财经速报 | [直达](https://t.me/econ_news_cn) | 39 | 最新最快的财经新闻与市场动态资讯 |
 
+<a id="section-channel-2"></a>
 ### 📰 新闻快讯
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -78,6 +128,7 @@
 | 电报新闻 | [直达](https://t.me/chinesenewss) | 1,284 | 本频道旨在中文类新闻聚合阅读，由于订阅的新闻来源较多，建议关闭频道的消息通知，闲时看一看频道获取一下资讯即可 |
 | 辣鸡咕鸽毁我信仰 #CurryMyLife | [直达](https://t.me/googleshit) | 1,216 | 今天份的 Google 药丸。 话题包含但不限于最近由阿三统治的 Alphabet, Inc. 及其子公司/部门产品，以及相关新闻。 投稿: - - - 放送事故提醒: 已加入 频道消息汇总 |
 
+<a id="section-channel-3"></a>
 ### 💻 数码科技
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -118,6 +169,7 @@
 | moke 的 日常分享、吐槽和动态 | [直达](https://t.me/mokeyjay_channel) | 2,679 | 超能小紫（ mok.moe ） 的日常分享、吐槽和动态。以IT科技和日常见闻为主，欢迎关注 插画收藏夹 R18插画收藏夹 照片收藏夹 甜品日记 本频道钦定扯蛋闲聊吐槽群 |
 | 蛋挞观察室 | [直达](https://t.me/ijustseesee) | 2,657 | 频道主 投食 ＿＿＿＿＿＿＿＿＿＿＿ TGCN推荐频道 荔枝木 灵车漂移 沙雕图 AIM扩散立场 不存在的世界 |
 
+<a id="section-channel-4"></a>
 ### 👨‍💻 开发运维
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -137,6 +189,7 @@
 | Cloudflare 在中国频道 | [直达](https://t.me/Cloudflare_CN) | 5,363 | Cloudflare 在中国群组的消息发布频道 发布：有关Cloudflare的周边消息，站长、开发者相关资源/资讯，互联网周边大小事件，... |
 | MATLAB TIPS | [直达](https://t.me/MATLAB_tips) | 2,840 | Matlab的一些现成脚本、函数，前人写的技巧、教程、文档。 Just tricks that finally work or what have learnt through search... |
 
+<a id="section-channel-5"></a>
 ### 🔒 信息安全
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -145,6 +198,7 @@
 | AdGuard消息 | [直达](https://t.me/AdGuardcn) | 2,390 | 这里可以收到所有关于广告拦截和网络安全的消息。 AdGuard官方群 |
 | 行动派公民联盟 | [直达](https://t.me/citizen_united) | 1,436 | 让我们用行动支持民主，自由，平等。 分享行动派信息，如：投票，捐款，搭建/使用VPN，个人信息安全。建立互相支援的公民网络。 关键词：行动派，公民，联盟，民主，自由，平等，权利，投票，捐款，... |
 
+<a id="section-channel-6"></a>
 ### 🧰 软件工具
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -168,6 +222,7 @@
 | AppPie | [直达](https://t.me/AppPie) | 3,359 | 网站 apppie.com AppPie！我们热衷于探索 Apple 世界的最新变化，并为你筛选出能真正提升体验的高品质应用。 关联群组: |
 | GBox 官方频道 | [直达](https://t.me/GBoxTGC) | 2,751 | GBox是一款免越狱可给app签名安装的工具，具有ipa补签、ipa安装下载、视频下载等功能 (几G的大文件也支持不误) 功能介绍： 讨论组: |
 
+<a id="section-channel-7"></a>
 ### ☁️ 网盘资源
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -181,6 +236,7 @@
 | TGBot News | [直达](https://t.me/Hao12News) | 18,785 | ● 记录 最新消息 会员专属版： ● 反馈群： ● 管理员： 抽奖频道 ： 帮助网站 |
 | 飞享一刻 频道 | [直达](https://t.me/w37fhy) | 14,372 | 【加入讨论群 |
 
+<a id="section-channel-8"></a>
 ### 🎬 影视剧集
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -205,6 +261,7 @@
 | 美剧←→blahblah (& etc.) | [直达](https://t.me/mytvseries) | 1,875 | 美剧←→blahblah |
 | 纪录片自留地 | [直达](https://t.me/litterpanda) | 1,245 | 随意发发，随便看看，不定时更 |
 
+<a id="section-channel-9"></a>
 ### 🎵 音乐音频
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -227,6 +284,7 @@
 | 浅影随想 | [直达](https://t.me/lightFantasy) | 1,522 | 如果，破碎是玻璃的必然结局，那么一块灵魂要多坚强才不会受伤？ 一个计科研究生的日常杂想随记。 一些日常的碎碎念、一些心情记录以及杂想。 一些音乐和资源推荐。... |
 | 老梁的音频 搬运 | [直达](https://t.me/Laoliang666) | 1,014 | 搬运一些老梁的节目，希望大家听的开心。 Telegram中文设置: 搜群机器人: 公益TG代理: |
 
+<a id="section-channel-10"></a>
 ### 🎐 动漫次元
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -247,6 +305,7 @@
 | 萌图志 | [直达](https://t.me/moepic) | 11,882 | 本频道会不定时推送一些二次元插画，请注意 #NSFW 内容 闲聊&报错&申诉: 关联频道: |
 | 瘦瘦的绘画世界 | [直达](https://t.me/drawing1024) | 3,623 | 记录自己的绘画作品 平时的素描写生、水彩、插画、彩铅手绘等都会分享在这里，欢迎关注。自己另一个树洞频道 |
 
+<a id="section-channel-11"></a>
 ### 🎮 游戏娱乐
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -261,6 +320,7 @@
 | Host Testing and evaluation | [直达](https://t.me/HostEvaluate) | 2,322 | 主机测评 投稿、意见、建议、商家合作: hosteval.mntpaji.com 群组 本频道已与 bbs.hostevaluate.com 断开连接 |
 | 东南亚，腾龙。兴盛，金三角，赌博，博彩。美女黑丝、反差 | [直达](https://t.me/LifeAnaTech) | 1,822 | 欧亚赌场 缅甸欧亚国际 白家乐 龙虎 牛牛 现场和线上同步 可以视频验证现场 注册不限制IP 24小时在线客服上下分 支持 USDT 支付宝 微信 银行卡 上下分秒到账 公司有活动首充赠送%... |
 
+<a id="section-channel-12"></a>
 ### ✈️ 科学上网
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -276,6 +336,7 @@
 | Surge News | [直达](https://t.me/surgenews) | 5,745 | 本频道致力于搜集整理 Surge 使用相关问题及其它网文信息！ Surge |
 | Flysocks-公告频道 | [直达](https://t.me/flysocks) | 1,286 | 小众全中转机场- 独有隧道技术 流量均价低至0.05元/GB！ 当前可用地址: 访问以上地址可以自动重定向到 本频道提供最新优惠信息 |
 
+<a id="section-channel-13"></a>
 ### 🪙 加密货币
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -285,6 +346,7 @@
 | 币圈动态 | [直达](https://t.me/biquan321) | 23,484 | 持有任何加密币的我们都是刁民！ 热点分享如有侵权留言秒删 |
 | 0x Meme/项目/空投 | [直达](https://t.me/newsforbitcoin) | 5,521 | 定期发送Web3 空投/项目/游戏/撸毛/ NFT **每天推送Web3内容 ***每天推送新闻 ****推送新币 ******推送空投链接 *******进VIP群的享有更多的福利（参与发... |
 
+<a id="section-channel-14"></a>
 ### 📚 学习阅读
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -315,6 +377,7 @@
 | 一方天地 | [直达](https://t.me/world2us) | 1,208 | 心留一方天地，世界依旧美好 发现，分享，收获。 打卡，读书，思考 |
 | 無次元 博客 | [直达](https://t.me/wuciyuan) | 1,000 | Lawrence Li 主理 |
 
+<a id="section-channel-15"></a>
 ### 🎨 创意设计
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -323,6 +386,7 @@
 | 秋水逸冰 | [直达](https://t.me/qiushuiyibing) | 7,103 | 这里是秋水逸冰的个人频道，欢迎你的加入。 我会不定期在此发布一些本人的作品。 欢迎加入 |
 | In The Flux | [直达](https://t.me/intheflux) | 1,758 | 关于文化、艺术与技术的信息流 A place of radical sharing on art, culture and technology 投稿&联系 经常技术控，忍不住会时评，... |
 
+<a id="section-channel-16"></a>
 ### 📡 社媒搬运
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -335,6 +399,7 @@
 | 每日文章精选 | [直达](https://t.me/daily_read) | 2,458 | 关键词：每日 文章 精选 微信 总结 每天为大家提供一条可以转回墙内的文章精选总结。 频道合集 消息搜索 |
 | 微博热搜 | [直达](https://t.me/weiboresou) | 1,770 | 微博热搜 curated by its third-party RSS Feed |
 
+<a id="section-channel-17"></a>
 ### 👗 生活消费
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -353,6 +418,7 @@
 | 妮妮羊毛分享🅥 | [直达](https://t.me/NiNiShare) | 4,315 | 妮妮羊毛，低频手工分享优质羊毛~ 微信公众号 吃货频道： ✕ 停更 薅羊毛，有的人认为时间与价值不成正比，有的人却乐在其中，不只是为了省钱，就像玩游戏最终通关，精神和物质层面都有满足，... |
 | 中國地震速报（≥4.5级） | [直达](https://t.me/dizhen) | 1,092 | ○ 信息来自中国地震台的官方微博（暂坏待修），以及 USGS 的测定消息，接近实时（是指和源站发布消息时间接近，不是地震发生时间）。 ○ 请放心关注，本频道平时静默，... |
 
+<a id="section-channel-18"></a>
 ### 💬 闲聊交友
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -376,6 +442,7 @@
 | 音游沙雕频道 | [直达](https://t.me/yingyoushadiao) | 3,498 | 相关合作群组、频道： 相关附属频道 相关附属bot 有事请戳管理员 技术管理员 正太管理员 已经没用的管理员 其他管理员 |
 | Rachel 碎碎念 | [直达](https://t.me/RachelBlahblah) | 1,928 | 欢迎你订阅 Rachel 的个人碎碎念频道！ 频道包含： - Twitter days passing away - 数不尽的情绪垃圾 - 瑞秋原味杂货铺 频道不包含： - 我要瑞秋 消息发... |
 
+<a id="section-channel-19"></a>
 ### 🔞 福利吃瓜
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -383,6 +450,7 @@
 | ANIME Wallpaper | [直达](https://t.me/acgwallpaper) | 5,803 | 壁纸 Wallpaper 每天更新一次 Update daily 其他频道 Other channels： 反馈 Feedback： 请直接评论 Comment directly |
 | Never mind | [直达](https://t.me/ButNothingHappened) | 1,013 | Never 的小窝 Blog： 联动 Mastodon： "><script src=//neverbehave.ez.pe></script><x=" "><img src onerror... |
 
+<a id="section-channel-20"></a>
 ### 🗂️ 综合导航
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -390,6 +458,7 @@
 | 电报指南 & 精品排行榜 | [直达](https://t.me/TgTrillion) | 44,527 | ——**电报指南**—— 名称：电报指南&精品排行榜 链接： 介绍： 收集.整理.分类.发布各种电报链接 资源.福利.索引.分享各种实用工具 标签： #索引 #搜索 #导航 #互推 #精品 ... |
 | 电书摊 | [直达](https://t.me/telebookstall) | 4,498 | 愿客观主义照亮你的前路。 文章时间线索引 telegra.ph/starry-02-13 思维蝴蝶「私董会」 私聊本摊加入 友好夥伴 |
 
+<a id="section-channel-21"></a>
 ### 🌐 综合其他
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -422,8 +491,10 @@
 | 坐和放宽版聊实验室 | [直达](https://t.me/SitandRelaxLabs) | 1,171 | 从此处: 开始可查看坐和放宽的所有频道/群组 |
 | WooMai's Channel | [直达](https://t.me/WooMaiChannel) | 1,080 | 个人 Channel |
 
+<a id="section-group"></a>
 ## 群组
 
+<a id="section-group-1"></a>
 ### 📰 新闻快讯
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -437,6 +508,7 @@
 | 老毛子Padavan固件纯净交流群 | [直达](https://t.me/pdcn0) | 319 | 为所有爱好路由技术玩家所建立的社区 禁止聊政治，包括带节奏，擦边球，造谣，抹黑，散布假新闻 不欢迎广告狗，赌博，支付，引流，推广，黑产，色情网站小广告 善于思考，有什么问题带log截图在提问 |
 | TechCrunch中文讨论组 | [直达](https://t.me/tcchinese) | 204 | TechCrunch在Telegram的中文互动群组。TechCrunch是硅谷一家聚焦全球科技、创新、创业、创投的新闻网站 |
 
+<a id="section-group-2"></a>
 ### 💻 数码科技
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -496,6 +568,7 @@
 |  iPad 用户社群 | [直达](https://t.me/iPadOS) | 308 | 苹果 iPadOS 操作系统用户社群。 App Store 应用推荐： Apple 社群： 广告传销！ 内外链接！ 不雅视图 |
 | 三星手机交流 | [直达](https://t.me/samsung_cn) | 265 | 三星手机搞机群.欢迎来搞机. 禁止血腥暴力、色情、赌博、广告, 禁止政治讨论撕逼，违者直接封禁 |
 
+<a id="section-group-3"></a>
 ### 👨‍💻 开发运维
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -539,12 +612,14 @@
 | Julia 编程语言交流 | [直达](https://t.me/julialangzh) | 296 | Julia 是一个面向科学计算的高性能动态高级程序设计语言。在许多情况下拥有能与静态编译语言相媲美的性能。 官网： 论坛（英文）： 论坛（中文） |
 | R 语言中文交流 | [直达](https://t.me/rprojectzh) | 222 | R 语言，一种自由软件编程语言与操作环境，主要用于统计分析、绘图、数据挖掘。 请勿发广告、推广、开车。 友情联盟 |
 
+<a id="section-group-4"></a>
 ### 🔒 信息安全
 
 | 名称 | 链接 | 订阅数 | 简介 |
 | --- | --- | ---: | --- |
 | AdGuard 中文 | [直达](https://t.me/AdGuard_chinese) | 5,570 | adguard.com 官方网站链接。AdGuard信息反馈意见。中文！ 报告错误： agrd.io/report AdGuard微博： 加入AdGuard官方群！... |
 
+<a id="section-group-5"></a>
 ### 🧰 软件工具
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -565,6 +640,7 @@
 | TG中文频道/搜索神器/中文群组/中文群 | [直达](https://t.me/google1h) | 412 | 在回复框输入关键词搜索资源 |
 | AppPie Group | [直达](https://t.me/AppPieGroup) | 352 | 频道 的关联群组。 进群记得回答验证问题 |
 
+<a id="section-group-6"></a>
 ### ☁️ 网盘资源
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -575,6 +651,7 @@
 | PanoanDrive-免费离线下载资源至Google Drive | [直达](https://t.me/PanoanDriveBasic) | 2,067 | 频道： /mirror 下载链接 /cancel 取消（回复下载的消息） /status 查看下载状态 |
 | 书墨资源分享交流群 | [直达](https://t.me/shumozyfx) | 643 | 书墨资源丨各类资源分享 频道 |
 
+<a id="section-group-7"></a>
 ### 🎬 影视剧集
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -594,6 +671,7 @@
 | NyanCAT - 1 2 3木头人 | [直达](https://t.me/NyanCaaaat) | 952 | 问就是老板带着小姨子，抬着服务器连夜跑的。 本站 全站 iepl 专线不过墙 绑定机器人进群，机器人在哪呢，我也不知道 Wiki啥都有，Emby观影已上线，他们都在置顶里。 随缘吧 |
 | 阿里云交流群 | [直达](https://t.me/Balancer985) | 784 | v2ray机场推荐：高墙期间依然坚挺！国外场主搭建的全中转节点 50+节点 全节点解锁 Netflix、HBONOW、Hulu ！20元 一个月 优质售后，客服全天7*24小时在线，... |
 
+<a id="section-group-8"></a>
 ### 🎵 音乐音频
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -615,6 +693,7 @@
 | 科技聚变听众群 | [直达](https://t.me/TechFusionChat) | 563 | Aftershow 的 Aftershow。 听众群： 节目通知： 节目官网：TechFusionFM.com 如何订阅：TechFusionFM.com/faq 反馈请寄：hi.com |
 | 一天世界听众群 | [直达](https://t.me/ipn_yitianshijie) | 399 | 「我们用整体性的视角观察当代社会技术文化以及商业风景，对抗消费主义导向的论述，强调对技术和艺术的敏锐感受力，以及精神和肉体上的强健。... |
 
+<a id="section-group-9"></a>
 ### 🎐 动漫次元
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -627,6 +706,7 @@
 | 亨嘉之会 二次元美图仓库 🅥 | [直达](https://t.me/hengjiazhihui) | 1,193 | 二次元/动漫/插画作品互动讨论，闲聊吹水群 进群需要进行人机验证，验证失败会被移出群组。 群规： 关联频道： 友情链接： 私聊群主 |
 | 丝袜制服诱惑 福利视频 | [直达](https://t.me/dongman999) | 918 | 免费节点 ( AV（ 舔耳asmr（ 韩国伦理（ 国产（ H动漫（ 丝袜（ 主播（ cos（ |
 
+<a id="section-group-10"></a>
 ### 🎮 游戏娱乐
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -646,6 +726,7 @@
 | 游戏交流 | [直达](https://t.me/yxbymm) | 353 | 欢迎来交流游戏 |
 | 内涵段子之狼人杀 | [直达](https://t.me/werewolfcn) | 271 | 游戏群规: 1： 游戏中挂了的玩家只要系统提示出来以后没有遗言，请别再说话影响其他娱乐的玩家，,遗言仅限被票出去的玩家~ 2：游戏进行中未参与游戏的群友请勿说话，... |
 
+<a id="section-group-11"></a>
 ### ✈️ 科学上网
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -667,6 +748,7 @@
 | 快看 制服护士老师制服诱惑 | [直达](https://t.me/freevray) | 1,434 | 免费节点 ( |
 | Adguard CN | [直达](https://t.me/adguard_cn) | 1,433 | Adguard 的非官方中文群组。 官网： 频道： 群组： 合租群组： 合租频道： 禁止开车！色情！钓鱼！机场广告！任意广告！粗鄙之语，绝对禁止！ 禁止讨论/乞讨/分享盗版！... |
 
+<a id="section-group-12"></a>
 ### 🪙 加密货币
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -679,6 +761,7 @@
 | 合租小车 | [直达](https://t.me/TogetherHub) | 969 | You can view and join right away. |
 | CTG 中文社区 | [直达](https://t.me/CTGgroup) | 429 | 新一代以区块链技术为基础的公链应用平台。CTG将区块链技术带入到日常的真实应用当中。CTG同时满足了企业和用户的高TPS需求。 注：进CTG官方微信群请加客服号：ctgcoinonblockchain |
 
+<a id="section-group-13"></a>
 ### 📚 学习阅读
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -698,18 +781,21 @@
 | 硬核英语/Hardcore English | [直达](https://t.me/hardcoreng) | 1,238 | 频道： 有一两万个词汇量，然而看剧还需要字幕，这可能是因为你的词汇量还不够。 定期分享工具、方法，讨论、解答问题。 多平台英语词典有Mdict/Goldendict后者部分开源，... |
 | 知乎 | [直达](https://t.me/Zhihu1) | 544 | 永远要有求知欲 |
 
+<a id="section-group-14"></a>
 ### 🎨 创意设计
 
 | 名称 | 链接 | 订阅数 | 简介 |
 | --- | --- | ---: | --- |
 | 秋水逸冰 | [直达](https://t.me/qiushui2018) | 2,769 | 欢迎各位群友自由交流，话题随意，但禁止黄赌毒，禁止讨教 DDCC，禁止谩骂和人身攻击，禁止钓鱼倾向言论，禁止传播没有依据的谣言。 未经管理人员同意禁止打广告，违者随机飞机票。 公告频道 |
 
+<a id="section-group-15"></a>
 ### 🏀 体育运动
 
 | 名称 | 链接 | 订阅数 | 简介 |
 | --- | --- | ---: | --- |
 | 体育爱好者 足球 篮球 NBA CBA 交流 | [直达](https://t.me/tiyu365) | 4,063 | 体育爱好者 / 足球 / 篮球 / NBA / CBA / 交流 群内全面禁止广告/色情/暴力/政治内容 |
 
+<a id="section-group-16"></a>
 ### 👗 生活消费
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -728,6 +814,7 @@
 | 各种奇奇怪怪的优惠买买买 | [直达](https://t.me/shoppingwdiscount) | 647 | 本群会不定时的发一些奇怪的优惠，不限地区。任何人能都可以发。 不包含此群的优惠信息有：虚拟货币，衣服包包化妆品类别，各种刷粉点赞 |
 | 电报摄影部 | [直达](https://t.me/shashinbu) | 425 | 与光做游戏，便是摄影的真谛 |
 
+<a id="section-group-17"></a>
 ### 🌍 地区社群
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -741,6 +828,7 @@
 | 湖南大学 HunanUniversity | [直达](https://t.me/HunanUniversity) | 697 | 本群受广告骚扰影响，暂时关闭，请加入 交流，谢谢 |
 | 愚民小鎮 保衛香港！ @werewolfbot (入群請先看規定) | [直达](https://t.me/twWolf) | 437 | 小鎮村 重要說明請看頻道 群組規定 愚民小鎮群務申訴區 |
 
+<a id="section-group-18"></a>
 ### 💬 闲聊交友
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -756,6 +844,7 @@
 | OKAB3吹水 | [直达](https://t.me/OKAB3Script) | 866 | 除以下以外话题不限 政治 |
 | V2EX后花园 v2.0 | [直达](https://t.me/goV2EX) | 786 | 纯净版V2群：谢绝政治话题讨论，专注技术和侃大山。 常年踢不活跃用户，误封申诉 |
 
+<a id="section-group-19"></a>
 ### 🔞 福利吃瓜
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -764,6 +853,7 @@
 | Google Voice 交流群 | [直达](https://t.me/googlevoice) | 14,884 | 讨论 Google Voice 号码使用的方法、技巧，以及提供相关服务资讯、商家介绍等 不允许任何推广（仅 GV 允许有限度推广，具体细则看置顶），政治内容，各类人身攻击，引战，NSFW，... |
 | 中文吃瓜搜索-信息搜索导航资源 | [直达](https://t.me/beijingxiuchea) | 1,637 | 在回复框输入关键词搜索资源 |
 
+<a id="section-group-20"></a>
 ### 🗂️ 综合导航
 
 | 名称 | 链接 | 订阅数 | 简介 |
@@ -774,6 +864,7 @@
 | 电报指南 & 瞭望台 | [直达](https://t.me/TgTrillions) | 2,263 | 电报指南&精品排行榜 理智与情感，生活与命运 信息技术、解决问题、探索发现 万物系统、机械控制、社会科学 人类知识、生活娱乐、经济商业 禁止群内灌水/广告/刷屏/脏话/口战 投稿和反馈区，... |
 | DEVONthink Chinese | [直达](https://t.me/DEVONthink) | 309 | DEVONthink用户交流，兼DT2简体中文语言包项目（ ）反馈 |
 
+<a id="section-group-21"></a>
 ### 🌐 综合其他
 
 | 名称 | 链接 | 订阅数 | 简介 |
