@@ -329,6 +329,63 @@ body.dark .hero {
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
+.hero-badges {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.hero-stats {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 760px;
+  margin: 28px auto 0;
+}
+
+.hero-stat {
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  text-align: left;
+}
+
+.hero-stat-label {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.hero-stat-value {
+  display: block;
+  font-size: 1.9rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
 /* Bulletin */
 .bulletin {
   background-color: var(--bg-card);
@@ -614,6 +671,33 @@ body.dark .card::before {
 
   .hero-title {
     font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-badges {
+    gap: 8px;
+  }
+
+  .hero-badge {
+    font-size: 0.82rem;
+    padding: 8px 12px;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 18px;
+  }
+
+  .hero-stat {
+    padding: 14px 16px;
+  }
+
+  .hero-stat-value {
+    font-size: 1.4rem;
   }
 
   #sidebar-overlay.open {

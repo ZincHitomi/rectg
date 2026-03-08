@@ -26,6 +26,51 @@ function main() {
     const categoriesList = [];
     const typeMap = {};
 
+    function parseTableRow(rawLine) {
+        const trimmed = rawLine.trim();
+        if (!trimmed.startsWith('|') || trimmed === '| --- | --- | ---: | --- |' || trimmed === '| 名称 | 链接 | 订阅数 | 简介 |') {
+            return null;
+        }
+
+        const parts = trimmed
+            .split('|')
+            .slice(1, -1)
+            .map(part => part.trim());
+
+        if (parts.length < 4) {
+            return null;
+        }
+
+        const [title, linkCell, countStr, desc] = parts;
+        const urlMatch = linkCell.match(/\[(.*?)\]\((.*?)\)/);
+        if (!urlMatch) {
+            return null;
+        }
+
+        const url = urlMatch[2];
+        let id = title.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g, '').toLowerCase();
+
+        if (url.includes('t.me/')) {
+            const urlPart = url.split('t.me/')[1];
+            if (urlPart) {
+                const rawId = urlPart
+                    .replace('joinchat/', '')
+                    .split('?')[0]
+                    .replace(/[^a-zA-Z0-9_\-]/g, '')
+                    .toLowerCase();
+                if (rawId) id = rawId;
+            }
+        }
+
+        return {
+            title,
+            url,
+            countStr,
+            desc: desc === '-' ? '' : desc,
+            id
+        };
+    }
+
     const seoKeywords = {
         "新闻快讯": "吃瓜播报 一手资讯 热点追踪 国际新闻",
         "加密货币": "薅羊毛 币圈发财 搞钱 投资交流 量化交易",
@@ -71,6 +116,11 @@ function main() {
                 }
             }
             currentItem = null;
+        } else if (rawLine.startsWith('| ') && currentType && currentCategory) {
+            const tableItem = parseTableRow(rawLine);
+            if (tableItem) {
+                typeMap[currentType][currentCategory].push(tableItem);
+            }
         } else if (rawLine.startsWith('- ')) {
             if (currentItem && currentType && currentCategory) {
                 typeMap[currentType][currentCategory].push(currentItem);

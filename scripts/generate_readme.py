@@ -60,7 +60,13 @@ def escape_pipe(text: str) -> str:
     """转义 Markdown 表格中的管道符。"""
     if not text:
         return ""
-    return text.replace("|", "\\|")
+    return text.replace("|", " / ").replace("\n", " ").strip()
+
+def compact_text(text: str) -> str:
+    """压缩多余空白，适合表格单元格。"""
+    if not text:
+        return ""
+    return " ".join(text.split())
 
 def generate_readme(conn: sqlite3.Connection) -> str:
     """从数据库生成 README.md 内容。"""
@@ -93,6 +99,16 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         {"title": "财经速报", "url": "https://t.me/econ_news_cn", "description": "最新最快的财经新闻与市场动态资讯", "count": None}
     ]
     custom_urls = {ch["url"] for ch in NEW_CHANNELS}
+    custom_rows = conn.execute("""
+        SELECT url, count
+        FROM entries
+        WHERE url IN ({})
+    """.format(",".join("?" for _ in custom_urls)), tuple(custom_urls)).fetchall()
+    count_by_url = {
+        row["url"]: row["count"]
+        for row in custom_rows
+        if row["count"] is not None
+    }
 
     for row in rows:
         t = row["type"]
@@ -116,18 +132,22 @@ def generate_readme(conn: sqlite3.Connection) -> str:
             "clean_title": ch["title"],
             "title": ch["title"],
             "url": ch["url"],
-            "count": ch["count"],
+            "count": count_by_url.get(ch["url"], ch["count"]),
             "clean_desc": ch["description"],
             "description": ch["description"]
         } for ch in NEW_CHANNELS
     ]
 
+    type_counts = {}
+    for t_id in tree:
+        type_counts[t_id] = sum(len(items) for items in tree[t_id].values())
+
     lines = []
-    lines.append("# Telegram 优质中文频道与群组精选")
+    lines.append("# rectg · Telegram 中文频道与群组精选")
     lines.append("")
-    lines.append("> **rectg** 收录 1000+ 优质 Telegram 中文频道与群组。通过自动化脚本持续跟踪，严格过滤僵尸号、低质信息与停更节点，为您提供纯粹、高效的 TG 导航体验。")
+    lines.append("> **rectg** 持续收录高质量 Telegram 中文频道与群组，结合自动化抓取与人工整理，尽量剔除失效链接、低质内容与长期停更条目，帮助你更高效地发现值得关注的 TG 资源。")
     lines.append("> ")
-    lines.append("> ⚠️ **免责声明**：本项目仅供技术学习与信息导航使用。严禁中国大陆地区用户使用，所有使用者须严格遵守所在地区法律法规，一切因违规使用产生的法律责任均与本项目无关。")
+    lines.append("> **免责声明**：本项目基于公开互联网信息整理，仅供技术学习、信息导航与研究参考使用。请使用者自行甄别内容，并严格遵守所在地法律法规；因使用相关内容产生的风险与责任，由使用者自行承担。")
     lines.append("")
 
     # 生成各版块
@@ -154,27 +174,16 @@ def generate_readme(conn: sqlite3.Connection) -> str:
                 
             lines.append("### " + cat)
             lines.append("")
-            
+            lines.append("| 名称 | 链接 | 订阅数 | 简介 |")
+            lines.append("| --- | --- | ---: | --- |")
+
             for item in items:
-                # 优先使用 cleaned 数据，无需 escape_pipe 因为不再是表格
-                title = item.get("clean_title") or item.get("title") or ""
-                desc = item.get("clean_desc") or item.get("description") or ""
-                
+                title = escape_pipe(compact_text(item.get("clean_title") or item.get("title") or ""))
+                desc = escape_pipe(compact_text(item.get("clean_desc") or item.get("description") or "")) or "-"
                 url = item.get("url", "")
                 count = format_count(item.get("count"))
-                
-                type_id = item.get("type")
-                type_label = next((t["name"] for t in TYPE_ORDER if t["id"] == type_id), "未知")
-                
-                lines.append(f"- {title}")
-                lines.append(f"  - {type_label}")
-                lines.append(f"  - [{url}]({url})")
-                lines.append(f"  - {count}")
-                if desc:
-                    lines.append(f"  - {desc}")
-                
-                lines.append("")
-                
+                lines.append(f"| {title} | [直达]({url}) | {count} | {desc} |")
+
             lines.append("")
 
     # Star History 保持在底部

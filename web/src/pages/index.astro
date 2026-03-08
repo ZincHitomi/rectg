@@ -28,6 +28,7 @@ data.types.forEach(typeObj => {
 
 let totalItems = 0;
 const validSections = [];
+const typeStats = [];
 
 // Compute total items and sort them
 Object.values(categoryGroups).forEach(group => {
@@ -42,6 +43,13 @@ Object.values(categoryGroups).forEach(group => {
 
     totalItems += group.items.length;
     validSections.push(group);
+});
+
+data.types.forEach(typeObj => {
+    const count = typeObj.categories.reduce((sum, cat) => sum + cat.items.length, 0);
+    if (count > 0) {
+        typeStats.push({ name: typeObj.name, count });
+    }
 });
 
 // Pick 6 random items for Daily Picks (Featured)
@@ -144,10 +152,18 @@ const featuredItems = [...allItems].sort(() => Math.random() - 0.5).slice(0, 6);
 
       <div class="hero">
         <h1 class="hero-title">rectg – Telegram 精选导航</h1>
-        <p class="hero-subtitle">1000+ 优质中文频道与群组推荐，持续更新</p>
+        <p class="hero-subtitle">按主题整理的 Telegram 中文资源入口，适合直接浏览，也适合检索定位。</p>
         <div class="hero-badges">
           <span class="hero-badge">已收录 {totalItems}+ 高质量资源</span>
           <span class="hero-badge">覆盖 {validSections.length} 个分类</span>
+        </div>
+        <div class="hero-stats">
+          {typeStats.map(stat => (
+            <div class="hero-stat">
+              <span class="hero-stat-label">{stat.name}</span>
+              <strong class="hero-stat-value">{stat.count}</strong>
+            </div>
+          ))}
         </div>
       </div>
 
