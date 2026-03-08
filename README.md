@@ -6,50 +6,16 @@
 
 ## 目录
 
-- [频道](#section-channel)
-  - [🆕 新发现频道](#section-channel-1)
-  - [📰 新闻快讯](#section-channel-2)
-  - [💻 数码科技](#section-channel-3)
-  - [👨‍💻 开发运维](#section-channel-4)
-  - [🔒 信息安全](#section-channel-5)
-  - [🧰 软件工具](#section-channel-6)
-  - [☁️ 网盘资源](#section-channel-7)
-  - [🎬 影视剧集](#section-channel-8)
-  - [🎵 音乐音频](#section-channel-9)
-  - [🎐 动漫次元](#section-channel-10)
-  - [🎮 游戏娱乐](#section-channel-11)
-  - [✈️ 科学上网](#section-channel-12)
-  - [🪙 加密货币](#section-channel-13)
-  - [📚 学习阅读](#section-channel-14)
-  - [🎨 创意设计](#section-channel-15)
-  - [📡 社媒搬运](#section-channel-16)
-  - [👗 生活消费](#section-channel-17)
-  - [💬 闲聊交友](#section-channel-18)
-  - [🔞 福利吃瓜](#section-channel-19)
-  - [🗂️ 综合导航](#section-channel-20)
-  - [🌐 综合其他](#section-channel-21)
-- [群组](#section-group)
-  - [📰 新闻快讯](#section-group-1)
-  - [💻 数码科技](#section-group-2)
-  - [👨‍💻 开发运维](#section-group-3)
-  - [🔒 信息安全](#section-group-4)
-  - [🧰 软件工具](#section-group-5)
-  - [☁️ 网盘资源](#section-group-6)
-  - [🎬 影视剧集](#section-group-7)
-  - [🎵 音乐音频](#section-group-8)
-  - [🎐 动漫次元](#section-group-9)
-  - [🎮 游戏娱乐](#section-group-10)
-  - [✈️ 科学上网](#section-group-11)
-  - [🪙 加密货币](#section-group-12)
-  - [📚 学习阅读](#section-group-13)
-  - [🎨 创意设计](#section-group-14)
-  - [🏀 体育运动](#section-group-15)
-  - [👗 生活消费](#section-group-16)
-  - [🌍 地区社群](#section-group-17)
-  - [💬 闲聊交友](#section-group-18)
-  - [🔞 福利吃瓜](#section-group-19)
-  - [🗂️ 综合导航](#section-group-20)
-  - [🌐 综合其他](#section-group-21)
+<table>
+  <tr>
+    <th>频道</th>
+    <th>群组</th>
+  </tr>
+  <tr>
+    <td valign="top"><a href="#section-channel"><strong>频道</strong></a><br><a href="#section-channel-1">🆕 新发现频道</a><br><a href="#section-channel-2">📰 新闻快讯</a><br><a href="#section-channel-3">💻 数码科技</a><br><a href="#section-channel-4">👨‍💻 开发运维</a><br><a href="#section-channel-5">🔒 信息安全</a><br><a href="#section-channel-6">🧰 软件工具</a><br><a href="#section-channel-7">☁️ 网盘资源</a><br><a href="#section-channel-8">🎬 影视剧集</a><br><a href="#section-channel-9">🎵 音乐音频</a><br><a href="#section-channel-10">🎐 动漫次元</a><br><a href="#section-channel-11">🎮 游戏娱乐</a><br><a href="#section-channel-12">✈️ 科学上网</a><br><a href="#section-channel-13">🪙 加密货币</a><br><a href="#section-channel-14">📚 学习阅读</a><br><a href="#section-channel-15">🎨 创意设计</a><br><a href="#section-channel-16">📡 社媒搬运</a><br><a href="#section-channel-17">👗 生活消费</a><br><a href="#section-channel-18">💬 闲聊交友</a><br><a href="#section-channel-19">🔞 福利吃瓜</a><br><a href="#section-channel-20">🗂️ 综合导航</a><br><a href="#section-channel-21">🌐 综合其他</a></td>
+    <td valign="top"><a href="#section-group"><strong>群组</strong></a><br><a href="#section-group-1">📰 新闻快讯</a><br><a href="#section-group-2">💻 数码科技</a><br><a href="#section-group-3">👨‍💻 开发运维</a><br><a href="#section-group-4">🔒 信息安全</a><br><a href="#section-group-5">🧰 软件工具</a><br><a href="#section-group-6">☁️ 网盘资源</a><br><a href="#section-group-7">🎬 影视剧集</a><br><a href="#section-group-8">🎵 音乐音频</a><br><a href="#section-group-9">🎐 动漫次元</a><br><a href="#section-group-10">🎮 游戏娱乐</a><br><a href="#section-group-11">✈️ 科学上网</a><br><a href="#section-group-12">🪙 加密货币</a><br><a href="#section-group-13">📚 学习阅读</a><br><a href="#section-group-14">🎨 创意设计</a><br><a href="#section-group-15">🏀 体育运动</a><br><a href="#section-group-16">👗 生活消费</a><br><a href="#section-group-17">🌍 地区社群</a><br><a href="#section-group-18">💬 闲聊交友</a><br><a href="#section-group-19">🔞 福利吃瓜</a><br><a href="#section-group-20">🗂️ 综合导航</a><br><a href="#section-group-21">🌐 综合其他</a></td>
+  </tr>
+</table>
 
 <a id="section-channel"></a>
 ## 频道

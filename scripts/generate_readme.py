@@ -74,6 +74,13 @@ def compact_text(text: str) -> str:
         return ""
     return " ".join(text.split())
 
+def build_toc_column(title: str, section_id: str, categories: list[str]) -> str:
+    """构建目录单列 HTML，适配 GitHub README 的多列表现。"""
+    links = [f'<a href="#{make_anchor(section_id)}"><strong>{title}</strong></a>']
+    for idx, cat in enumerate(categories, start=1):
+        links.append(f'<a href="#{make_anchor(section_id, idx)}">{cat}</a>')
+    return "<br>".join(links)
+
 def generate_readme(conn: sqlite3.Connection) -> str:
     """从数据库生成 README.md 内容。"""
     rows = conn.execute("""
@@ -159,22 +166,30 @@ def generate_readme(conn: sqlite3.Connection) -> str:
     lines.append("## 目录")
     lines.append("")
 
+    toc_columns = []
     for t_info in TYPE_ORDER:
         t_id = t_info["id"]
         categories = tree[t_id]
         if not categories:
             continue
 
-        lines.append(f"- [{t_info['name']}](#{make_anchor(t_id)})")
-
         existing_cats = set(categories.keys())
         sorted_cats = [c for c in CATEGORY_ORDER if c in existing_cats]
         sorted_cats += sorted(list(existing_cats - set(CATEGORY_ORDER)))
+        toc_columns.append((t_info["name"], build_toc_column(t_info["name"], t_id, sorted_cats)))
 
-        for idx, cat in enumerate(sorted_cats, start=1):
-            lines.append(f"  - [{cat}](#{make_anchor(t_id, idx)})")
-
-    lines.append("")
+    if toc_columns:
+        lines.append("<table>")
+        lines.append("  <tr>")
+        for title, _ in toc_columns:
+            lines.append(f"    <th>{title}</th>")
+        lines.append("  </tr>")
+        lines.append("  <tr>")
+        for _, content in toc_columns:
+            lines.append(f"    <td valign=\"top\">{content}</td>")
+        lines.append("  </tr>")
+        lines.append("</table>")
+        lines.append("")
 
     # 生成各版块
     for t_info in TYPE_ORDER:
