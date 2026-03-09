@@ -25,15 +25,15 @@
 
 | 名称 | 链接 | 订阅数 | 简介 |
 | --- | --- | ---: | --- |
-| 副业 | [直达](https://t.me/sidehustleus) | 97 | 关注副业赚钱、搞钱经验和独立开发 |
-| 技术拾荒者 | [直达](https://t.me/tech_scavenger) | 51 | 分享优质技术文章、开源项目与实用工具 |
-| 一个人的产品 | [直达](https://t.me/solo_product) | 27 | 独立开发者、产品设计与运营经验 |
-| 深夜博客 | [直达](https://t.me/late_night_blog) | 21 | 深夜阅读文章、个人随笔与精神角落 |
-| 什么值得看 | [直达](https://t.me/worth_read) | 38 | 推荐值得一读的好文章与好书 |
-| 程序员日常 | [直达](https://t.me/dev_everyday) | 20 | 程序员的日常工作、吐槽与经验分享 |
-| 小众软件 | [直达](https://t.me/niche_software) | 47 | 发现与分享好用、新奇的小众软件 |
-| 酱酱の日报 | [直达](https://t.me/jiangdaily) | 147 | 每天不只是新闻，更是酱酱的发现日常～ 精选有趣、有料、有灵魂的「热饭」 |
-| 财经速报 | [直达](https://t.me/econ_news_cn) | 39 | 最新最快的财经新闻与市场动态资讯 |
+| 副业 | [直达](https://t.me/sidehustleus) | 114 | 关注副业赚钱、搞钱经验和独立开发 |
+| 技术拾荒者 | [直达](https://t.me/tech_scavenger) | 56 | 分享优质技术文章、开源项目与实用工具 |
+| 一个人的产品 | [直达](https://t.me/solo_product) | 32 | 独立开发者、产品设计与运营经验 |
+| 深夜博客 | [直达](https://t.me/late_night_blog) | 23 | 深夜阅读文章、个人随笔与精神角落 |
+| 什么值得看 | [直达](https://t.me/worth_read) | 42 | 推荐值得一读的好文章与好书 |
+| 程序员日常 | [直达](https://t.me/dev_everyday) | 22 | 程序员的日常工作、吐槽与经验分享 |
+| 小众软件 | [直达](https://t.me/niche_software) | 53 | 发现与分享好用、新奇的小众软件 |
+| 酱酱の日报 | [直达](https://t.me/jiangdaily) | 148 | 每天不只是新闻，更是酱酱的发现日常～ 精选有趣、有料、有灵魂的「热饭」 |
+| 财经速报 | [直达](https://t.me/econ_news_cn) | 44 | 最新最快的财经新闻与市场动态资讯 |
 
 <a id="section-channel-2"></a>
 ### 📰 新闻快讯
