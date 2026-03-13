@@ -172,63 +172,63 @@
             {
               "title": "副业",
               "url": "https://t.me/sidehustleus",
-              "countStr": "-",
+              "countStr": "114",
               "desc": "关注副业赚钱、搞钱经验和独立开发",
               "id": "sidehustleus"
             },
             {
               "title": "技术拾荒者",
               "url": "https://t.me/tech_scavenger",
-              "countStr": "-",
+              "countStr": "56",
               "desc": "分享优质技术文章、开源项目与实用工具",
               "id": "tech_scavenger"
             },
             {
               "title": "一个人的产品",
               "url": "https://t.me/solo_product",
-              "countStr": "-",
+              "countStr": "32",
               "desc": "独立开发者、产品设计与运营经验",
               "id": "solo_product"
             },
             {
               "title": "深夜博客",
               "url": "https://t.me/late_night_blog",
-              "countStr": "-",
+              "countStr": "23",
               "desc": "深夜阅读文章、个人随笔与精神角落",
               "id": "late_night_blog"
             },
             {
               "title": "什么值得看",
               "url": "https://t.me/worth_read",
-              "countStr": "-",
+              "countStr": "42",
               "desc": "推荐值得一读的好文章与好书",
               "id": "worth_read"
             },
             {
               "title": "程序员日常",
               "url": "https://t.me/dev_everyday",
-              "countStr": "-",
+              "countStr": "22",
               "desc": "程序员的日常工作、吐槽与经验分享",
               "id": "dev_everyday"
             },
             {
               "title": "小众软件",
               "url": "https://t.me/niche_software",
-              "countStr": "-",
+              "countStr": "53",
               "desc": "发现与分享好用、新奇的小众软件",
               "id": "niche_software"
             },
             {
               "title": "酱酱の日报",
               "url": "https://t.me/jiangdaily",
-              "countStr": "137",
+              "countStr": "148",
               "desc": "每天不只是新闻，更是酱酱的发现日常～ 精选有趣、有料、有灵魂的「热饭」",
               "id": "jiangdaily"
             },
             {
               "title": "财经速报",
               "url": "https://t.me/econ_news_cn",
-              "countStr": "-",
+              "countStr": "44",
               "desc": "最新最快的财经新闻与市场动态资讯",
               "id": "econ_news_cn"
             }
@@ -607,6 +607,13 @@
               "countStr": "1,216",
               "desc": "今天份的 Google 药丸。 话题包含但不限于最近由阿三统治的 Alphabet, Inc. 及其子公司/部门产品，以及相关新闻。 投稿: - - - 放送事故提醒: 已加入 频道消息汇总",
               "id": "googleshit"
+            },
+            {
+              "title": "消息",
+              "url": "https://t.me/xiaoxi",
+              "countStr": "5,265",
+              "desc": "高质量的中文即时资讯频道",
+              "id": "xiaoxi"
             }
           ]
         },
