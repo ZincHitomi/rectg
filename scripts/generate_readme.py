@@ -109,7 +109,8 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         {"title": "程序员日常", "url": "https://t.me/dev_everyday", "description": "程序员的日常工作、吐槽与经验分享", "count": None},
         {"title": "小众软件", "url": "https://t.me/niche_software", "description": "发现与分享好用、新奇的小众软件", "count": None},
         {"title": "酱酱の日报", "url": "https://t.me/jiangdaily", "description": "每天不只是新闻，更是酱酱的发现日常～ 精选有趣、有料、有灵魂的「热饭」", "count": 137},
-        {"title": "财经速报", "url": "https://t.me/econ_news_cn", "description": "最新最快的财经新闻与市场动态资讯", "count": None}
+        {"title": "财经速报", "url": "https://t.me/econ_news_cn", "description": "最新最快的财经新闻与市场动态资讯", "count": None},
+        {"title": "AI 工具情报局", "url": "https://t.me/AIGongJuQBJ", "description": "每天更新 AI 工具、软件应用、开源项目和效率产品动态，帮你更快发现真正有用的工具。", "count": 2}
     ]
     custom_urls = {ch["url"] for ch in NEW_CHANNELS}
     custom_rows = conn.execute("""

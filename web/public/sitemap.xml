@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.rectg.com/</loc>
-    <lastmod>2026-03-13T14:35:12.416Z</lastmod>
+    <lastmod>2026-03-14T12:51:01.009Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,6 +48,11 @@
   </url>
   <url>
     <loc>https://www.rectg.com/p/econ_news_cn</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rectg.com/p/aigongjuqbj</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -313,11 +318,6 @@
   </url>
   <url>
     <loc>https://www.rectg.com/p/googleshit</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.rectg.com/p/xiaoxi</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1473,6 +1473,11 @@
   </url>
   <url>
     <loc>https://www.rectg.com/p/newpin1channel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rectg.com/p/xiaoxi</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

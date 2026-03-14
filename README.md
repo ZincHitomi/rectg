@@ -34,6 +34,7 @@
 | 小众软件 | [直达](https://t.me/niche_software) | 53 | 发现与分享好用、新奇的小众软件 |
 | 酱酱の日报 | [直达](https://t.me/jiangdaily) | 148 | 每天不只是新闻，更是酱酱的发现日常～ 精选有趣、有料、有灵魂的「热饭」 |
 | 财经速报 | [直达](https://t.me/econ_news_cn) | 44 | 最新最快的财经新闻与市场动态资讯 |
+| AI 工具情报局 | [直达](https://t.me/AIGongJuQBJ) | 2 | 每天更新 AI 工具、软件应用、开源项目和效率产品动态，帮你更快发现真正有用的工具。 |
 
 <a id="section-channel-2"></a>
 ### 📰 新闻快讯
@@ -93,7 +94,6 @@
 | 悦读「优质少量RSS聚合」 | [直达](https://t.me/dailyrss) | 1,629 | 文章、图片、视频、音乐、播客RSS订阅聚合频道 部分支持「Tg即时预览/内嵌播放」 订阅内容主要类型为IT、科技类文章、减压向图片音频等 子频道： 物种日历 吃货研究所 友链频道： 资源分享 |
 | 电报新闻 | [直达](https://t.me/chinesenewss) | 1,284 | 本频道旨在中文类新闻聚合阅读，由于订阅的新闻来源较多，建议关闭频道的消息通知，闲时看一看频道获取一下资讯即可 |
 | 辣鸡咕鸽毁我信仰 #CurryMyLife | [直达](https://t.me/googleshit) | 1,216 | 今天份的 Google 药丸。 话题包含但不限于最近由阿三统治的 Alphabet, Inc. 及其子公司/部门产品，以及相关新闻。 投稿: - - - 放送事故提醒: 已加入 频道消息汇总 |
-| 消息 | [直达](https://t.me/xiaoxi) | 5,265 | 高质量的中文即时资讯频道 |
 
 <a id="section-channel-3"></a>
 ### 💻 数码科技
@@ -439,6 +439,7 @@
 | NFW | [直达](https://t.me/NewsFW) | 7,202 | News for Work, Not for Work. 附属群组/稿件集散： 是 ForWork 系列旗下频道 |
 | Office Tool Plus | [直达](https://t.me/otp_channel) | 7,189 | Office Tool Plus 的。 Official channel of Office Tool Plus. 频道默认使用静默模式发布消息，只有紧急事情才会发布通知。... |
 | Pi&N1交流群通知频道 | [直达](https://t.me/NewPiN1Channel) | 5,458 | Pi&N1 |
+| 消息 | [直达](https://t.me/xiaoxi) | 5,265 | 客观可信的即时中文资讯频道 每一条消息都经得起历史检验 |
 | 中文維基新聞廣播頻道 | [直达](https://t.me/wikinews_zh_broadcast) | 5,154 | 歡迎你分享新聞或加入我們的公民記者行列。中文維基新聞2006年成立，秉持中性的觀點、有別於其他公民媒體。除非另有注明，本频道所发原创文本均可以CC-BY-4.0协议署名转载。... |
 | 杂货铺 | [直达](https://t.me/sunnymoonk) | 4,852 | 乐于分享，自己觉得好的东西分享过来，资源来源于网络，如有侵权，联系删除 |
 | 螺莉莉的黑板报 | [直达](https://t.me/im_RORIRI) | 3,122 | You can view and join right away. |
