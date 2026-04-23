@@ -128,11 +128,25 @@ function initSidebar() {
     });
 }
 
-function highlightPinyin(text, matchPositions) {
-    if (!matchPositions || !Array.isArray(matchPositions)) return text;
-    const start = matchPositions[0];
-    const end = matchPositions[1];
-    return text.substring(0, start) + '<mark>' + text.substring(start, end + 1) + '</mark>' + text.substring(end + 1);
+function setHighlightedText(target, text, matchPositions) {
+    if (!target) return;
+    target.textContent = '';
+
+    if (!matchPositions || !Array.isArray(matchPositions)) {
+        target.textContent = text;
+        return;
+    }
+
+    const start = Math.max(0, Math.min(text.length, matchPositions[0]));
+    const end = Math.max(start, Math.min(text.length - 1, matchPositions[1]));
+
+    target.appendChild(document.createTextNode(text.substring(0, start)));
+
+    const mark = document.createElement('mark');
+    mark.textContent = text.substring(start, end + 1);
+    target.appendChild(mark);
+
+    target.appendChild(document.createTextNode(text.substring(end + 1)));
 }
 
 // Search Handling (DOM node filtering & highlighting)
@@ -172,13 +186,8 @@ function initSearch() {
                         card.style.display = '';
                         visibleCount++;
 
-                        // Apply highlights
-                        if (titleEl) {
-                            titleEl.innerHTML = Array.isArray(matchTitle) ? highlightPinyin(title, matchTitle) : title;
-                        }
-                        if (descEl) {
-                            descEl.innerHTML = Array.isArray(matchDesc) ? highlightPinyin(desc, matchDesc) : desc;
-                        }
+                        setHighlightedText(titleEl, title, matchTitle);
+                        setHighlightedText(descEl, desc, matchDesc);
                     } else {
                         card.style.display = 'none';
                     }

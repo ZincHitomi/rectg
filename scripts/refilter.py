@@ -3,77 +3,12 @@
 import sys
 sys.stdout.reconfigure(line_buffering=True)
 
-import re
 import sqlite3
-from datetime import datetime
 from pathlib import Path
 
-import opencc
+from filter_rules import evaluate_entry
 
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "rectg.db"
-
-converter = opencc.OpenCC('t2s')
-CJK = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff]')
-
-MIN_CH_SUB = 1000
-MIN_GR_MEM = 200
-INACTIVE_DAYS = 90
-TRAD_RATIO = 0.10
-
-
-def contains_chinese(text):
-    return bool(CJK.search(text)) if text else False
-
-
-def is_traditional(text):
-    if not text:
-        return False
-    cjk = CJK.findall(text)
-    if len(cjk) < 5:
-        return False
-    simplified = converter.convert(text)
-    diff = sum(1 for a, b in zip(text, simplified) if a != b)
-    return diff / max(len(text), 1) >= TRAD_RATIO
-
-
-def evaluate(entry):
-    if not entry["valid"]:
-        return 0, "链接无效"
-    if entry["private"]:
-        return 0, "私密频道/群组"
-    if not entry["type"]:
-        return 0, "无法识别类型"
-
-    txt = (entry["title"] or "") + (entry["description"] or "")
-    if not contains_chinese(txt):
-        return 0, "非中文内容"
-    if is_traditional(txt):
-        return 0, "繁体中文内容"
-
-    t = entry["type"]
-    c = entry["count"] or 0
-
-    if t == "channel":
-        if c < MIN_CH_SUB:
-            return 0, f"订阅数不足 ({c} < {MIN_CH_SUB})"
-        la = entry.get("last_active")
-        if la:
-            try:
-                dt_str = la.replace("+00:00", "").replace("Z", "")
-                dt = datetime.fromisoformat(dt_str)
-                days = (datetime.now() - dt).days
-                if days > INACTIVE_DAYS:
-                    return 0, f"频道不活跃 ({days}天未更新)"
-            except (ValueError, TypeError):
-                pass
-    elif t == "group":
-        if c < MIN_GR_MEM:
-            return 0, f"成员数不足 ({c} < {MIN_GR_MEM})"
-    elif t == "bot":
-        if c is None or c == 0:
-            return 0, "无月活用户数据"
-
-    return 1, ""
 
 
 def main():
@@ -90,7 +25,7 @@ def main():
 
     for i, row in enumerate(rows):
         entry = dict(row)
-        new_keep, new_reason = evaluate(entry)
+        new_keep, new_reason = evaluate_entry(entry)
 
         old_keep = entry["keep"]
         old_reason = entry["filter_reason"] or ""

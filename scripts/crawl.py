@@ -7,9 +7,10 @@ Telegram 公开页面爬虫
     先运行 parse_links.py 将 README 中的链接导入 links 表。
 
 用法:
-    python3 scripts/crawl.py              # 爬取全部（断点续爬）
+    python3 scripts/crawl.py              # 爬新链接，并刷新 30 天前的旧数据
     python3 scripts/crawl.py --limit 10   # 只爬前 10 个（测试用）
-    python3 scripts/crawl.py --new        # 只爬新链接
+    python3 scripts/crawl.py --new        # 只爬新链接，不刷新旧数据
+    python3 scripts/crawl.py --older-than-days 7  # 刷新 7 天前的旧数据
     python3 scripts/crawl.py --no-resume  # 清空 entries 表，从头开始
 """
 from __future__ import annotations
@@ -23,12 +24,13 @@ import re
 import sqlite3
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
-import opencc
 from bs4 import BeautifulSoup
+
+from filter_rules import evaluate_entry
 
 # ---------------------------------------------------------------------------
 # 常量
@@ -56,15 +58,6 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
-
-# 过滤阈值
-MIN_CHANNEL_SUBSCRIBERS = 1000
-MIN_GROUP_MEMBERS = 200
-INACTIVE_DAYS_THRESHOLD = 90
-
-# 中文字符 Unicode 范围
-_CJK_RANGES = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff]')
-
 
 # ---------------------------------------------------------------------------
 # 日志配置
@@ -434,117 +427,9 @@ def _request_with_retry(
     return None
 
 
-# ---------------------------------------------------------------------------
-# 过滤
-# ---------------------------------------------------------------------------
-
-# OpenCC 繁→简转换器（全局复用）
-_t2s_converter = opencc.OpenCC('t2s')
-
-# 繁体中文判定阈值：转换前后字符差异率超过此比例视为繁体
-_TRADITIONAL_RATIO_THRESHOLD = 0.10
-
-
-def _contains_chinese(text: str) -> bool:
-    if not text:
-        return False
-    return bool(_CJK_RANGES.search(text))
-
-
-def _is_traditional_chinese(text: str) -> bool:
-    """使用 OpenCC 判断文本是否为繁体中文。
-    将文本从繁体转为简体，比较转换前后的差异比例。
-    """
-    if not text:
-        return False
-    cjk_chars = _CJK_RANGES.findall(text)
-    if len(cjk_chars) < 5:
-        return False
-
-    simplified = _t2s_converter.convert(text)
-    # 统计转换前后不同的字符数
-    diff_count = sum(1 for a, b in zip(text, simplified) if a != b)
-    total = max(len(text), 1)
-    ratio = diff_count / total
-    return ratio >= _TRADITIONAL_RATIO_THRESHOLD
-
-
-def _is_simplified_chinese_entry(entry: dict) -> bool:
-    """判断条目是否为简体中文内容（包含中文且不是繁体）。"""
-    has_chinese = False
-    combined_text = ""
-    for field in ("title", "description"):
-        text = entry.get(field) or ""
-        if _contains_chinese(text):
-            has_chinese = True
-        combined_text += text
-
-    if not has_chinese:
-        return False
-
-    if _is_traditional_chinese(combined_text):
-        return False
-
-    return True
-
-
-def _is_inactive_channel(entry: dict) -> bool:
-    last_active = entry.get("last_active")
-    if not last_active:
-        return False
-    try:
-        dt_str = last_active.replace("+00:00", "").replace("Z", "")
-        last_dt = datetime.fromisoformat(dt_str)
-        return (datetime.now() - last_dt).days > INACTIVE_DAYS_THRESHOLD
-    except (ValueError, TypeError):
-        return False
-
-
-def _inactive_days(entry: dict) -> int:
-    last_active = entry.get("last_active", "")
-    try:
-        dt_str = last_active.replace("+00:00", "").replace("Z", "")
-        last_dt = datetime.fromisoformat(dt_str)
-        return (datetime.now() - last_dt).days
-    except (ValueError, TypeError):
-        return 0
-
-
 def should_keep(entry: dict) -> tuple:
     """判断条目是否应该保留。返回 (keep, reason)。"""
-    if not entry.get("valid"):
-        return False, "链接无效"
-    if entry.get("private"):
-        return False, "私密频道/群组"
-
-    entry_type = entry.get("type")
-
-    if entry_type is None:
-        return False, "无法识别类型"
-
-    if not _contains_chinese((entry.get("title") or "") + (entry.get("description") or "")):
-        return False, "非中文内容"
-
-    if not _is_simplified_chinese_entry(entry):
-        return False, "繁体中文内容"
-
-    if entry_type == "channel":
-        count = entry.get("count") or 0
-        if count < MIN_CHANNEL_SUBSCRIBERS:
-            return False, f"订阅数不足 ({count} < {MIN_CHANNEL_SUBSCRIBERS})"
-        if _is_inactive_channel(entry):
-            days = _inactive_days(entry)
-            return False, f"频道不活跃 ({days}天未更新)"
-    elif entry_type == "group":
-        count = entry.get("count") or 0
-        if count < MIN_GROUP_MEMBERS:
-            return False, f"成员数不足 ({count} < {MIN_GROUP_MEMBERS})"
-    elif entry_type == "bot":
-        count = entry.get("count")
-        if count is None or count == 0:
-            return False, "无月活用户数据"
-
-    return True, ""
+    return evaluate_entry(entry)
 
 
 # ---------------------------------------------------------------------------
@@ -556,9 +441,10 @@ def main():
 
     parser = argparse.ArgumentParser(description="Telegram 公开页面爬虫")
     parser.add_argument("--limit", type=int, default=0, help="限制爬取数量（0=全部）")
-    parser.add_argument("--new", action="store_true", help="只爬取尚未爬过的新链接")
+    parser.add_argument("--new", action="store_true", help="只爬取尚未爬过的新链接，不刷新旧数据")
     parser.add_argument("--no-resume", action="store_true", help="清空 entries 表，从头开始")
     parser.add_argument("--no-active", action="store_true", help="跳过 /s/ 页面爬取")
+    parser.add_argument("--older-than-days", type=int, default=30, help="默认刷新多少天前的旧 entries（默认 30）")
     args = parser.parse_args()
 
     # 初始化日志
@@ -584,26 +470,40 @@ def main():
         log.info("🗑️  已清空 entries 表")
 
     # 1. 从 links 表获取待爬链接
-    if args.new or (not args.no_resume):
-        links = conn.execute("""
-            SELECT l.url, l.username, l.name, l.type_hint
-            FROM links l
-            LEFT JOIN entries e ON l.url = e.url
-            WHERE e.url IS NULL
-            ORDER BY l.id
-        """).fetchall()
-    else:
+    if args.no_resume:
         links = conn.execute("""
             SELECT url, username, name, type_hint FROM links ORDER BY id
         """).fetchall()
+        log.info("🔁 全量重爬模式")
+    elif args.new:
+        links = conn.execute("""
+            SELECT l.url, l.username, l.name, l.type_hint
+            FROM links l
+            LEFT JOIN entries e ON l.url = e.url OR (l.username IS NOT NULL AND l.username = e.username)
+            WHERE e.id IS NULL
+            ORDER BY l.id
+        """).fetchall()
+        log.info("🆕 只爬新链接")
+    else:
+        cutoff = (datetime.now() - timedelta(days=max(args.older_than_days, 0))).isoformat()
+        links = conn.execute("""
+            SELECT l.url, l.username, l.name, l.type_hint
+            FROM links l
+            LEFT JOIN entries e ON l.url = e.url OR (l.username IS NOT NULL AND l.username = e.username)
+            WHERE e.id IS NULL OR e.updated_at IS NULL OR e.updated_at < ?
+            ORDER BY l.id
+        """, (cutoff,)).fetchall()
+        log.info("♻️  爬新链接，并刷新 %d 天前的旧数据", max(args.older_than_days, 0))
 
     links = [dict(row) for row in links]
 
     if not links:
         if args.new:
             log.info("✅ 没有新链接需要爬取")
-        else:
+        elif args.no_resume:
             log.error("❌ links 表为空，请先运行: python3 scripts/parse_links.py")
+        else:
+            log.info("✅ 没有新链接或过期数据需要爬取")
         sys.exit(0)
 
     total_links = conn.execute("SELECT COUNT(*) FROM links").fetchone()[0]

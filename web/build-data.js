@@ -179,7 +179,6 @@ function main() {
     // Generate Sitemap
     let sitemapUrls = `  <url>
     <loc>https://www.rectg.com/</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>`;

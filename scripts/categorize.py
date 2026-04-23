@@ -12,57 +12,9 @@ import re
 from pathlib import Path
 import emoji
 
+from filter_rules import evaluate_entry
+
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "rectg.db"
-
-# ---------------------------------------------------------------------------
-# 0. 有害内容及语言过滤
-# ---------------------------------------------------------------------------
-
-HARMFUL_KEYWORDS = [
-    "博彩", "赌场", "资金盘", "跑分", "枪支", "迷药", "催情", "迷幻",
-    "洗钱", "提现", "查档", "开房记录", "社工库", "呼死你", "轰炸机",
-    "菠菜", "嫩模", "外围", "约炮", "迷奸", "代开发票", "黑产", "网赚",
-    "色流", "彩票", "赌博", "百家乐", "六合彩", "棋牌", "网赌", "黑客", "破解盗刷",
-    "免费节点", "翻墙", "机场", "免流", "梯子", "科学上网", "v2ray", "shadowsocks",
-    "莞式", "全套", "品茶", "修车", "同城群", "约妹"
-]
-
-# 用于匹配“禁止XXX”的正则，这些词语如果出现在“禁止”、“严禁”之后，则属于正常的群规，不应该被判定为有害频道
-PROHIBITED_CONTEXT_REGEX = re.compile(r'(禁止|严禁|不准|拒绝|谢绝).*?(机场|翻墙|梯子|节点|免流|黑产|广告|博彩|赌博|色情|政治)')
-
-def _remove_prohibited_context(text: str) -> str:
-    """如果文本中出现 '禁止机场' 等群规声明，将其从特征本中剔除，避免误杀。"""
-    # 简单地把匹配到的“禁止XXX”短语替换掉，这样它们就不会触发 subsequent 的关键词匹配
-    return PROHIBITED_CONTEXT_REGEX.sub('', text)
-
-def is_harmful(text: str) -> bool:
-    text = text.lower()
-    # 先剔除掉正常群规声明中的敏感词
-    text_to_check = _remove_prohibited_context(text)
-    
-    for kw in HARMFUL_KEYWORDS:
-        if kw in text_to_check:
-            return True
-    return False
-
-def is_non_simplified_chinese(text: str) -> bool:
-    """过滤非简体中文内容：如果中文字符比例极低，视为非目标语言频道。"""
-    if not text:
-        return True
-    
-    cjk_count = len(re.findall(r'[\u4e00-\u9fff]', text))
-    clean_len = len(re.sub(r'[^\w]', '', text))
-    
-    if clean_len > 0:
-        ratio = cjk_count / clean_len
-        # 如果中文字符占比低于 15% 且总有效字符大于 20，判为非中文
-        if ratio < 0.15 and clean_len > 20: 
-            return True
-        # 如果总长大于10但中文字符不到3个
-        if cjk_count < 3 and clean_len > 10:
-            return True
-            
-    return False
 
 # ---------------------------------------------------------------------------
 # 1. 文本清洁 (Text Optimization)
@@ -411,21 +363,17 @@ def main():
         entry = dict(row)
         title = entry.get("title") or ""
         desc = entry.get("description") or ""
-        full_text = title + " " + desc
         
-        # 0. 有害内容及语言过滤
-        if is_harmful(full_text):
-            conn.execute("UPDATE entries SET keep=0, filter_reason='有害内容', updated_at=datetime('now') WHERE id=?", (entry["id"],))
+        # 0. 统一过滤规则，和 crawl/refilter 保持一致
+        keep, filter_reason = evaluate_entry(entry)
+        if not keep:
+            conn.execute("UPDATE entries SET keep=0, filter_reason=?, updated_at=datetime('now') WHERE id=?", (filter_reason, entry["id"]))
             changed += 1
-            filtered_harmful += 1
-            print(f"  ❌ 过滤 (有害内容): {title}")
-            continue
-            
-        if is_non_simplified_chinese(full_text):
-            conn.execute("UPDATE entries SET keep=0, filter_reason='非简中内容', updated_at=datetime('now') WHERE id=?", (entry["id"],))
-            changed += 1
-            filtered_lang += 1
-            print(f"  ❌ 过滤 (非简中内容): {title}")
+            if filter_reason == "有害内容":
+                filtered_harmful += 1
+            elif filter_reason in ("非中文内容", "繁体中文内容"):
+                filtered_lang += 1
+            print(f"  ❌ 过滤 ({filter_reason}): {title}")
             continue
 
         # 1. & 2. 清洗与分类
