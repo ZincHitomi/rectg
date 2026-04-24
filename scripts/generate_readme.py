@@ -8,9 +8,13 @@ README.md 生成器
 """
 import argparse
 import sqlite3
+import html
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
+from urllib.parse import quote
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT_DIR / "data" / "rectg.db"
@@ -50,7 +54,7 @@ CATEGORY_ORDER = [
     "🌐 综合其他"
 ]
 
-def make_anchor(section: str, category_index: int | None = None) -> str:
+def make_anchor(section: str, category_index: Optional[int] = None) -> str:
     """生成稳定锚点，避免依赖 GitHub 对中文/emoji 标题的默认锚点规则。"""
     if category_index is None:
         return f"section-{section}"
@@ -62,11 +66,21 @@ def format_count(count) -> str:
         return "-"
     return f"{int(count):,}"
 
-def escape_pipe(text: str) -> str:
-    """转义 Markdown 表格中的管道符。"""
+def escape_table_text(text: str) -> str:
+    """转义 Markdown 表格中的特殊字符。"""
     if not text:
         return ""
-    return text.replace("|", " / ").replace("\n", " ").strip()
+    return (
+        text.replace("|", " / ")
+        .replace("\n", " ")
+        .replace("[", "\\[")
+        .replace("]", "\\]")
+        .strip()
+    )
+
+def strip_category_icon(category: str) -> str:
+    """去掉分类名前的 emoji，生成更干净的查询参数。"""
+    return re.sub(r"^\S+\s+", "", category).strip()
 
 def compact_text(text: str) -> str:
     """压缩多余空白，适合表格单元格。"""
@@ -74,12 +88,39 @@ def compact_text(text: str) -> str:
         return ""
     return " ".join(text.split())
 
-def build_toc_column(title: str, section_id: str, categories: list[str]) -> str:
+def sorted_categories(categories: dict[str, list[dict]]) -> list[str]:
+    """按照预设顺序输出分类，其余分类稳定追加到最后。"""
+    existing_cats = set(categories.keys())
+    result = [c for c in CATEGORY_ORDER if c in existing_cats]
+    result += sorted(list(existing_cats - set(CATEGORY_ORDER)))
+    return result
+
+def build_toc_column(title: str, section_id: str, categories: list[str], counts: dict[str, int]) -> str:
     """构建目录单列 HTML，适配 GitHub README 的多列表现。"""
     links = [f'<a href="#{make_anchor(section_id)}"><strong>{title}</strong></a>']
     for idx, cat in enumerate(categories, start=1):
-        links.append(f'<a href="#{make_anchor(section_id, idx)}">{cat}</a>')
+        links.append(f'<a href="#{make_anchor(section_id, idx)}">{cat}</a> <sub>{counts.get(cat, 0)}</sub>')
     return "<br>".join(links)
+
+def build_stats_table(type_counts: dict[str, int], category_count: int) -> str:
+    """构建 README 顶部数据概览。"""
+    total = sum(type_counts.values())
+    stat_items = [
+        ("总收录", format_count(total), "频道与群组"),
+        ("分类", format_count(category_count), "主题索引"),
+        ("频道", format_count(type_counts.get("channel", 0)), "Channel"),
+        ("群组", format_count(type_counts.get("group", 0)), "Group"),
+    ]
+
+    cells = []
+    for label, value, hint in stat_items:
+        cells.append(
+            "    "
+            f'<td align="center"><strong>{html.escape(value)}</strong><br>'
+            f'<sub>{html.escape(label)} · {html.escape(hint)}</sub></td>'
+        )
+
+    return "\n".join(["<table>", "  <tr>", *cells, "  </tr>", "</table>"])
 
 def generate_readme(conn: sqlite3.Connection) -> str:
     """从数据库生成 README.md 内容。"""
@@ -157,14 +198,38 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         type_counts[t_id] = sum(len(items) for items in tree[t_id].values())
 
     lines = []
-    lines.append("# rectg · Telegram 中文频道与群组精选")
+    all_categories = {
+        cat
+        for categories in tree.values()
+        for cat in categories.keys()
+    }
+    generated_at = datetime.now().strftime("%Y-%m-%d")
+
+    lines.append("<h1 align=\"center\">rectg</h1>")
+    lines.append("")
+    lines.append("<p align=\"center\">Telegram 中文频道与群组精选索引</p>")
+    lines.append("")
+    lines.append("<p align=\"center\">")
+    lines.append("  <a href=\"https://www.rectg.com/\"><strong>在线浏览</strong></a>")
+    lines.append("  ·")
+    lines.append("  <a href=\"https://github.com/jackvale/rectg/issues/new\">提交收录</a>")
+    lines.append("  ·")
+    lines.append("  <a href=\"https://github.com/jackvale/rectg\">GitHub</a>")
+    lines.append("</p>")
     lines.append("")
     lines.append("> **rectg** 持续收录高质量 Telegram 中文频道与群组，结合自动化抓取与人工整理，尽量剔除失效链接、低质内容与长期停更条目，帮助你更高效地发现值得关注的 TG 资源。")
     lines.append("> ")
     lines.append("> **免责声明**：本项目基于公开互联网信息整理，仅供技术学习、信息导航与研究参考使用。请使用者自行甄别内容，并严格遵守所在地法律法规；因使用相关内容产生的风险与责任，由使用者自行承担。")
     lines.append("")
 
-    lines.append("## 目录")
+    lines.append("## 数据概览")
+    lines.append("")
+    lines.append(build_stats_table(type_counts, len(all_categories)))
+    lines.append("")
+    lines.append(f"> 最近生成：{generated_at}。README 默认折叠长列表；需要搜索、筛选和详情页时，建议使用 [rectg.com](https://www.rectg.com/)。")
+    lines.append("")
+
+    lines.append("## 快速导航")
     lines.append("")
 
     toc_columns = []
@@ -174,10 +239,9 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         if not categories:
             continue
 
-        existing_cats = set(categories.keys())
-        sorted_cats = [c for c in CATEGORY_ORDER if c in existing_cats]
-        sorted_cats += sorted(list(existing_cats - set(CATEGORY_ORDER)))
-        toc_columns.append((t_info["name"], build_toc_column(t_info["name"], t_id, sorted_cats)))
+        ordered_cats = sorted_categories(categories)
+        cat_counts = {cat: len(categories[cat]) for cat in ordered_cats}
+        toc_columns.append((t_info["name"], build_toc_column(t_info["name"], t_id, ordered_cats, cat_counts)))
 
     if toc_columns:
         lines.append("<table>")
@@ -206,11 +270,9 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         lines.append("")
         
         # 按照预定义的 category 顺序遍历，如果不在预定义里则放到最后
-        existing_cats = set(categories.keys())
-        sorted_cats = [c for c in CATEGORY_ORDER if c in existing_cats]
-        sorted_cats += sorted(list(existing_cats - set(CATEGORY_ORDER)))
+        ordered_cats = sorted_categories(categories)
         
-        for idx, cat in enumerate(sorted_cats, start=1):
+        for idx, cat in enumerate(ordered_cats, start=1):
             items = categories[cat]
             if not items:
                 continue
@@ -218,22 +280,28 @@ def generate_readme(conn: sqlite3.Connection) -> str:
             lines.append(f'<a id="{make_anchor(t_id, idx)}"></a>')
             lines.append("### " + cat)
             lines.append("")
-            lines.append("| 名称 | 链接 | 订阅数 | 简介 |")
-            lines.append("| --- | --- | ---: | --- |")
+            site_category_url = f"https://www.rectg.com/?c={quote(strip_category_icon(cat))}"
+            lines.append("<details open>")
+            lines.append(f"<summary><strong>{len(items)} 个资源</strong> · <a href=\"{site_category_url}\">在网站中查看</a></summary>")
+            lines.append("")
+            lines.append("| 资源 | 规模 | 简介 |")
+            lines.append("| --- | ---: | --- |")
 
             for item in items:
-                title = escape_pipe(compact_text(item.get("clean_title") or item.get("title") or ""))
-                desc = escape_pipe(compact_text(item.get("clean_desc") or item.get("description") or "")) or "-"
+                title = escape_table_text(compact_text(item.get("clean_title") or item.get("title") or ""))
+                desc = escape_table_text(compact_text(item.get("clean_desc") or item.get("description") or "")) or "-"
                 url = item.get("url", "")
                 count = format_count(item.get("count"))
-                lines.append(f"| {title} | [直达]({url}) | {count} | {desc} |")
+                lines.append(f"| [{title}]({url}) | {count} | {desc} |")
 
+            lines.append("")
+            lines.append("</details>")
             lines.append("")
 
     # Star History 保持在底部
     lines.append("## Star History")
     lines.append("")
-    lines.append("[![Star History](https://starchart.cc/jackhawks/rectg.svg?variant=adaptive)](https://starchart.cc/jackhawks/rectg)")
+    lines.append("[![Star History](https://starchart.cc/jackvale/rectg.svg?variant=adaptive)](https://starchart.cc/jackvale/rectg)")
     lines.append("")
 
     return "\n".join(lines).strip() + "\n"

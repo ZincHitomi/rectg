@@ -26,9 +26,21 @@ function main() {
     const categoriesList = [];
     const typeMap = {};
 
+    function cleanMarkdownText(text) {
+        return text
+            .replace(/\\([\[\]])/g, '$1')
+            .trim();
+    }
+
     function parseTableRow(rawLine) {
         const trimmed = rawLine.trim();
-        if (!trimmed.startsWith('|') || trimmed === '| --- | --- | ---: | --- |' || trimmed === '| 名称 | 链接 | 订阅数 | 简介 |') {
+        if (
+            !trimmed.startsWith('|') ||
+            trimmed === '| --- | --- | ---: | --- |' ||
+            trimmed === '| --- | ---: | --- |' ||
+            trimmed === '| 名称 | 链接 | 订阅数 | 简介 |' ||
+            trimmed === '| 资源 | 规模 | 简介 |'
+        ) {
             return null;
         }
 
@@ -37,17 +49,37 @@ function main() {
             .slice(1, -1)
             .map(part => part.trim());
 
-        if (parts.length < 4) {
+        if (parts.length < 3) {
             return null;
         }
 
-        const [title, linkCell, countStr, desc] = parts;
-        const urlMatch = linkCell.match(/\[(.*?)\]\((.*?)\)/);
-        if (!urlMatch) {
-            return null;
+        let title;
+        let url;
+        let countStr;
+        let desc;
+
+        if (parts.length >= 4) {
+            const [titleCell, linkCell, countCell, descCell] = parts;
+            const urlMatch = linkCell.match(/\[(.*?)\]\((.*?)\)/);
+            if (!urlMatch) {
+                return null;
+            }
+            title = cleanMarkdownText(titleCell);
+            url = urlMatch[2];
+            countStr = countCell;
+            desc = descCell;
+        } else {
+            const [resourceCell, countCell, descCell] = parts;
+            const resourceMatch = resourceCell.match(/\[(.*?)\]\((.*?)\)/);
+            if (!resourceMatch) {
+                return null;
+            }
+            title = cleanMarkdownText(resourceMatch[1]);
+            url = resourceMatch[2];
+            countStr = countCell;
+            desc = descCell;
         }
 
-        const url = urlMatch[2];
         let id = title.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g, '').toLowerCase();
 
         if (url.includes('t.me/')) {
@@ -86,7 +118,7 @@ function main() {
             continue;
         }
 
-        if (rawLine.startsWith('## ') && !rawLine.startsWith('### ') && rawLine.trim() !== '## Star History') {
+        if (rawLine.startsWith('## ') && !rawLine.startsWith('### ') && ['## 频道', '## 群组', '## 机器人'].includes(rawLine.trim())) {
             currentType = rawLine.substring(3).trim();
             if (!typeMap[currentType]) typeMap[currentType] = {};
             currentCategory = null;

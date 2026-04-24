@@ -234,38 +234,8 @@ function initScrollSpy() {
     });
 }
 
-// Interactions (Ripple, Copy)
+// Interactions
 function initInteractions() {
-    // Ripple effect
-    document.querySelectorAll('.card').forEach(card => {
-        card.addEventListener('mousedown', function (event) {
-            if (event.target.closest('.card-copy-btn')) return;
-
-            const circle = document.createElement('span');
-            const diameter = Math.max(card.clientWidth, card.clientHeight);
-            const radius = diameter / 2;
-
-            const rect = card.getBoundingClientRect();
-            circle.style.width = circle.style.height = `${diameter}px`;
-            circle.style.left = `${event.clientX - rect.left - radius}px`;
-            circle.style.top = `${event.clientY - rect.top - radius}px`;
-            circle.classList.add('ripple');
-
-            const existingRipple = card.querySelector('.ripple');
-            if (existingRipple) {
-                existingRipple.remove();
-            }
-
-            card.appendChild(circle);
-
-            setTimeout(() => {
-                const r = card.querySelector('.ripple');
-                if (r) r.remove();
-            }, 600);
-        });
-    });
-
-    // Copy buttons
     document.querySelectorAll('.card-copy-btn').forEach(btn => {
         btn.addEventListener('click', async (e) => {
             e.preventDefault();
@@ -343,41 +313,6 @@ function initRouting() {
     }
 }
 
-// Init Likes
-function initLikes() {
-    document.querySelectorAll('.like-btn').forEach(btn => {
-        const id = btn.getAttribute('data-id');
-        if (!id) return;
-        const countSpan = btn.querySelector('.like-count');
-
-        // Generate pseudo-random count 12-511 based on string chars
-        let baseCount = 0;
-        for (let i = 0; i < id.length; i++) {
-            baseCount += id.charCodeAt(i);
-        }
-        baseCount = (baseCount % 500) + 12;
-
-        const isLiked = safeGetStorage('liked_' + id);
-        if (isLiked) {
-            baseCount++;
-            btn.classList.add('liked');
-        }
-        if (countSpan) countSpan.textContent = baseCount;
-
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation(); // Stop card click event overlay
-            if (btn.classList.contains('liked')) return;
-
-            btn.classList.add('liked');
-            const svg = btn.querySelector('svg');
-            if (svg) svg.classList.add('like-animation');
-            if (countSpan) countSpan.textContent = parseInt(countSpan.textContent) + 1;
-            safeSetStorage('liked_' + id, 'true');
-        });
-    });
-}
-
 // Init
 function init() {
     const initTasks = [
@@ -387,8 +322,7 @@ function init() {
         ['scrollSpy', initScrollSpy],
         ['interactions', initInteractions],
         ['scrollFeatures', initScrollFeatures],
-        ['routing', initRouting],
-        ['likes', initLikes]
+        ['routing', initRouting]
     ];
 
     initTasks.forEach(([name, task]) => {
