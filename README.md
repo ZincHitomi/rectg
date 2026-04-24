@@ -25,8 +25,6 @@
   </tr>
 </table>
 
-> 最近生成：2026-04-24。README 默认折叠长列表；需要搜索、筛选和详情页时，建议使用 [rectg.com](https://www.rectg.com/)。
-
 ## 快速导航
 
 <table>

@@ -11,7 +11,6 @@ import sqlite3
 import html
 import re
 import sys
-from datetime import datetime
 from pathlib import Path
 from typing import Optional
 from urllib.parse import quote
@@ -203,8 +202,6 @@ def generate_readme(conn: sqlite3.Connection) -> str:
         for categories in tree.values()
         for cat in categories.keys()
     }
-    generated_at = datetime.now().strftime("%Y-%m-%d")
-
     lines.append("<h1 align=\"center\">rectg</h1>")
     lines.append("")
     lines.append("<p align=\"center\">Telegram 中文频道与群组精选索引</p>")
@@ -226,9 +223,6 @@ def generate_readme(conn: sqlite3.Connection) -> str:
     lines.append("")
     lines.append(build_stats_table(type_counts, len(all_categories)))
     lines.append("")
-    lines.append(f"> 最近生成：{generated_at}。README 默认折叠长列表；需要搜索、筛选和详情页时，建议使用 [rectg.com](https://www.rectg.com/)。")
-    lines.append("")
-
     lines.append("## 快速导航")
     lines.append("")
 
