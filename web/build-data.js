@@ -32,6 +32,19 @@ function main() {
             .trim();
     }
 
+    function extractDesc(descCell) {
+        const hiddenMatch = descCell.match(/<!--\s*rectg-desc:([A-Za-z0-9+/=]+)\s*-->/);
+        if (hiddenMatch) {
+            try {
+                return Buffer.from(hiddenMatch[1], 'base64').toString('utf8').trim();
+            } catch {
+                // Fall back to the visible README text if the hidden payload is malformed.
+            }
+        }
+
+        return cleanMarkdownText(descCell.replace(/<!--.*?-->/g, '').trim());
+    }
+
     function parseTableRow(rawLine) {
         const trimmed = rawLine.trim();
         if (
@@ -39,7 +52,7 @@ function main() {
             trimmed === '| --- | --- | ---: | --- |' ||
             trimmed === '| --- | ---: | --- |' ||
             trimmed === '| 名称 | 链接 | 订阅数 | 简介 |' ||
-            trimmed === '| 资源 | 规模 | 简介 |'
+            trimmed === '| 资源 | 人数 | 简介 |'
         ) {
             return null;
         }
@@ -94,11 +107,13 @@ function main() {
             }
         }
 
+        const parsedDesc = extractDesc(desc);
+
         return {
             title,
             url,
             countStr,
-            desc: desc === '-' ? '' : desc,
+            desc: parsedDesc === '-' ? '' : parsedDesc,
             id
         };
     }

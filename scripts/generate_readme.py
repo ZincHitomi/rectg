@@ -7,6 +7,7 @@ README.md 生成器
     python3 scripts/generate_readme.py
 """
 import argparse
+import base64
 import sqlite3
 import html
 import re
@@ -18,6 +19,7 @@ from urllib.parse import quote
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT_DIR / "data" / "rectg.db"
 README_PATH = ROOT_DIR / "README.md"
+README_DESC_LIMIT = 88
 
 # 一级大类
 TYPE_ORDER = [
@@ -86,6 +88,29 @@ def compact_text(text: str) -> str:
     if not text:
         return ""
     return " ".join(text.split())
+
+def truncate_text(text: str, limit: int = README_DESC_LIMIT) -> str:
+    """截短 README 中的可见简介，降低表格阅读负担。"""
+    if len(text) <= limit:
+        return text
+    return text[:limit].rstrip() + "..."
+
+def encode_hidden_desc(text: str) -> str:
+    """把完整简介藏在 HTML 注释里，供网站数据构建使用。"""
+    return base64.b64encode(text.encode("utf-8")).decode("ascii")
+
+def render_desc_cell(text: str) -> str:
+    """渲染 README 简介单元格，同时保留完整简介给构建脚本。"""
+    full_text = compact_text(text)
+    if not full_text:
+        return "-"
+
+    visible_text = truncate_text(full_text)
+    visible = escape_table_text(visible_text) or "-"
+    if visible_text == full_text:
+        return visible
+
+    return f"{visible} <!-- rectg-desc:{encode_hidden_desc(full_text)} -->"
 
 def sorted_categories(categories: dict[str, list[dict]]) -> list[str]:
     """按照预设顺序输出分类，其余分类稳定追加到最后。"""
@@ -210,13 +235,11 @@ def generate_readme(conn: sqlite3.Connection) -> str:
     lines.append("  <a href=\"https://www.rectg.com/\"><strong>在线浏览</strong></a>")
     lines.append("  ·")
     lines.append("  <a href=\"https://github.com/jackvale/rectg/issues/new\">提交收录</a>")
-    lines.append("  ·")
-    lines.append("  <a href=\"https://github.com/jackvale/rectg\">GitHub</a>")
     lines.append("</p>")
     lines.append("")
-    lines.append("> **rectg** 持续收录高质量 Telegram 中文频道与群组，结合自动化抓取与人工整理，尽量剔除失效链接、低质内容与长期停更条目，帮助你更高效地发现值得关注的 TG 资源。")
+    lines.append("> **rectg** 持续收录高质量 Telegram 中文频道与群组，结合自动化抓取与人工整理，帮助你更高效地发现值得关注的 TG 资源。")
     lines.append("> ")
-    lines.append("> **免责声明**：本项目基于公开互联网信息整理，仅供技术学习、信息导航与研究参考使用。请使用者自行甄别内容，并严格遵守所在地法律法规；因使用相关内容产生的风险与责任，由使用者自行承担。")
+    lines.append("> 本项目基于公开信息整理，仅作导航与研究参考；请自行甄别内容并遵守所在地法律法规。")
     lines.append("")
 
     lines.append("## 数据概览")
@@ -276,14 +299,14 @@ def generate_readme(conn: sqlite3.Connection) -> str:
             lines.append("")
             site_category_url = f"https://www.rectg.com/?c={quote(strip_category_icon(cat))}"
             lines.append("<details open>")
-            lines.append(f"<summary><strong>{len(items)} 个资源</strong> · <a href=\"{site_category_url}\">在网站中查看</a></summary>")
+            lines.append(f"<summary><strong>{len(items)} 个资源</strong> · <a href=\"{site_category_url}\">站内查看</a></summary>")
             lines.append("")
-            lines.append("| 资源 | 规模 | 简介 |")
+            lines.append("| 资源 | 人数 | 简介 |")
             lines.append("| --- | ---: | --- |")
 
             for item in items:
                 title = escape_table_text(compact_text(item.get("clean_title") or item.get("title") or ""))
-                desc = escape_table_text(compact_text(item.get("clean_desc") or item.get("description") or "")) or "-"
+                desc = render_desc_cell(item.get("clean_desc") or item.get("description") or "")
                 url = item.get("url", "")
                 count = format_count(item.get("count"))
                 lines.append(f"| [{title}]({url}) | {count} | {desc} |")
@@ -291,12 +314,6 @@ def generate_readme(conn: sqlite3.Connection) -> str:
             lines.append("")
             lines.append("</details>")
             lines.append("")
-
-    # Star History 保持在底部
-    lines.append("## Star History")
-    lines.append("")
-    lines.append("[![Star History](https://starchart.cc/jackvale/rectg.svg?variant=adaptive)](https://starchart.cc/jackvale/rectg)")
-    lines.append("")
 
     return "\n".join(lines).strip() + "\n"
 
