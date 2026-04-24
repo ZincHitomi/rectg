@@ -505,6 +505,7 @@ body.dark .card:hover {
 }
 
 .card-icon {
+  position: relative;
   width: 36px;
   height: 36px;
   flex: 0 0 36px;
@@ -518,6 +519,8 @@ body.dark .card:hover {
 }
 
 .card-icon img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -649,6 +652,7 @@ body.dark .card:hover {
 }
 
 .site-footer {
+  margin-left: var(--sidebar-width);
   padding: 28px 32px 38px;
   border-top: 1px solid var(--line);
   background: var(--bg-card);
@@ -889,6 +893,7 @@ body.dark .avatar-color-5 {
   }
 
   .site-footer {
+    margin-left: 0;
     padding: 24px 16px 32px;
   }
 

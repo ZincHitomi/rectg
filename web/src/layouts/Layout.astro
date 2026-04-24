@@ -1,5 +1,37 @@
 ---
 import '../styles/style.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalPath?: string;
+  ogType?: string;
+}
+
+const SITE_URL = 'https://www.rectg.com';
+const {
+  title = 'rectg - Telegram 中文资源索引',
+  description = '收录优质 Telegram 中文频道与群组，支持分类浏览、关键词搜索、详情页和直达链接。',
+  canonicalPath = '/',
+  ogType = 'website',
+} = Astro.props as Props;
+const canonicalUrl = new URL(canonicalPath, SITE_URL).href;
+const searchUrlTemplate = `${SITE_URL}/?q={search_term_string}`;
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'rectg',
+  url: `${SITE_URL}/`,
+  description: 'Telegram 中文频道与群组精选索引',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: searchUrlTemplate,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+});
 ---
 
 <!DOCTYPE html>
@@ -9,26 +41,26 @@ import '../styles/style.css';
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   
   <!-- Primary Meta Tags -->
-  <title>rectg - 全网最优质的 Telegram 中文频道与群组精选导航</title>
-  <meta name="title" content="rectg - 全网最优质的 Telegram 中文频道与群组精选导航" />
-  <meta name="description" content="收录 1000+ 优质 Telegram 中文频道与群组。通过自动化脚本持续跟踪，严格过滤僵尸号、低质信息与停更节点，为您提供纯粹、高效的电报 TG 导航体验。" />
-  <meta name="keywords" content="Telegram, TG群组, TG频道, 电报群, 电报导航, telegram中文, telegram频道推荐, telegram群组大全, 电报机器人, 科学上网器" />
+  <title>{title}</title>
+  <meta name="title" content={title} />
+  <meta name="description" content={description} />
+  <meta name="keywords" content="Telegram, TG群组, TG频道, 电报群, 电报导航, telegram中文, telegram频道推荐, telegram群组大全, 电报机器人" />
   <meta name="author" content="rectg" />
-  <link rel="canonical" href="https://www.rectg.com/" />
+  <link rel="canonical" href={canonicalUrl} />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.rectg.com/" />
-  <meta property="og:title" content="rectg - Telegram 全网精选极客导航" />
-  <meta property="og:description" content="1000+ 优质 Telegram 中文频道与群组汇总，每日自动更新，拒绝过滤与死链。" />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
   <meta property="og:image" content="https://www.rectg.com/og-image.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.rectg.com/" />
-  <meta property="twitter:title" content="rectg - Telegram 全网精选极客导航" />
-  <meta property="twitter:description" content="1000+ 优质 Telegram 中文频道与群组汇总，每日自动更新，拒绝过滤与死链。" />
+  <meta property="twitter:url" content={canonicalUrl} />
+  <meta property="twitter:title" content={title} />
+  <meta property="twitter:description" content={description} />
   <meta property="twitter:image" content="https://www.rectg.com/og-image.png" />
 
   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -36,23 +68,7 @@ import '../styles/style.css';
   <link rel="manifest" href="/manifest.json" />
 
   <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json" is:inline>
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "rectg",
-    "url": "https://github.com/jackvale/rectg",
-    "description": "全网最优质的 Telegram 中文频道与群组精选导航",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://github.com/jackvale/rectg?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
+  <script type="application/ld+json" set:html={jsonLd}></script>
 
 </head>
 <body>

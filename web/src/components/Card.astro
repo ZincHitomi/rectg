@@ -3,6 +3,8 @@
  * Card.astro
  * Represents a single Telegram channel/group card.
  */
+import { getAvatarColorClass, getTelegramUsername } from '../utils/data';
+
 export interface Props {
     id: string;
     title: string;
@@ -15,36 +17,18 @@ export interface Props {
 
 const { id, title, desc, url, typeName, countStr, category } = Astro.props;
 
-// Extract Telegram username for avatar
-let username = '';
-if (url && url.includes('t.me/')) {
-    const parts = url.split('t.me/');
-    if (parts.length > 1) {
-        username = parts[1].split('/')[0].split('?')[0];
-    }
-}
-
+const username = getTelegramUsername(url);
 const avatarUrl = username ? `https://unavatar.io/telegram/${username}` : '';
 const firstLetter = title ? title.substring(0, 1).toUpperCase() : '?';
-
-function getHashColor(str: string) {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        hash = str.charCodeAt(i) + ((hash << 5) - hash);
-    }
-    return Math.abs(hash) % 6;
-}
-
-const colorClass = `avatar-color-${getHashColor(firstLetter)}`;
+const colorClass = getAvatarColorClass(firstLetter);
 ---
 
 <article class="card" data-title={title} data-desc={desc} data-url={url} data-category={category}>
     <div class="card-header">
-        <div class={`card-icon ${colorClass}`}>
-            {avatarUrl ? (
-                <img src={avatarUrl} loading="lazy" alt={username} onerror={`this.onerror=null; this.parentNode.innerHTML='${firstLetter}';`} />
-            ) : (
-                firstLetter
+        <div class={`card-icon ${colorClass}`} aria-hidden="true">
+            {firstLetter}
+            {avatarUrl && (
+                <img src={avatarUrl} loading="lazy" alt={username} onerror="this.style.display='none'" />
             )}
         </div>
         <div class="card-title-wrap">

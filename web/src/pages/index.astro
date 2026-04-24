@@ -1,64 +1,35 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import fs from 'fs';
-import path from 'path';
+import { buildDirectoryData } from '../utils/data';
 
-// Dynamically read data to avoid Astro static import caching during Vercel builds
-const dataPath = path.resolve(process.cwd(), 'public/data.json');
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+const { categories, validSections, allItems, featuredItems, totalItems, typeStats } = buildDirectoryData();
+const initialSection = {
+  id: 'featured',
+  icon: '★',
+  name: '精选推荐',
+  fullName: '精选推荐',
+  items: featuredItems,
+};
+const directoryPayload = JSON.stringify({
+  sections: [
+    initialSection,
+    ...validSections.map((group) => ({
+      id: group.meta.id,
+      icon: group.meta.icon,
+      name: group.meta.name,
+      fullName: group.meta.fullName,
+      keywords: group.meta.keywords || '',
+      items: group.items,
+    })),
+  ],
+  allItems,
+}).replace(/</g, '\\u003c');
 
-// Process categories for sidebar
-const categories = data.categories;
-
-// Prepare category groups for content mapping
-const categoryGroups = {};
-categories.forEach(c => {
-    categoryGroups[c.id] = { meta: c, items: [] };
-});
-
-data.types.forEach(typeObj => {
-    typeObj.categories.forEach(catObj => {
-        const catMeta = categories.find(c => c.fullName === catObj.fullName);
-        if (catMeta) {
-            categoryGroups[catMeta.id].items.push(...catObj.items.map(item => ({ ...item, typeName: typeObj.name })));
-        }
-    });
-});
-
-let totalItems = 0;
-const validSections = [];
-const typeStats = [];
-
-// Compute total items and sort them
-Object.values(categoryGroups).forEach(group => {
-    if (group.items.length === 0) return;
-    
-    // Sort items by count (highest first)
-    group.items.sort((a, b) => {
-        const countA = a.countStr ? parseInt(a.countStr.replace(/,/g, '')) : 0;
-        const countB = b.countStr ? parseInt(b.countStr.replace(/,/g, '')) : 0;
-        return countB - countA;
-    });
-
-    totalItems += group.items.length;
-    validSections.push(group);
-});
-
-data.types.forEach(typeObj => {
-    const count = typeObj.categories.reduce((sum, cat) => sum + cat.items.length, 0);
-    if (count > 0) {
-        typeStats.push({ name: typeObj.name, count });
-    }
-});
-
-// Pick 6 random items for Daily Picks (Featured)
-const allItems = validSections.flatMap(g => g.items);
-// Deterministic pseudo-random shuffle to lock the "daily" picks per build
-const featuredItems = [...allItems].sort(() => Math.random() - 0.5).slice(0, 6);
+const pageDescription = `收录 ${totalItems} 个 Telegram 中文频道与群组，支持分类浏览、关键词搜索、详情页和直达链接。`;
 ---
 
-<Layout>
+<Layout description={pageDescription}>
   <div id="app">
     <!-- 侧边栏 -->
     <aside id="sidebar">
@@ -84,12 +55,10 @@ const featuredItems = [...allItems].sort(() => Math.random() - 0.5).slice(0, 6);
       </div>
       <nav id="category-nav">
         <div class="nav-section-label">分类</div>
-        <!-- 每日精选 -->
         <div class="nav-item active" data-id="featured">
             <span class="nav-icon">★</span>
-            <span>每日精选</span>
+            <span>精选推荐</span>
         </div>
-        <!-- JS 注入改为了直接服务端渲染 -->
         {categories.map(cat => (
           <div class="nav-item" data-id={cat.id}>
               <span class="nav-icon">{cat.icon}</span>
@@ -152,7 +121,7 @@ const featuredItems = [...allItems].sort(() => Math.random() - 0.5).slice(0, 6);
         <div class="tool-hero-main">
           <p class="eyebrow">Telegram Resource Index</p>
           <h1 class="hero-title">Telegram 中文资源索引</h1>
-          <p class="hero-subtitle">按主题整理频道和群组，保留搜索、分类、详情与直达入口。</p>
+          <p class="hero-subtitle">按主题浏览频道和群组，搜索时自动切换为全站结果。</p>
         </div>
         <div class="hero-stats" aria-label="收录统计">
           <div class="hero-stat">
@@ -175,66 +144,39 @@ const featuredItems = [...allItems].sort(() => Math.random() - 0.5).slice(0, 6);
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="search-input" placeholder="搜索频道、群组、关键词或 t.me 地址" />
+          <input type="text" id="search-input" placeholder="搜索频道、群组、关键词或 t.me 地址" autocomplete="off" />
         </div>
       </section>
 
       <div class="bulletin" id="bulletin">
         <span class="bulletin-icon">i</span>
         <div class="bulletin-text-container">
-          <span id="bulletin-text">本站数据基于 GitHub README 自动构建部署，已收录 {totalItems}+ 高质量内容。</span>
+          <span id="bulletin-text">本站数据基于 GitHub README 自动构建部署，已收录 {totalItems} 个资源。</span>
         </div>
       </div>
 
-      <!-- 内容区卡片列表 -->
       <div id="content-container">
-         <!-- 每日精选 -->
-         <div class="category-section" id="cat-featured">
-             <h3 class="category-title">
-                 每日精选
-                 <span class="category-title-meta">(随机推荐)</span>
-             </h3>
-             <div class="grid">
-                 {featuredItems.map(item => (
-                     <Card 
-                         id={item.id}
-                         title={item.title}
-                         desc={item.desc}
-                         url={item.url}
-                         typeName={item.typeName}
-                         countStr={item.countStr}
-                         category="🔥 每日精选"
-                     />
-                 ))}
-             </div>
-         </div>
+        <section class="category-section" id="active-section" data-current-id={initialSection.id}>
+          <h3 class="category-title">
+            <span id="active-section-title">{initialSection.fullName}</span>
+            <span id="active-section-meta" class="category-title-meta">({initialSection.items.length})</span>
+          </h3>
+          <div class="grid" id="active-grid">
+            {initialSection.items.map(item => (
+              <Card
+                id={item.id}
+                title={item.title}
+                desc={item.desc}
+                url={item.url}
+                typeName={item.typeName}
+                countStr={item.countStr}
+                category="精选推荐"
+              />
+            ))}
+          </div>
+        </section>
 
-         {validSections.map(group => (
-            <div class="category-section" id={`cat-${group.meta.id}`}>
-                <h3 class="category-title">
-                    {group.meta.fullName}
-                    {group.meta.name !== "新发现频道" && (
-                        <span class="category-title-meta">({group.items.length})</span>
-                    )}
-                </h3>
-                <div class="grid">
-                    {group.items.map(item => (
-                        <Card 
-                            id={item.id}
-                            title={item.title}
-                            desc={item.desc}
-                            url={item.url}
-                            typeName={item.typeName}
-                            countStr={item.countStr}
-                            category={`${group.meta.fullName} ${group.meta.keywords || ''}`}
-                        />
-                    ))}
-                </div>
-            </div>
-         ))}
-         
-         <!-- 空状态 -->
-         <div id="empty-state" class="empty-state" style="display: none;">
+        <div id="empty-state" class="empty-state" style="display: none;">
             <h3>未找到匹配的结果</h3>
             <p>尝试搜索其他关键词</p>
         </div>
@@ -259,5 +201,6 @@ const featuredItems = [...allItems].sort(() => Math.random() - 0.5).slice(0, 6);
     </div>
   </footer>
 
+  <script id="directory-data" type="application/json" set:html={directoryPayload}></script>
   <script src="../scripts/main.js"></script>
 </Layout>
